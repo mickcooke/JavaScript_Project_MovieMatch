@@ -11,18 +11,27 @@ import MovieDetail from "../components/movieDetail";
 const MovieContainer = () => {
 
 const [movies, setMovies] = useState([]);
+const [filteredMovies, setFilteredMovies] = useState([]);
+
 
 const getMovies = () => {setMovies(tempMovies)};
+const getFilteredMovies = () => {
+  setFilteredMovies(tempMovies)
+}
 
 useEffect(() => {
   getMovies()
+  getFilteredMovies()
 },[])
+
+const newSearchList = []
+
 
 const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Director.toLowerCase().includes(text.toLowerCase()))
   })
-  setMovies(searchList);
+  setFilteredMovies(searchList);
 }
 
 
@@ -31,7 +40,7 @@ const searchByDirector = (text) => {
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<DirectorList movies={movies} searchByDirector={searchByDirector}/>}/>
+        <Route path="/" element={<DirectorList movies={filteredMovies} searchByDirector={searchByDirector}/>}/>
         <Route path="/movie/:id" element={<MovieDetail movies={movies} />}/>
 
 
