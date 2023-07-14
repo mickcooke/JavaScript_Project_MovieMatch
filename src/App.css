@@ -80,7 +80,7 @@ padding:20px;
 /* margin: .5rem auto; */
 display: flex;
 flex-wrap: wrap;
-margin: 20 5px;
+/* margin: 20 5px; */
 padding: 30px;
 
 }
@@ -94,5 +94,6 @@ padding: 30px;
 }
 
 .margin-left {
-  margin-left: 90px;
+  display: flex;
+  justify-content: space-around;
 }
