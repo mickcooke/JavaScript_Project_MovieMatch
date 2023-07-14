@@ -39,7 +39,7 @@ body {
 }
 
 .Item-container {
-  list-style: none;
+list-style: none;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
@@ -57,6 +57,8 @@ padding:20px;
   text-align: center;
 }
 
+
+
 .Footer {
   font-family: 'Maven Pro', cursive;
   text-align: center;
@@ -71,4 +73,26 @@ padding:20px;
   width: 160px;
   text-align: center;
   margin-left:15px;
+}
+
+
+.Detail-container {
+/* margin: .5rem auto; */
+display: flex;
+flex-wrap: wrap;
+margin: 20 5px;
+padding: 30px;
+
+}
+
+.Detail-box {
+  width: 300px;
+  height: 400px;
+  margin: 5 5px;
+  text-align: left;
+  padding: 30px;
+}
+
+.margin-left {
+  margin-left: 90px;
 }
