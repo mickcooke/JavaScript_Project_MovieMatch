@@ -1,6 +1,7 @@
-const MovieByDirector = () => {
+const MovieByDirector = ({movie}) => {
   return(
-    <h3>I am a movie by this director</h3>
+    <h3>{movie.Title}</h3>
+    
   )
 }
 

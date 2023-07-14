@@ -20,7 +20,7 @@ useEffect(() => {
   return(
     <>
       <Header/>
-      <DirectorList/>
+      <DirectorList movies={movies}/>
       <Footer/>
     </>
   )
