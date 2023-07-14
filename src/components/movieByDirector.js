@@ -6,9 +6,9 @@ const MovieByDirector = ({movie}) => {
 
   return(
     <>
-    <h3>{movie.Title}</h3>
-    <img src={movie.Poster}/>
-    <Link to={`/movie/${movie.imdbID}`}>Link</Link>
+    <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
+
+    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster}/></Link>
 
     </>
   )
