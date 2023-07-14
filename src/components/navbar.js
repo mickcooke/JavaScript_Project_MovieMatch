@@ -2,13 +2,23 @@ import {Link} from 'react-router-dom';
 
 const Navbar = () => {
   return(
-    <ul>
-        <Link to={'/'}>Director</Link>
-        <Link to={'/'}>Actor</Link>
-        <Link to={'/'}>Title</Link>
-
-
-    </ul>
+    <>
+    <div className='Nav-bar'>
+      <span>
+        <Link to={'/'}><p className='Nav-text'>Actor</p></Link>
+      </span>
+      <span>
+        <Link to={'/'}><p className='Nav-text'>Director</p></Link>
+      </span>
+      
+      <span>
+        <Link to={'/'}><p className='Nav-text'>Title</p></Link>
+      </span>
+    </div>
+    
+    </>
+    
+    
   )
 }
 

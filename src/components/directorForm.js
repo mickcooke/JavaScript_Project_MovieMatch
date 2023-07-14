@@ -16,10 +16,12 @@ const handleSubmit = (event) => {
 
   return(
     <>
+    <div className='App'>
     <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Director" onChange={handleText}/>
         <input type="submit"/>
     </form>
+    </div>
     </>
   )
 }

@@ -2,10 +2,10 @@ import Navbar from "./navbar";
 
 const Header = () => {
   return(
-    <>
-         <h1>MOVIE MATCH</h1>
+    <div className="Header">
+         <h1>moviematch</h1>
          <Navbar/>
-    </>
+    </div>
   )
 }
 export default Header;

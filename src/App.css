@@ -2,37 +2,72 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: None;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  font-family: 'Maven Pro', cursive;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
+  font-family: 'Maven Pro', cursive;
+  text-align: center;
+  font-size:1.5em;
+  color: #fff;
+  background-color: #080B59;
+  margin:0;
+  padding-top: 4px;
+  /* // padding:0.5em; */
+}
+
+.Nav-bar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 10px;
+  color: #fff;
+  background-color: #080B59;
+}
+
+.Nav-text {
   color: white;
+  text-decoration: None;
 }
 
-.App-link {
-  color: #61dafb;
+.Item-container {
+  list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding:20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img {
+  width:200px;
+  height: 300px;
+}
+
+.Item-box {
+  width: 160px;
+  height: 400px;
+  text-align: center;
+}
+
+.Footer {
+  font-family: 'Maven Pro', cursive;
+  text-align: center;
+  font-size:1.5em;
+  color: #fff;
+  background-color: #080B59;
+  margin:0;
+  padding-bottom: 4px;
+}
+
+.description-box {
+  width: 160px;
+  text-align: center;
 }
