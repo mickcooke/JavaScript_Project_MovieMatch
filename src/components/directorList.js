@@ -2,7 +2,7 @@ import MovieByDirector from "./movieByDirector";
 import DirectorForm from "../components/directorForm";
 
 
-const DirectorList = ({movies}) => {
+const DirectorList = ({movies, searchByDirector}) => {
 
     const listItems = movies.map((movie) => {
       return(
@@ -12,7 +12,7 @@ const DirectorList = ({movies}) => {
 
   return(
     <>
-    <DirectorForm/>
+    <DirectorForm searchByDirector={searchByDirector}/>
     <h2>I am a list of movies by this Director</h2>
     {listItems}
     </>

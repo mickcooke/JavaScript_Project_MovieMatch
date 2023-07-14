@@ -18,14 +18,21 @@ useEffect(() => {
   getMovies()
 },[])
 
+const searchByDirector = (text) => {
+  const searchList = movies.filter((movie) => {
+    return(movie.Director.toLowerCase().includes(text.toLowerCase()))
+  })
+  setMovies(searchList);
+}
+
 
   return(
     <>
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<DirectorList movies={movies}/>}/>
-        <Route path="/movie/:id" element={<MovieDetail movies={movies}/>}/>
+        <Route path="/" element={<DirectorList movies={movies} searchByDirector={searchByDirector}/>}/>
+        <Route path="/movie/:id" element={<MovieDetail movies={movies} />}/>
 
 
       </Routes>
