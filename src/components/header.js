@@ -4,7 +4,7 @@ const Header = () => {
   return(
     <div className="Header">
          <h1>moviematch</h1>
-         <Navbar/>
+         <Navbar />
     </div>
   )
 }

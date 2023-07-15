@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import DirectorList from "../components/directorList";
+import ActorList from '../components/actorList';
 import Header from "../components/header"
 import Footer from "../components/footer";
 import tempMovies from "../components/tempMovies";
@@ -33,6 +34,12 @@ const searchByDirector = (text) => {
   })
   setFilteredMovies(searchList);
 }
+const searchByActor = (text) => {
+  const actorSearchList = movies.filter((movie) => {
+    return(movie.Actors.toLowerCase().includes(text.toLowerCase()))
+  })
+  setFilteredMovies(actorSearchList);
+}
 
 
   return(
@@ -42,8 +49,7 @@ const searchByDirector = (text) => {
       <Routes>
         <Route path="/" element={<DirectorList movies={filteredMovies} searchByDirector={searchByDirector}/>}/>
         <Route path="/movie/:id" element={<MovieDetail movies={movies} />}/>
-
-
+        <Route path="/actor" element={<ActorList movies={filteredMovies} searchByActor={searchByActor}/>}/>
       </Routes>
       <Footer/>
       </Router>

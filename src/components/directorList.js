@@ -14,7 +14,6 @@ const DirectorList = ({movies, searchByDirector}) => {
     <>
     <DirectorForm searchByDirector={searchByDirector}/>
     <div className="App">
-    <h2>I am a list of movies by this Director</h2>
     </div>
     <div className="Item-container">
     {listItems}
