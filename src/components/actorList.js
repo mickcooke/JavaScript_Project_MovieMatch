@@ -13,6 +13,7 @@ const ActorList = ({movies, searchByActor}) => {
         <>
         <ActorForm searchByActor={searchByActor}/>
         <div className="App">
+        <h2>Search by Actor</h2>
         </div>
         <div className="Item-container">
             {listItems}

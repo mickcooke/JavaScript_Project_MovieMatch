@@ -23,7 +23,7 @@ const MovieDetail = ({movies}) => {
         <h4>{selectedMovie.Actors}</h4>
         <p>{selectedMovie.Plot}</p>
         <h5>{selectedMovie.Ratings[1].Value}</h5>
-        <a href={link}>IMDB link</a>
+        <a target="blank" rel="noopener noreferrer" href={link}>IMDB link</a>
     </>
   )
 }
