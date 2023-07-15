@@ -1,11 +1,29 @@
 import React from 'react';
-import {useParams} from 'react-router-dom';
+import {useParams, Link} from 'react-router-dom';
 
-const MovieDetail = ({movies}) => {
+const MovieDetail = ({movies, searchByDirector}) => {
 
     const {id} = useParams();
     const selectedMovie = movies.find((movie) => {
       return movie.imdbID === id
+    })
+
+    const bySameDirector = movies.filter((movie) => {
+      return((movie.Director === selectedMovie.Director) && (movie.Title !== selectedMovie.Title))
+    })
+    const bySameDirectorSlice = bySameDirector.slice(0,2);
+    const mightLikeDirectorList = bySameDirectorSlice.map((movie) => {
+      return(
+        <>
+        <div className='Item-box'>
+    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='img'/></Link>
+    <div className='description-box'>
+    <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
+    </div>
+    </div>
+
+        </>
+      )
     })
 
     const link = `https://www.imdb.com/title/${selectedMovie.imdbID}`;
@@ -16,6 +34,7 @@ const MovieDetail = ({movies}) => {
 
   return(
     <>
+      <div>
         <img src={selectedMovie.Poster}/>
         <h2>{selectedMovie.Title}</h2>
         <h3>{selectedMovie.Director}</h3>
@@ -24,6 +43,11 @@ const MovieDetail = ({movies}) => {
         <p>{selectedMovie.Plot}</p>
         <h5>{selectedMovie.Ratings[1].Value}</h5>
         <a href={link}>IMDB link</a>
+      </div>
+      <div>
+        <h2>You might also like...</h2>
+        {mightLikeDirectorList}
+      </div>
     </>
   )
 }

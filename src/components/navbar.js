@@ -12,7 +12,7 @@ const Navbar = () => {
       </span>
       
       <span>
-        <Link to={'/'}><p className='Nav-text'>Title</p></Link>
+        <Link to={'/title/'}><p className='Nav-text'>Title</p></Link>
       </span>
     </div>
     
