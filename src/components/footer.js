@@ -2,7 +2,7 @@ const Footer = () => {
 
   return(
     <div className="Footer">
-    <h4>FOOTER</h4>
+    <img src={require("../images/MovieReelTransparent.png")} className="movie-reel"/>
     </div>
   )
 }
