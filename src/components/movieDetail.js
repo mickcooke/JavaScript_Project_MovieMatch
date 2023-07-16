@@ -30,6 +30,9 @@ const MovieDetail = ({movies}) => {
           <p><b>Plot: </b>{selectedMovie.Plot}</p>
           <p><b>Rotten Tomatoes Rating:</b> {selectedMovie.Ratings[1].Value}</p>
           <a href={link}>IMDB link</a>
+          <br></br>
+          <br></br>
+          <img src={require("../images/Heart1.png")}/>
         </div>
       </div>
       </div>
