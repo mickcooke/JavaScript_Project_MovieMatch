@@ -103,6 +103,11 @@ padding:20px;
   width: 100%;
 }
 
+.movie-reel {
+  width: 150px;
+  padding: 10px
+}
+
 .description-box {
   width: 160px;
   text-align: center;
