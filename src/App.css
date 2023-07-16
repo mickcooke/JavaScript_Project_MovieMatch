@@ -14,12 +14,12 @@ body {
 
 .Header {
   font-family: 'Maven Pro', cursive;
-  
   font-size:1.5em;
   color: #fff;
   background-color: #080B59;
   margin:0;
   padding-top: 4px;
+  width: 100%;
   /* // padding:0.5em; */
 }
 
@@ -49,9 +49,21 @@ body {
   background-color: #080B59;
 }
 
+.Nav-container {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .Nav-text {
   color: white;
+  font-weight: normal;
   text-decoration: None;
+}
+
+.Nav-text:hover {
+  color: red;
+  transition: 200ms ease-in;
 }
 
 .Item-container {
@@ -82,7 +94,10 @@ padding:20px;
   color: #fff;
   background-color: #080B59;
   margin:0;
-  padding-bottom: 4px;
+  padding-bottom: 70px 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .description-box {
@@ -93,12 +108,9 @@ padding:20px;
 
 
 .Detail-container {
-/* margin: .5rem auto; */
 display: flex;
 flex-wrap: wrap;
-/* margin: 20 5px; */
 padding: 30px;
-
 }
 
 .Detail-box {
