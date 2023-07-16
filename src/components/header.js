@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 const Header = () => {
   return(
     <div className="Header">
+
       <div className="heart">
         <img src={require("../images/Heart1.png")}/>
       </div>

@@ -64,6 +64,7 @@ const MovieDetail = ({movies, searchByDirector}) => {
     }
 
   return(
+
     <>     
       <div>
         <h2>You might also like...</h2>
@@ -84,7 +85,8 @@ const MovieDetail = ({movies, searchByDirector}) => {
           <p><b>Starring:</b> {selectedMovie.Actors}</p>
           <p><b>Plot: </b>{selectedMovie.Plot}</p>
           <p><b>Rotten Tomatoes Rating:</b> {selectedMovie.Ratings[1].Value}</p>
-          <a href={link}>IMDB link</a>
+           <a target="blank" rel="noopener noreferrer" href={link}>IMDB link</a>
+          
           <br></br>
           <br></br>
            <div>
@@ -98,6 +100,7 @@ const MovieDetail = ({movies, searchByDirector}) => {
         </div>
       </div>
       </div>
+
     </>
   )
 }
