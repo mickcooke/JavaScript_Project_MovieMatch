@@ -37,7 +37,7 @@ const MovieDetail = ({movies, searchByDirector}) => {
     const withSameActor = movies.filter((movie) => {
       const movieActorList = movie.Actors.split(" ");
       const movieActor = movieActorList[0];
-      return ((actor === movieActor) && (movie.Title !== selectedMovie.Title) && !(bySameDirectorSlice.includes(movie)))
+      return ((movieActor === actor) && (movie.Title !== selectedMovie.Title) && !(bySameDirectorSlice.includes(movie)))
     });
 
     const withSameActorSlice = withSameActor.slice(0,2);

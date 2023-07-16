@@ -817,6 +817,887 @@ const tempMovies = () => {
       "Website": "N/A",
       "Response": "True"
       },
+      {
+        "Title": "The Master",
+        "Year": "2012",
+        "Rated": "R",
+        "Released": "21 Sep 2012",
+        "Runtime": "138 min",
+        "Genre": "Drama, History",
+        "Director": "Paul Thomas Anderson",
+        "Writer": "Paul Thomas Anderson",
+        "Actors": "Joaquin Phoenix, Philip Seymour Hoffman, Amy Adams",
+        "Plot": "A Naval veteran arrives home from war unsettled and uncertain of his future - until he is tantalized by the Cause and its charismatic leader.",
+        "Language": "English, Filipino",
+        "Country": "United States",
+        "Awards": "Nominated for 3 Oscars. 75 wins & 187 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NjQ5MzMwMF5BMl5BanBnXkFtZTcwMjczNTAzOA@@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "85%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "86/100"
+        }
+        ],
+        "Metascore": "86",
+        "imdbRating": "7.1",
+        "imdbVotes": "180,411",
+        "imdbID": "tt1560747",
+        "Type": "movie",
+        "DVD": "26 Feb 2013",
+        "BoxOffice": "$16,377,274",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "There Will Be Blood",
+        "Year": "2007",
+        "Rated": "R",
+        "Released": "25 Jan 2008",
+        "Runtime": "158 min",
+        "Genre": "Drama",
+        "Director": "Paul Thomas Anderson",
+        "Writer": "Paul Thomas Anderson, Upton Sinclair",
+        "Actors": "Daniel Day-Lewis, Paul Dano, Ciarán Hinds",
+        "Plot": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
+        "Language": "English, American Sign ",
+        "Country": "United States",
+        "Awards": "Won 2 Oscars. 118 wins & 137 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "8.2/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "91%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "93/100"
+        }
+        ],
+        "Metascore": "93",
+        "imdbRating": "8.2",
+        "imdbVotes": "603,049",
+        "imdbID": "tt0469494",
+        "Type": "movie",
+        "DVD": "08 Apr 2008",
+        "BoxOffice": "$40,222,514",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Magnolia",
+        "Year": "1999",
+        "Rated": "R",
+        "Released": "07 Jan 2000",
+        "Runtime": "188 min",
+        "Genre": "Drama",
+        "Director": "Paul Thomas Anderson",
+        "Writer": "Paul Thomas Anderson",
+        "Actors": "Tom Cruise, Jason Robards, Julianne Moore",
+        "Plot": "An epic mosaic of interrelated characters in search of love, forgiveness and meaning in the San Fernando Valley.",
+        "Language": "English, German, French",
+        "Country": "United States",
+        "Awards": "Nominated for 3 Oscars. 28 wins & 59 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjk3YThkNDktNjZjMS00MTBiLTllNTAtYzkzMTU0N2QwYjJjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "83%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "78/100"
+        }
+        ],
+        "Metascore": "78",
+        "imdbRating": "8.0",
+        "imdbVotes": "320,270",
+        "imdbID": "tt0175880",
+        "Type": "movie",
+        "DVD": "08 May 2007",
+        "BoxOffice": "$22,455,976",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Phantom Thread",
+        "Year": "2017",
+        "Rated": "R",
+        "Released": "19 Jan 2018",
+        "Runtime": "130 min",
+        "Genre": "Drama, History, Romance",
+        "Director": "Paul Thomas Anderson",
+        "Writer": "Paul Thomas Anderson",
+        "Actors": "Vicky Krieps, Daniel Day-Lewis, Lesley Manville",
+        "Plot": "Set in 1950s London, Reynolds Woodcock is a renowned dressmaker whose fastidious life is disrupted by a young, strong-willed woman, Alma, who becomes his muse and lover.",
+        "Language": "English, French",
+        "Country": "United States, United Kingdom, China",
+        "Awards": "Won 1 Oscar. 54 wins & 119 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWJkNzBkM2UtYWFlMC00NmEwLTgxOGUtMjVmMzYyZjgyMmEzXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.4/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "91%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "90/100"
+        }
+        ],
+        "Metascore": "90",
+        "imdbRating": "7.4",
+        "imdbVotes": "138,812",
+        "imdbID": "tt5776858",
+        "Type": "movie",
+        "DVD": "10 Apr 2018",
+        "BoxOffice": "$21,198,205",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Boogie Nights",
+        "Year": "1997",
+        "Rated": "R",
+        "Released": "31 Oct 1997",
+        "Runtime": "155 min",
+        "Genre": "Drama",
+        "Director": "Paul Thomas Anderson",
+        "Writer": "Paul Thomas Anderson",
+        "Actors": "Mark Wahlberg, Julianne Moore, Burt Reynolds",
+        "Plot": "Back when sex was safe, pleasure was a business and business was booming, an idealistic porn producer aspires to elevate his craft to an art when he discovers a hot young talent.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Nominated for 3 Oscars. 36 wins & 64 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BY2E2YWYxY2QtZmJmZi00MjJlLWFiYWItZTk5Y2IyMWQ1ZThhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.9/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "94%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "85/100"
+        }
+        ],
+        "Metascore": "85",
+        "imdbRating": "7.9",
+        "imdbVotes": "273,384",
+        "imdbID": "tt0118749",
+        "Type": "movie",
+        "DVD": "08 May 2007",
+        "BoxOffice": "$26,416,349",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Batman",
+        "Year": "1989",
+        "Rated": "PG-13",
+        "Released": "23 Jun 1989",
+        "Runtime": "126 min",
+        "Genre": "Action, Adventure",
+        "Director": "Tim Burton",
+        "Writer": "Bob Kane, Sam Hamm, Warren Skaaren",
+        "Actors": "Michael Keaton, Jack Nicholson, Kim Basinger",
+        "Plot": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.",
+        "Language": "English, French, Spanish",
+        "Country": "United States, United Kingdom",
+        "Awards": "Won 1 Oscar. 10 wins & 26 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "74%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "69/100"
+        }
+        ],
+        "Metascore": "69",
+        "imdbRating": "7.5",
+        "imdbVotes": "390,458",
+        "imdbID": "tt0096895",
+        "Type": "movie",
+        "DVD": "22 Aug 1997",
+        "BoxOffice": "$251,409,241",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Edward Scissorhands",
+        "Year": "1990",
+        "Rated": "PG-13",
+        "Released": "14 Dec 1990",
+        "Runtime": "105 min",
+        "Genre": "Drama, Fantasy, Romance",
+        "Director": "Tim Burton",
+        "Writer": "Tim Burton, Caroline Thompson",
+        "Actors": "Johnny Depp, Winona Ryder, Dianne Wiest",
+        "Plot": "The solitary life of an artificial man - who was incompletely constructed and has scissors for hands - is upended when he is taken in by a suburban family.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Nominated for 1 Oscar. 9 wins & 24 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWY2MGRkNjgtZDczNi00YWJjLTkwNmUtMTY0NTE5ZDhkZjgwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.9/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "89%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "74/100"
+        }
+        ],
+        "Metascore": "74",
+        "imdbRating": "7.9",
+        "imdbVotes": "505,044",
+        "imdbID": "tt0099487",
+        "Type": "movie",
+        "DVD": "18 Dec 2001",
+        "BoxOffice": "$56,362,352",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Sleepy Hollow",
+        "Year": "1999",
+        "Rated": "R",
+        "Released": "19 Nov 1999",
+        "Runtime": "105 min",
+        "Genre": "Fantasy, Horror, Mystery",
+        "Director": "Tim Burton",
+        "Writer": "Washington Irving, Kevin Yagher, Andrew Kevin Walker",
+        "Actors": "Johnny Depp, Christina Ricci, Miranda Richardson",
+        "Plot": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people; the culprit is legendary apparition The Headless Horseman.",
+        "Language": "English, Latin",
+        "Country": "United States, Germany, United Kingdom",
+        "Awards": "Won 1 Oscar. 28 wins & 44 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ4Yjk5ODEtNGFkOS00OTY1LTgwYTYtOTFkNmU2NzBmNGM2XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.3/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "70%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "65/100"
+        }
+        ],
+        "Metascore": "65",
+        "imdbRating": "7.3",
+        "imdbVotes": "370,597",
+        "imdbID": "tt0162661",
+        "Type": "movie",
+        "DVD": "23 May 2000",
+        "BoxOffice": "$101,071,502",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Beetlejuice",
+        "Year": "1988",
+        "Rated": "PG",
+        "Released": "30 Mar 1988",
+        "Runtime": "92 min",
+        "Genre": "Comedy, Fantasy",
+        "Director": "Tim Burton",
+        "Writer": "Michael McDowell, Larry Wilson, Warren Skaaren",
+        "Actors": "Alec Baldwin, Geena Davis, Michael Keaton",
+        "Plot": "The spirits of a deceased couple are harassed by an unbearable family that has moved into their home, and hire a malicious spirit to drive them out.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 1 Oscar. 7 wins & 11 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "86%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "70/100"
+        }
+        ],
+        "Metascore": "70",
+        "imdbRating": "7.5",
+        "imdbVotes": "317,663",
+        "imdbID": "tt0094721",
+        "Type": "movie",
+        "DVD": "16 Sep 2008",
+        "BoxOffice": "$74,664,632",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Mars Attacks!",
+        "Year": "1996",
+        "Rated": "PG-13",
+        "Released": "13 Dec 1996",
+        "Runtime": "106 min",
+        "Genre": "Comedy, Sci-Fi",
+        "Director": "Tim Burton",
+        "Writer": "Len Brown, Woody Gelman, Wally Wood",
+        "Actors": "Jack Nicholson, Pierce Brosnan, Sarah Jessica Parker",
+        "Plot": "Earth is invaded by Martians with unbeatable weapons and a cruel sense of humor.",
+        "Language": "English, French",
+        "Country": "United States",
+        "Awards": "3 wins & 19 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNThlMjBmOWItNjljZi00ZGU4LWJkZjgtNWU1ZjI1MTg4MzczXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "6.4/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "56%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "52/100"
+        }
+        ],
+        "Metascore": "52",
+        "imdbRating": "6.4",
+        "imdbVotes": "235,415",
+        "imdbID": "tt0116996",
+        "Type": "movie",
+        "DVD": "17 Jun 1997",
+        "BoxOffice": "$37,781,197",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "The Nightmare Before Christmas",
+        "Year": "1993",
+        "Rated": "PG",
+        "Released": "29 Oct 1993",
+        "Runtime": "76 min",
+        "Genre": "Animation, Family, Fantasy",
+        "Director": "Henry Selick",
+        "Writer": "Tim Burton, Michael McDowell, Caroline Thompson",
+        "Actors": "Danny Elfman, Chris Sarandon, Catherine O'Hara",
+        "Plot": "Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Nominated for 1 Oscar. 6 wins & 17 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.9/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "95%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "82/100"
+        }
+        ],
+        "Metascore": "82",
+        "imdbRating": "7.9",
+        "imdbVotes": "353,024",
+        "imdbID": "tt0107688",
+        "Type": "movie",
+        "DVD": "03 Oct 2000",
+        "BoxOffice": "$77,368,668",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Pan's Labyrinth",
+        "Year": "2006",
+        "Rated": "R",
+        "Released": "19 Jan 2007",
+        "Runtime": "118 min",
+        "Genre": "Drama, Fantasy, War",
+        "Director": "Guillermo del Toro",
+        "Writer": "Guillermo del Toro",
+        "Actors": "Ivana Baquero, Ariadna Gil, Sergi López",
+        "Plot": "In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
+        "Language": "Spanish",
+        "Country": "Mexico, Spain",
+        "Awards": "Won 3 Oscars. 109 wins & 115 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYzFjMThiMGItOWRlMC00MDI4LThmOGUtYTNlZGZiYWI1YjMyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "8.2/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "95%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "98/100"
+        }
+        ],
+        "Metascore": "98",
+        "imdbRating": "8.2",
+        "imdbVotes": "682,455",
+        "imdbID": "tt0457430",
+        "Type": "movie",
+        "DVD": "15 May 2007",
+        "BoxOffice": "$37,646,380",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Pacific Rim",
+        "Year": "2013",
+        "Rated": "PG-13",
+        "Released": "12 Jul 2013",
+        "Runtime": "131 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Guillermo del Toro",
+        "Writer": "Travis Beacham, Guillermo del Toro",
+        "Actors": "Idris Elba, Charlie Hunnam, Rinko Kikuchi",
+        "Plot": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+        "Language": "English, Japanese, Cantonese, Mandarin",
+        "Country": "United States, Mexico",
+        "Awards": "Nominated for 1 BAFTA Award7 wins & 48 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "6.9/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "72%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "65/100"
+        }
+        ],
+        "Metascore": "65",
+        "imdbRating": "6.9",
+        "imdbVotes": "513,665",
+        "imdbID": "tt1663662",
+        "Type": "movie",
+        "DVD": "15 Oct 2013",
+        "BoxOffice": "$101,802,906",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "The Shape of Water",
+        "Year": "2017",
+        "Rated": "R",
+        "Released": "22 Dec 2017",
+        "Runtime": "123 min",
+        "Genre": "Drama, Fantasy, Romance",
+        "Director": "Guillermo del Toro",
+        "Writer": "Guillermo del Toro, Vanessa Taylor",
+        "Actors": "Sally Hawkins, Octavia Spencer, Michael Shannon",
+        "Plot": "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.",
+        "Language": "English, American Sign , Russian, French",
+        "Country": "United States, Mexico",
+        "Awards": "Won 4 Oscars. 136 wins & 350 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNGNiNWQ5M2MtNGI0OC00MDA2LWI5NzEtMmZiYjVjMDEyOWYzXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.3/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "92%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "87/100"
+        }
+        ],
+        "Metascore": "87",
+        "imdbRating": "7.3",
+        "imdbVotes": "433,644",
+        "imdbID": "tt5580390",
+        "Type": "movie",
+        "DVD": "13 Mar 2018",
+        "BoxOffice": "$63,859,435",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Crimson Peak",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "16 Oct 2015",
+        "Runtime": "119 min",
+        "Genre": "Drama, Horror, Mystery",
+        "Director": "Guillermo del Toro",
+        "Writer": "Guillermo del Toro, Matthew Robbins",
+        "Actors": "Mia Wasikowska, Jessica Chastain, Tom Hiddleston",
+        "Plot": "In the aftermath of a family tragedy, an aspiring author is torn between love for her childhood friend and the temptation of a mysterious outsider. Trying to escape the ghosts of her past, she is swept away to a house that breathe...",
+        "Language": "English",
+        "Country": "United States, Mexico",
+        "Awards": "6 wins & 42 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZmNkYzk3YjItOTMwYy00ZWViLWIxMTUtZDJiZmY0ZWExYjVmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "6.5/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "73%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "66/100"
+        }
+        ],
+        "Metascore": "66",
+        "imdbRating": "6.5",
+        "imdbVotes": "153,355",
+        "imdbID": "tt2554274",
+        "Type": "movie",
+        "DVD": "09 Feb 2016",
+        "BoxOffice": "$31,090,320",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Nightmare Alley",
+        "Year": "2021",
+        "Rated": "R",
+        "Released": "17 Dec 2021",
+        "Runtime": "150 min",
+        "Genre": "Crime, Drama, Thriller",
+        "Director": "Guillermo del Toro",
+        "Writer": "Guillermo del Toro, Kim Morgan, William Lindsay Gresham",
+        "Actors": "Bradley Cooper, Cate Blanchett, Toni Collette",
+        "Plot": "A grifter working his way up from low-ranking carnival worker to lauded psychic medium matches wits with a psychologist bent on exposing him.",
+        "Language": "English, French",
+        "Country": "United States, Mexico, Canada",
+        "Awards": "Nominated for 4 Oscars. 28 wins & 118 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTI4NDhhNGEtZjQxZC00ZTRmLThmZTctOGJmY2ZlOTc0ZGY0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "81%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "70/100"
+        }
+        ],
+        "Metascore": "70",
+        "imdbRating": "7.0",
+        "imdbVotes": "153,869",
+        "imdbID": "tt7740496",
+        "Type": "movie",
+        "DVD": "08 Mar 2022",
+        "BoxOffice": "$11,338,107",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Hellboy",
+        "Year": "2004",
+        "Rated": "PG-13",
+        "Released": "02 Apr 2004",
+        "Runtime": "122 min",
+        "Genre": "Action, Adventure, Fantasy",
+        "Director": "Guillermo del Toro",
+        "Writer": "Guillermo del Toro, Peter Briggs, Mike Mignola",
+        "Actors": "Ron Perlman, Doug Jones, Selma Blair",
+        "Plot": "A demon raised from infancy after being conjured by and rescued from the Nazis, grows up to become a defender against the forces of darkness.",
+        "Language": "English, Russian, German, Latin",
+        "Country": "United States",
+        "Awards": "3 wins & 23 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTc1ZWY0ZTEtZTVmNi00MTg0LTg4NmQtZTI4OWNiMmQ0MWZkXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "6.8/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "81%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "72/100"
+        }
+        ],
+        "Metascore": "72",
+        "imdbRating": "6.8",
+        "imdbVotes": "339,510",
+        "imdbID": "tt0167190",
+        "Type": "movie",
+        "DVD": "29 Mar 2005",
+        "BoxOffice": "$59,623,958",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Annie Hall",
+        "Year": "1977",
+        "Rated": "PG",
+        "Released": "20 Apr 1977",
+        "Runtime": "93 min",
+        "Genre": "Comedy, Romance",
+        "Director": "Woody Allen",
+        "Writer": "Woody Allen, Marshall Brickman",
+        "Actors": "Woody Allen, Diane Keaton, Tony Roberts",
+        "Plot": "Alvy Singer, a divorced Jewish comedian, reflects on his relationship with ex-lover Annie Hall, an aspiring nightclub singer, which ended abruptly just like his previous marriages.",
+        "Language": "English, German",
+        "Country": "United States",
+        "Awards": "Won 4 Oscars. 31 wins & 9 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDg1OGQ4YzgtM2Y2NS00NjA3LWFjYTctMDRlMDI3NWE1OTUyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "97%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "92/100"
+        }
+        ],
+        "Metascore": "92",
+        "imdbRating": "8.0",
+        "imdbVotes": "270,491",
+        "imdbID": "tt0075686",
+        "Type": "movie",
+        "DVD": "05 Jul 2000",
+        "BoxOffice": "$38,251,425",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Midnight in Paris",
+        "Year": "2011",
+        "Rated": "PG-13",
+        "Released": "10 Jun 2011",
+        "Runtime": "94 min",
+        "Genre": "Comedy, Fantasy, Romance",
+        "Director": "Woody Allen",
+        "Writer": "Woody Allen",
+        "Actors": "Owen Wilson, Rachel McAdams, Kathy Bates",
+        "Plot": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.",
+        "Language": "English, French, Spanish, German",
+        "Country": "Spain, United States, France",
+        "Awards": "Won 1 Oscar. 26 wins & 103 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTM4NjY1MDQwMl5BMl5BanBnXkFtZTcwNTI3Njg3NA@@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "93%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "81/100"
+        }
+        ],
+        "Metascore": "81",
+        "imdbRating": "7.7",
+        "imdbVotes": "435,951",
+        "imdbID": "tt1605783",
+        "Type": "movie",
+        "DVD": "20 Dec 2011",
+        "BoxOffice": "$56,817,045",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Match Point",
+        "Year": "2005",
+        "Rated": "R",
+        "Released": "20 Jan 2006",
+        "Runtime": "124 min",
+        "Genre": "Drama, Romance, Thriller",
+        "Director": "Woody Allen",
+        "Writer": "Woody Allen",
+        "Actors": "Scarlett Johansson, Jonathan Rhys Meyers, Emily Mortimer",
+        "Plot": "At a turning point in his life, a former tennis pro falls for an actress who happens to be dating his friend and soon-to-be brother-in-law.",
+        "Language": "English",
+        "Country": "United Kingdom, United States, Luxembourg",
+        "Awards": "Nominated for 1 Oscar. 12 wins & 32 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NzQ4OTM4MV5BMl5BanBnXkFtZTcwNzY2OTQzMw@@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "77%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "72/100"
+        }
+        ],
+        "Metascore": "72",
+        "imdbRating": "7.6",
+        "imdbVotes": "222,935",
+        "imdbID": "tt0416320",
+        "Type": "movie",
+        "DVD": "05 May 2009",
+        "BoxOffice": "$23,151,529",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Antz",
+        "Year": "1998",
+        "Rated": "PG",
+        "Released": "02 Oct 1998",
+        "Runtime": "83 min",
+        "Genre": "Animation, Adventure, Comedy",
+        "Director": "Eric Darnell, Tim Johnson",
+        "Writer": "Todd Alcott, Chris Weitz, Paul Weitz",
+        "Actors": "Woody Allen, Sharon Stone, Gene Hackman",
+        "Plot": "A rather neurotic ant tries to break from his totalitarian society while trying to win the affection of the princess he loves.",
+        "Language": "English",
+        "Country": "United States, United Kingdom",
+        "Awards": "Nominated for 1 BAFTA Award6 wins & 14 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMzMzMDdlMDktODg4OC00Y2E5LTk1ZjMtNzM2MzIxZGQ0ZGI3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "6.5/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "92%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "72/100"
+        }
+        ],
+        "Metascore": "72",
+        "imdbRating": "6.5",
+        "imdbVotes": "159,671",
+        "imdbID": "tt0120587",
+        "Type": "movie",
+        "DVD": "07 Jun 2005",
+        "BoxOffice": "$90,757,863",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        {
+        "Title": "Blue Jasmine",
+        "Year": "2013",
+        "Rated": "PG-13",
+        "Released": "23 Aug 2013",
+        "Runtime": "98 min",
+        "Genre": "Comedy, Drama",
+        "Director": "Woody Allen",
+        "Writer": "Woody Allen",
+        "Actors": "Cate Blanchett, Alec Baldwin, Peter Sarsgaard",
+        "Plot": "A New York socialite, deeply troubled and in denial, arrives in San Francisco to impose upon her sister. She looks like a million dollars but isn't bringing money, peace or love.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 1 Oscar. 56 wins & 82 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTc0ODk5MzEyMV5BMl5BanBnXkFtZTcwMzI0MDY1OQ@@._V1_SX300.jpg",
+        "Ratings": [
+        {
+        "Source": "Internet Movie Database",
+        "Value": "7.3/10"
+        },
+        {
+        "Source": "Rotten Tomatoes",
+        "Value": "91%"
+        },
+        {
+        "Source": "Metacritic",
+        "Value": "78/100"
+        }
+        ],
+        "Metascore": "78",
+        "imdbRating": "7.3",
+        "imdbVotes": "207,917",
+        "imdbID": "tt2334873",
+        "Type": "movie",
+        "DVD": "21 Jan 2014",
+        "BoxOffice": "$33,405,481",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+        },
+        
   ];
 
   
