@@ -4,6 +4,8 @@ import {useParams, Link} from 'react-router-dom';
 const MovieDetail = ({movies, searchByDirector}) => {
 
     const {id} = useParams();
+
+
     const selectedMovie = movies.find((movie) => {
       return movie.imdbID === id
     })
@@ -12,6 +14,7 @@ const MovieDetail = ({movies, searchByDirector}) => {
       return((movie.Director === selectedMovie.Director) && (movie.Title !== selectedMovie.Title))
     })
     const bySameDirectorSlice = bySameDirector.slice(0,2);
+
     const mightLikeDirectorList = bySameDirectorSlice.map((movie) => {
       return(
         <>
@@ -24,7 +27,36 @@ const MovieDetail = ({movies, searchByDirector}) => {
 
         </>
       )
-    })
+    });
+
+
+      const actorList = selectedMovie.Actors.split(" ");
+      const actor = actorList[0];
+
+
+    const withSameActor = movies.filter((movie) => {
+      const movieActorList = movie.Actors.split(" ");
+      const movieActor = movieActorList[0];
+      return ((actor === movieActor) && (movie.Title !== selectedMovie.Title) && !(bySameDirectorSlice.includes(movie)))
+    });
+
+    const withSameActorSlice = withSameActor.slice(0,2);
+
+    const mightLikeActorList = withSameActorSlice.map((movie) => {
+      return(
+        <>
+        <div className='Item-box'>
+    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='img'/></Link>
+    <div className='description-box'>
+    <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
+    </div>
+    </div>
+
+        </>
+      )
+    });
+
+
 
     const link = `https://www.imdb.com/title/${selectedMovie.imdbID}`;
 
@@ -47,6 +79,7 @@ const MovieDetail = ({movies, searchByDirector}) => {
       <div>
         <h2>You might also like...</h2>
         {mightLikeDirectorList}
+        {mightLikeActorList}
       </div>
     </>
   )
