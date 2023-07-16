@@ -32,7 +32,9 @@ const MovieDetail = ({movies}) => {
           <a href={link}>IMDB link</a>
           <br></br>
           <br></br>
+          <div className='zoom'>
           <img src={require("../images/Heart1.png")}/>
+          </div>
         </div>
       </div>
       </div>

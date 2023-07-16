@@ -139,3 +139,11 @@ padding: 30px;
   display: flex;
   justify-content: space-around;
 }
+
+.zoom {
+  width: 20px ;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
