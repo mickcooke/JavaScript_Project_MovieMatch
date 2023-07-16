@@ -1696,7 +1696,609 @@ const tempMovies = () => {
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
-        },
+        },{
+          "Title": "The Hurt Locker",
+          "Year": "2008",
+          "Rated": "R",
+          "Released": "31 Jul 2009",
+          "Runtime": "131 min",
+          "Genre": "Drama, Thriller, War",
+          "Director": "Kathryn Bigelow",
+          "Writer": "Mark Boal",
+          "Actors": "Jeremy Renner, Anthony Mackie, Brian Geraghty",
+          "Plot": "During the Iraq War, a Sergeant recently assigned to an army bomb squad is put at odds with his squad mates due to his maverick way of handling his work.",
+          "Language": "English, Arabic",
+          "Country": "United States",
+          "Awards": "Won 6 Oscars. 125 wins & 130 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BYWYxZjU2MmQtMmMzYi00ZWUwLTg2ZWQtMDExZTVlYjM3ZWM1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "97%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "95/100"
+          }
+          ],
+          "Metascore": "95",
+          "imdbRating": "7.5",
+          "imdbVotes": "462,196",
+          "imdbID": "tt0887912",
+          "Type": "movie",
+          "DVD": "12 Jan 2010",
+          "BoxOffice": "$17,017,811",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Zero Dark Thirty",
+          "Year": "2012",
+          "Rated": "R",
+          "Released": "11 Jan 2013",
+          "Runtime": "157 min",
+          "Genre": "Drama, History, Thriller",
+          "Director": "Kathryn Bigelow",
+          "Writer": "Mark Boal",
+          "Actors": "Jessica Chastain, Joel Edgerton, Chris Pratt",
+          "Plot": "A chronicle of the decade-long hunt for al-Qaeda terrorist leader Osama bin Laden after the September 2001 attacks, and his death at the hands of the Navy S.E.A.L.s Team 6 in May 2011.",
+          "Language": "English, Arabic, Urdu, Pashtu, French",
+          "Country": "United States",
+          "Awards": "Won 1 Oscar. 85 wins & 174 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ4OTUyNzcwN15BMl5BanBnXkFtZTcwMTQ1NDE3OA@@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "7.4/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "95/100"
+          }
+          ],
+          "Metascore": "95",
+          "imdbRating": "7.4",
+          "imdbVotes": "310,229",
+          "imdbID": "tt1790885",
+          "Type": "movie",
+          "DVD": "19 Mar 2013",
+          "BoxOffice": "$95,720,716",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Winter's Bone",
+          "Year": "2010",
+          "Rated": "R",
+          "Released": "16 Jul 2010",
+          "Runtime": "100 min",
+          "Genre": "Drama, Mystery",
+          "Director": "Debra Granik",
+          "Writer": "Debra Granik, Anne Rosellini, Daniel Woodrell",
+          "Actors": "Jennifer Lawrence, John Hawkes, Garret Dillahunt",
+          "Plot": "An unflinching Ozark Mountain girl hacks through dangerous social terrain as she hunts down her drug-dealing father while trying to keep her family intact.",
+          "Language": "English",
+          "Country": "United States",
+          "Awards": "Nominated for 4 Oscars. 63 wins & 131 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjA0OTM3MDMxNF5BMl5BanBnXkFtZTcwMDY1MjI0Mw@@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "90/100"
+          }
+          ],
+          "Metascore": "90",
+          "imdbRating": "7.1",
+          "imdbVotes": "146,197",
+          "imdbID": "tt1399683",
+          "Type": "movie",
+          "DVD": "17 Aug 2010",
+          "BoxOffice": "$6,531,503",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Leave No Trace",
+          "Year": "2018",
+          "Rated": "PG",
+          "Released": "29 Jun 2018",
+          "Runtime": "109 min",
+          "Genre": "Adventure, Drama",
+          "Director": "Debra Granik",
+          "Writer": "Debra Granik, Anne Rosellini, Peter Rock",
+          "Actors": "Thomasin McKenzie, Ben Foster, Jeffery Rifflard",
+          "Plot": "A father and his thirteen-year-old daughter are living an ideal existence in a vast urban park in Portland, Oregon when a small mistake derails their lives forever.",
+          "Language": "English",
+          "Country": "United States, Canada",
+          "Awards": "18 wins & 92 nominations",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjE3OTI1MTU0OV5BMl5BanBnXkFtZTgwNTg1MzkzNTM@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "100%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "88/100"
+          }
+          ],
+          "Metascore": "88",
+          "imdbRating": "7.1",
+          "imdbVotes": "62,664",
+          "imdbID": "tt3892172",
+          "Type": "movie",
+          "DVD": "02 Oct 2018",
+          "BoxOffice": "$6,046,104",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "The Babadook",
+          "Year": "2014",
+          "Rated": "Not Rated",
+          "Released": "28 Nov 2014",
+          "Runtime": "94 min",
+          "Genre": "Horror, Mystery",
+          "Director": "Jennifer Kent",
+          "Writer": "Jennifer Kent",
+          "Actors": "Essie Davis, Noah Wiseman, Daniel Henshall",
+          "Plot": "A single mother and her child fall into a deep well of paranoia when an eerie children's book titled \"Mister Babadook\" manifests in their home.",
+          "Language": "English",
+          "Country": "Australia, Canada",
+          "Awards": "56 wins & 64 nominations",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTk0NzMzODc2NF5BMl5BanBnXkFtZTgwOTYzNTM1MzE@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "6.8/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "98%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "86/100"
+          }
+          ],
+          "Metascore": "86",
+          "imdbRating": "6.8",
+          "imdbVotes": "235,140",
+          "imdbID": "tt2321549",
+          "Type": "movie",
+          "DVD": "14 Apr 2015",
+          "BoxOffice": "$964,413",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Iron Man",
+          "Year": "2008",
+          "Rated": "PG-13",
+          "Released": "02 May 2008",
+          "Runtime": "126 min",
+          "Genre": "Action, Adventure, Sci-Fi",
+          "Director": "Jon Favreau",
+          "Writer": "Mark Fergus, Hawk Ostby, Art Marcum",
+          "Actors": "Robert Downey Jr., Gwyneth Paltrow, Terrence Howard",
+          "Plot": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+          "Language": "English, Persian, Urdu, Arabic, Kurdish, Hindi, Hungarian",
+          "Country": "United States, Canada",
+          "Awards": "Nominated for 2 Oscars. 22 wins & 73 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "7.9/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "79/100"
+          }
+          ],
+          "Metascore": "79",
+          "imdbRating": "7.9",
+          "imdbVotes": "1,086,848",
+          "imdbID": "tt0371746",
+          "Type": "movie",
+          "DVD": "30 Sep 2008",
+          "BoxOffice": "$319,034,126",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Iron Man 2",
+          "Year": "2010",
+          "Rated": "PG-13",
+          "Released": "07 May 2010",
+          "Runtime": "124 min",
+          "Genre": "Action, Sci-Fi",
+          "Director": "Jon Favreau",
+          "Writer": "Justin Theroux, Stan Lee, Don Heck",
+          "Actors": "Robert Downey Jr., Mickey Rourke, Gwyneth Paltrow",
+          "Plot": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
+          "Language": "English, French, Russian",
+          "Country": "United States",
+          "Awards": "Nominated for 1 Oscar. 7 wins & 45 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BZGVkNDAyM2EtYzYxYy00ZWUxLTgwMjgtY2VmODE5OTk3N2M5XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "6.9/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "71%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "57/100"
+          }
+          ],
+          "Metascore": "57",
+          "imdbRating": "6.9",
+          "imdbVotes": "837,921",
+          "imdbID": "tt1228705",
+          "Type": "movie",
+          "DVD": "17 Aug 2010",
+          "BoxOffice": "$312,433,331",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Iron Man 3",
+          "Year": "2013",
+          "Rated": "PG-13",
+          "Released": "03 May 2013",
+          "Runtime": "130 min",
+          "Genre": "Action, Adventure, Sci-Fi",
+          "Director": "Shane Black",
+          "Writer": "Drew Pearce, Shane Black, Stan Lee",
+          "Actors": "Robert Downey Jr., Guy Pearce, Gwyneth Paltrow",
+          "Plot": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+          "Language": "English",
+          "Country": "United States",
+          "Awards": "Nominated for 1 Oscar. 20 wins & 63 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "79%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "62/100"
+          }
+          ],
+          "Metascore": "62",
+          "imdbRating": "7.1",
+          "imdbVotes": "872,517",
+          "imdbID": "tt1300854",
+          "Type": "movie",
+          "DVD": "24 Sep 2013",
+          "BoxOffice": "$409,013,994",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "The Avengers",
+          "Year": "2012",
+          "Rated": "PG-13",
+          "Released": "04 May 2012",
+          "Runtime": "143 min",
+          "Genre": "Action, Sci-Fi",
+          "Director": "Joss Whedon",
+          "Writer": "Joss Whedon, Zak Penn",
+          "Actors": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+          "Plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+          "Language": "English, Russian",
+          "Country": "United States",
+          "Awards": "Nominated for 1 Oscar. 38 wins & 80 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "91%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "69/100"
+          }
+          ],
+          "Metascore": "69",
+          "imdbRating": "8.0",
+          "imdbVotes": "1,420,774",
+          "imdbID": "tt0848228",
+          "Type": "movie",
+          "DVD": "25 Sep 2012",
+          "BoxOffice": "$623,357,910",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Avengers: Age of Ultron",
+          "Year": "2015",
+          "Rated": "PG-13",
+          "Released": "01 May 2015",
+          "Runtime": "141 min",
+          "Genre": "Action, Adventure, Sci-Fi",
+          "Director": "Joss Whedon",
+          "Writer": "Joss Whedon, Stan Lee, Jack Kirby",
+          "Actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo",
+          "Plot": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+          "Language": "English, Korean",
+          "Country": "United States",
+          "Awards": "8 wins & 52 nominations",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "76%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "66/100"
+          }
+          ],
+          "Metascore": "66",
+          "imdbRating": "7.3",
+          "imdbVotes": "888,592",
+          "imdbID": "tt2395427",
+          "Type": "movie",
+          "DVD": "02 Oct 2015",
+          "BoxOffice": "$459,005,868",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Avengers: Infinity War",
+          "Year": "2018",
+          "Rated": "PG-13",
+          "Released": "27 Apr 2018",
+          "Runtime": "149 min",
+          "Genre": "Action, Adventure, Sci-Fi",
+          "Director": "Anthony Russo, Joe Russo",
+          "Writer": "Christopher Markus, Stephen McFeely, Stan Lee",
+          "Actors": "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo",
+          "Plot": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+          "Language": "English",
+          "Country": "United States",
+          "Awards": "Nominated for 1 Oscar. 46 wins & 79 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "85%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "68/100"
+          }
+          ],
+          "Metascore": "68",
+          "imdbRating": "8.4",
+          "imdbVotes": "1,133,190",
+          "imdbID": "tt4154756",
+          "Type": "movie",
+          "DVD": "14 Aug 2018",
+          "BoxOffice": "$678,815,482",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+          "Title": "Avengers: Endgame",
+          "Year": "2019",
+          "Rated": "PG-13",
+          "Released": "26 Apr 2019",
+          "Runtime": "181 min",
+          "Genre": "Action, Adventure, Drama",
+          "Director": "Anthony Russo, Joe Russo",
+          "Writer": "Christopher Markus, Stephen McFeely, Stan Lee",
+          "Actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo",
+          "Plot": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+          "Language": "English, Japanese, Xhosa, German",
+          "Country": "United States",
+          "Awards": "Nominated for 1 Oscar. 70 wins & 133 nominations total",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+          "Ratings": [
+          {
+          "Source": "Internet Movie Database",
+          "Value": "8.4/10"
+          },
+          {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+          },
+          {
+          "Source": "Metacritic",
+          "Value": "78/100"
+          }
+          ],
+          "Metascore": "78",
+          "imdbRating": "8.4",
+          "imdbVotes": "1,190,338",
+          "imdbID": "tt4154796",
+          "Type": "movie",
+          "DVD": "30 Jul 2019",
+          "BoxOffice": "$858,373,000",
+          "Production": "N/A",
+          "Website": "N/A",
+          "Response": "True"
+          },
+          {
+            "Title": "Get Out",
+            "Year": "2017",
+            "Rated": "R",
+            "Released": "24 Feb 2017",
+            "Runtime": "104 min",
+            "Genre": "Horror, Mystery, Thriller",
+            "Director": "Jordan Peele",
+            "Writer": "Jordan Peele",
+            "Actors": "Daniel Kaluuya, Allison Williams, Bradley Whitford",
+            "Plot": "A young African-American visits his White girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+            "Language": "English, Swahili",
+            "Country": "United States, Japan",
+            "Awards": "Won 1 Oscar. 152 wins & 207 nominations total",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_SX300.jpg",
+            "Ratings": [
+            {
+            "Source": "Internet Movie Database",
+            "Value": "7.8/10"
+            },
+            {
+            "Source": "Rotten Tomatoes",
+            "Value": "98%"
+            },
+            {
+            "Source": "Metacritic",
+            "Value": "85/100"
+            }
+            ],
+            "Metascore": "85",
+            "imdbRating": "7.8",
+            "imdbVotes": "645,167",
+            "imdbID": "tt5052448",
+            "Type": "movie",
+            "DVD": "09 May 2017",
+            "BoxOffice": "$176,196,665",
+            "Production": "Universal Pictures, QC Entertainment, Blumhouse Productions",
+            "Website": "N/A",
+            "Response": "True"
+            },
+            {
+            "Title": "Us",
+            "Year": "2019",
+            "Rated": "R",
+            "Released": "22 Mar 2019",
+            "Runtime": "116 min",
+            "Genre": "Horror, Mystery, Thriller",
+            "Director": "Jordan Peele",
+            "Writer": "Jordan Peele",
+            "Actors": "Lupita Nyong'o, Winston Duke, Elisabeth Moss",
+            "Plot": "A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.",
+            "Language": "English",
+            "Country": "United States, China, Japan",
+            "Awards": "85 wins & 132 nominations",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_SX300.jpg",
+            "Ratings": [
+            {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+            },
+            {
+            "Source": "Rotten Tomatoes",
+            "Value": "93%"
+            },
+            {
+            "Source": "Metacritic",
+            "Value": "81/100"
+            }
+            ],
+            "Metascore": "81",
+            "imdbRating": "6.8",
+            "imdbVotes": "317,646",
+            "imdbID": "tt6857112",
+            "Type": "movie",
+            "DVD": "04 Jun 2019",
+            "BoxOffice": "$175,084,580",
+            "Production": "N/A",
+            "Website": "N/A",
+            "Response": "True"
+            },
+            {
+            "Title": "Nope",
+            "Year": "2022",
+            "Rated": "R",
+            "Released": "22 Jul 2022",
+            "Runtime": "130 min",
+            "Genre": "Horror, Mystery, Sci-Fi",
+            "Director": "Jordan Peele",
+            "Writer": "Jordan Peele",
+            "Actors": "Daniel Kaluuya, Keke Palmer, Brandon Perea",
+            "Plot": "The residents of a lonely gulch in inland California bear witness to an uncanny and chilling discovery.",
+            "Language": "English, Spanish",
+            "Country": "Canada, Japan, United States",
+            "Awards": "28 wins & 144 nominations",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMGIyNTI3NWItNTJkOS00MGYyLWE4NjgtZDhjMWQ4Y2JkZTU5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg",
+            "Ratings": [
+            {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+            },
+            {
+            "Source": "Rotten Tomatoes",
+            "Value": "83%"
+            },
+            {
+            "Source": "Metacritic",
+            "Value": "77/100"
+            }
+            ],
+            "Metascore": "77",
+            "imdbRating": "6.8",
+            "imdbVotes": "232,589",
+            "imdbID": "tt10954984",
+            "Type": "movie",
+            "DVD": "18 Nov 2022",
+            "BoxOffice": "$123,277,080",
+            "Production": "N/A",
+            "Website": "N/A",
+            "Response": "True"
+            },
+            
+          
+                  
         
   ];
 

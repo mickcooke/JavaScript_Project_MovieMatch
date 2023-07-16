@@ -30,14 +30,13 @@ const MovieDetail = ({movies, searchByDirector}) => {
     });
 
 
-      const actorList = selectedMovie.Actors.split(" ");
+      const actorList = selectedMovie.Actors.split(",");
       const actor = actorList[0];
 
 
     const withSameActor = movies.filter((movie) => {
-      const movieActorList = movie.Actors.split(" ");
-      const movieActor = movieActorList[0];
-      return ((movieActor === actor) && (movie.Title !== selectedMovie.Title) && !(bySameDirectorSlice.includes(movie)))
+      const movieActorList = movie.Actors.split(",");
+      return ((movieActorList.includes(actor)) && (movie.Title !== selectedMovie.Title) && !(bySameDirectorSlice.includes(movie)))
     });
 
     const withSameActorSlice = withSameActor.slice(0,2);
