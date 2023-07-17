@@ -14,7 +14,7 @@ const FavouriteMovie = ({movie, removeFavourite}) => {
       <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='img'/></Link>
       <div className='description-box'>
       <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
-      <div className='delete-heart'><img onClick={handleClick} src={require("../images/HeartGreen.png")}/></div>
+      <div className='delete-heart'><img onClick={handleClick} src={require("../images/HeartBroken.png")}/></div>
       </div>
       </div>
   
