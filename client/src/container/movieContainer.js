@@ -11,6 +11,7 @@ import Footer from "../components/footer";
 import tempMovies from "../components/tempMovies";
 import MovieDetail from "../components/movieDetail";
 import { getFavourites } from '../favouritesService';
+import FavouriteList from '../components/favouriteList';
 
 
 
@@ -69,6 +70,8 @@ const searchByTitle = (text) => {
 
         <Route path="/title/" element={<TitleList movies={filteredMovies} searchByTitle={searchByTitle}/>}/>
         <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} />}/>
+
+        <Route path="/favourites/" element={<FavouriteList favouriteMovies={favouriteMovies} />}/>
 
 
 
