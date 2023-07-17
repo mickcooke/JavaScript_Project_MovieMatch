@@ -1,5 +1,7 @@
 import MovieByDirector from "./movieByDirector";
-import DirectorForm from "./directorForm";
+
+import DirectorForm from "../components/directorForm";
+
 
 
 const DirectorList = ({movies, searchByDirector}) => {

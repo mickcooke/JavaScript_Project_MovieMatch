@@ -1,5 +1,6 @@
 import MovieByTitle from "./movieByTitle";
-import TitleForm from "./titleForm";
+import TitleForm from "../components/titleForm";
+
 
 
 const TitleList = ({movies, searchByTitle}) => {
