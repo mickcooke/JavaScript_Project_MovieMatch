@@ -10,7 +10,9 @@ const Header = () => {
       <Link to={'/favourites'}><img src={require("../images/Heart1.png")}/></Link>
       </div>
       <div className="title">
+        <div className="title-text-box">
          <Link to={'/home'}><p className="title-text">moviematch</p></Link>
+         </div>
       </div>
         
          
