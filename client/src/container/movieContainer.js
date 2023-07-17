@@ -18,7 +18,9 @@ import FavouriteList from '../components/favouriteList';
 const MovieContainer = () => {
 
 const [movies, setMovies] = useState([]);
-const [filteredMovies, setFilteredMovies] = useState([]);
+const [filteredMoviesByDirector, setFilteredMoviesByDirector] = useState([]);
+const [filteredMoviesByTitle, setFilteredMoviesByTitle] = useState([]);
+const [filteredMoviesByActor, setFilteredMoviesByActor] = useState([]);
 const [favouriteMovies, setFavouriteMovies] = useState([]);
 
 
@@ -26,8 +28,10 @@ const [favouriteMovies, setFavouriteMovies] = useState([]);
 
 const getMovies = () => {setMovies(tempMovies)};
 const getFilteredMovies = () => {
-  setFilteredMovies(tempMovies)
-}
+  setFilteredMoviesByDirector(tempMovies);
+  setFilteredMoviesByTitle(tempMovies);
+  setFilteredMoviesByActor(tempMovies);
+};
 
 useEffect(() => {
   getMovies()
@@ -43,25 +47,25 @@ const addToFavourites = (movie) => {
   setFavouriteMovies(updatedFavs)
 }
 
-
+//SEARCH FUNCTIONS
 const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Director.toLowerCase().includes(text.toLowerCase()))
   })
-  setFilteredMovies(searchList);
+  setFilteredMoviesByDirector(searchList);
 }
 const searchByActor = (text) => {
   const actorSearchList = movies.filter((movie) => {
     return(movie.Actors.toLowerCase().includes(text.toLowerCase()))
   })
-  setFilteredMovies(actorSearchList);
+  setFilteredMoviesByActor(actorSearchList);
 }
 
 const searchByTitle = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Title.toLowerCase().includes(text.toLowerCase()))
   })
-  setFilteredMovies(searchList);
+  setFilteredMoviesByTitle(searchList);
 }
 
 
@@ -70,11 +74,11 @@ const searchByTitle = (text) => {
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<DirectorList movies={filteredMovies} searchByDirector={searchByDirector}/>}/>
+        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector}/>}/>
 
-        <Route path="/actor" element={<ActorList movies={filteredMovies} searchByActor={searchByActor}/>}/>
+        <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor}/>}/>
 
-        <Route path="/title/" element={<TitleList movies={filteredMovies} searchByTitle={searchByTitle}/>}/>
+        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle}/>}/>
         <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} addToFavourites={addToFavourites} />}/>
 
         <Route path="/favourites/" element={<FavouriteList favouriteMovies={favouriteMovies} />}/>
