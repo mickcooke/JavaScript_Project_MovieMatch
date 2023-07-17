@@ -85,13 +85,14 @@ const searchByTitle = (text) => {
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector}/>}/>
+        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} addToFavourites={addToFavourites}/>}/>
+
         <Route path="/home" element={<HomeList movies={movies}/>}/>
 
+        <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor} addToFavourites={addToFavourites}/>}/>
 
-        <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor}/>}/>
+        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle} addToFavourites={addToFavourites}/>}/>
 
-        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle}/>}/>
         <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} addToFavourites={addToFavourites} />}/>
 
         <Route path="/favourites/" element={<FavouriteList favouriteMovies={favouriteMovies} removeFavourite={removeFavourite} />}/>

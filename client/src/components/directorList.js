@@ -4,11 +4,11 @@ import DirectorForm from "../components/directorForm";
 
 
 
-const DirectorList = ({movies, searchByDirector}) => {
+const DirectorList = ({movies, searchByDirector, addToFavourites}) => {
 
     const listItems = movies.map((movie) => {
       return(
-        <MovieByDirector movie={movie} key={movie.imdbID}/>
+        <MovieByDirector movie={movie} key={movie.imdbID} addToFavourites={addToFavourites}/>
       )
     })
 
