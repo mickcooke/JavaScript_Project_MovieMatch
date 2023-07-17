@@ -73,11 +73,7 @@ const MovieDetail = ({movies, searchByDirector, addToFavourites}) => {
   return(
 
     <>     
-      <div>
-        <h2>You might also like...</h2>
-        {mightLikeDirectorList}
-        {mightLikeActorList}
-      </div>
+    
 
     <div className='margin-left'>
       <div className='Detail-container'>
@@ -93,18 +89,21 @@ const MovieDetail = ({movies, searchByDirector, addToFavourites}) => {
           <p><b>Plot: </b>{selectedMovie.Plot}</p>
           <p><b>Rotten Tomatoes Rating:</b> {selectedMovie.Ratings[1].Value}</p>
            <a target="blank" rel="noopener noreferrer" href={link}>IMDB link</a>
-          
+           <div className='zoom'>
+          <button><img onClick={handleClick} src={require("../images/Heart1.png")}/></button>
           <br></br>
+          </div>
           <br></br>
-           <div>
+           
+         
+        </div>
+
+        <div className='Detail-box'>
         <h2>You might also like...</h2>
         {mightLikeDirectorList}
         {mightLikeActorList}
           </div>
-          <div className='zoom'>
-          <button><img onClick={handleClick} src={require("../images/Heart1.png")}/></button>
-          </div>
-        </div>
+
       </div>
       </div>
 

@@ -82,8 +82,8 @@ const searchByTitle = (text) => {
 
 
       </Routes>
-      <Footer/>
       </Router>
+      {/* <Footer/> */}
     </>
   )
 }
