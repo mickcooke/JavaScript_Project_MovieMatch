@@ -1,7 +1,9 @@
 import React from 'react';
 import {useParams, Link} from 'react-router-dom';
 
-const MovieDetail = ({movies, searchByDirector}) => {
+
+
+const MovieDetail = ({movies, searchByDirector, addToFavourites}) => {
 
     const {id} = useParams();
 
@@ -9,6 +11,11 @@ const MovieDetail = ({movies, searchByDirector}) => {
     const selectedMovie = movies.find((movie) => {
       return movie.imdbID === id
     })
+
+    const handleClick = () => {
+      console.log(selectedMovie)
+      addToFavourites(selectedMovie)
+    }
 
     const bySameDirector = movies.filter((movie) => {
       return((movie.Director === selectedMovie.Director) && (movie.Title !== selectedMovie.Title))
@@ -95,7 +102,7 @@ const MovieDetail = ({movies, searchByDirector}) => {
         {mightLikeActorList}
           </div>
           <div className='zoom'>
-          <img src={require("../images/Heart1.png")}/>
+          <button><img onClick={handleClick} src={require("../images/Heart1.png")}/></button>
           </div>
         </div>
       </div>

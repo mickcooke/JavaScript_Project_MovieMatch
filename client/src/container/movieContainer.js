@@ -10,7 +10,7 @@ import Header from "../components/header"
 import Footer from "../components/footer";
 import tempMovies from "../components/tempMovies";
 import MovieDetail from "../components/movieDetail";
-import { getFavourites } from '../favouritesService';
+import { getFavourites, postFavourite } from '../favouritesService';
 import FavouriteList from '../components/favouriteList';
 
 
@@ -36,6 +36,12 @@ useEffect(() => {
     setFavouriteMovies(favourites)  
   })
 },[])
+
+const addToFavourites = (movie) => {
+  postFavourite(movie)
+  const updatedFavs = [...favouriteMovies, movie]
+  setFavouriteMovies(updatedFavs)
+}
 
 
 const searchByDirector = (text) => {
@@ -69,7 +75,7 @@ const searchByTitle = (text) => {
         <Route path="/actor" element={<ActorList movies={filteredMovies} searchByActor={searchByActor}/>}/>
 
         <Route path="/title/" element={<TitleList movies={filteredMovies} searchByTitle={searchByTitle}/>}/>
-        <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} />}/>
+        <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} addToFavourites={addToFavourites} />}/>
 
         <Route path="/favourites/" element={<FavouriteList favouriteMovies={favouriteMovies} />}/>
 
