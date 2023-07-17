@@ -45,12 +45,13 @@ const createRouter = function (collection) {
     router.post('/', (request, response) => {
         const newMovie = request.body;
         collection.insertOne(newMovie)
-        .then((response) => {response.json(result.ops[0])
+        .then((result) => {result.json(response.ops[0])
+        })
             .catch((err) => {
                 console.error(err);
                 response.status(500);
                 response.json({status:500, error:err}); 
-            })
+            
         })
 
     })
