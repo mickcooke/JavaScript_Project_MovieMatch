@@ -42,9 +42,14 @@ useEffect(() => {
 },[])
 
 const addToFavourites = (movie) => {
-  postFavourite(movie)
-  const updatedFavs = [...favouriteMovies, movie]
-  setFavouriteMovies(updatedFavs)
+  if(favouriteMovies.includes(movie)) {
+    return null }
+    else{
+    postFavourite(movie)
+    const updatedFavs = [...favouriteMovies, movie]
+    setFavouriteMovies(updatedFavs)
+  }
+  
 }
 
 const removeFavourite = (id) => {
