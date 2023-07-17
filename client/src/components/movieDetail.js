@@ -89,8 +89,10 @@ const MovieDetail = ({movies, searchByDirector, addToFavourites}) => {
           <p><b>Plot: </b>{selectedMovie.Plot}</p>
           <p><b>Rotten Tomatoes Rating:</b> {selectedMovie.Ratings[1].Value}</p>
            <a target="blank" rel="noopener noreferrer" href={link}>IMDB link</a>
+           <br></br>
+           <br></br>
            <div className='zoom'>
-          <button><img onClick={handleClick} src={require("../images/Heart1.png")}/></button>
+          <div><img onClick={handleClick} src={require("../images/Heart1.png")}/></div>
           <br></br>
           </div>
           <br></br>

@@ -42,10 +42,14 @@ body {
 }
 
 .heart {
-  margin-top: 15px;
-  margin-right:20px;
+  margin-top: 25px;
+  margin-right:25px;
   text-align: right;
 }
+
+/* .heart:hover {
+  transform: scale(1.2);
+} */
 
 .Nav-bar {
   display: flex;
@@ -151,5 +155,13 @@ padding: 30px;
 }
 
 .zoom:hover {
+  transform: scale(1.2);
+}
+
+.delete-heart {
+  color: white;
+}
+
+.delete-heart:hover {
   transform: scale(1.2);
 }
