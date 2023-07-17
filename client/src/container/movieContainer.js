@@ -10,6 +10,7 @@ import Header from "../components/header"
 import Footer from "../components/footer";
 import tempMovies from "../components/tempMovies";
 import MovieDetail from "../components/movieDetail";
+import { getFavourites } from '../favouritesService';
 
 
 
@@ -17,6 +18,9 @@ const MovieContainer = () => {
 
 const [movies, setMovies] = useState([]);
 const [filteredMovies, setFilteredMovies] = useState([]);
+const [favouriteMovies, setFavouriteMovies] = useState([]);
+
+
 
 
 const getMovies = () => {setMovies(tempMovies)};
@@ -27,6 +31,9 @@ const getFilteredMovies = () => {
 useEffect(() => {
   getMovies()
   getFilteredMovies()
+  getFavourites().then((favourites) => {
+    setFavouriteMovies(favourites)  
+  })
 },[])
 
 
