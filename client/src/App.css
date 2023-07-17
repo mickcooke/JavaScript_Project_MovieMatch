@@ -34,6 +34,11 @@ body {
   font-family: 'Maven Pro', cursive;
   font-size: 1.8em;
   text-align: center;
+  color:white;
+}
+
+.title-text:hover{
+  transform: scale(1.2);
 }
 
 .heart {

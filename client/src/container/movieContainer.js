@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import DirectorList from "../components/directorList";
+import HomeList from "../components/homeList";
 
 import ActorList from '../components/actorList';
 
@@ -80,6 +81,8 @@ const searchByTitle = (text) => {
       <Header/>
       <Routes>
         <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector}/>}/>
+        <Route path="/home" element={<HomeList movies={movies}/>}/>
+
 
         <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor}/>}/>
 
