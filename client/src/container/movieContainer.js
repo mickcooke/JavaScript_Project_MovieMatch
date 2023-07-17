@@ -10,7 +10,7 @@ import Header from "../components/header"
 import Footer from "../components/footer";
 import tempMovies from "../components/tempMovies";
 import MovieDetail from "../components/movieDetail";
-import { getFavourites, postFavourite } from '../favouritesService';
+import { getFavourites, postFavourite, deleteFavourite } from '../favouritesService';
 import FavouriteList from '../components/favouriteList';
 
 
@@ -47,7 +47,12 @@ const addToFavourites = (movie) => {
   setFavouriteMovies(updatedFavs)
 }
 
-//SEARCH FUNCTIONS
+const removeFavourite = (id) => {
+  const favouritesToKeep = favouriteMovies.filter(movie => movie._id !== id)
+  deleteFavourite(id)
+  setFavouriteMovies(favouritesToKeep)
+}
+
 const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Director.toLowerCase().includes(text.toLowerCase()))
@@ -81,7 +86,7 @@ const searchByTitle = (text) => {
         <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle}/>}/>
         <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} addToFavourites={addToFavourites} />}/>
 
-        <Route path="/favourites/" element={<FavouriteList favouriteMovies={favouriteMovies} />}/>
+        <Route path="/favourites/" element={<FavouriteList favouriteMovies={favouriteMovies} removeFavourite={removeFavourite} />}/>
 
 
 
