@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:9000/favourites';
+const baseURL = 'http://localhost:9000/favourites/';
 
 export const getFavourites = () => {
   return fetch(baseURL)
