@@ -45,7 +45,7 @@ const createRouter = function (collection) {
     router.post('/', (request, response) => {
         const newMovie = request.body;
         collection.insertOne(newMovie)
-        .then((result) => {result.json(response.ops[0])
+        .then((result) => {response.json(result.ops[0])
         })
             .catch((err) => {
                 console.error(err);
