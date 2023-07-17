@@ -2,6 +2,7 @@ import MovieByTitle from "./movieByTitle";
 import TitleForm from "../components/titleForm";
 
 
+
 const TitleList = ({movies, searchByTitle}) => {
 
     const listItems = movies.map((movie) => {
