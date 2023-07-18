@@ -3,11 +3,11 @@ import TitleForm from "../components/titleForm";
 
 
 
-const TitleList = ({movies, searchByTitle}) => {
+const TitleList = ({movies, searchByTitle, addToFavourites, favouriteMovies}) => {
 
     const listItems = movies.map((movie) => {
       return(
-        <MovieByTitle movie={movie} key={movie.imdbID}/>
+        <MovieByTitle movie={movie} key={movie.imdbID} addToFavourites={addToFavourites} favouriteMovies={favouriteMovies}/>
       )
     })
 
