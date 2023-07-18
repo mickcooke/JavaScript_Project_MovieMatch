@@ -78,7 +78,6 @@ const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Director.toLowerCase().includes(text.toLowerCase()))
   })
-  console.log({searchList})
   setFilteredMoviesByDirector(searchList);
 
 }
@@ -93,6 +92,7 @@ const searchByTitle = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Title.toLowerCase().includes(text.toLowerCase()))
   })
+  console.log({searchList})
   setFilteredMoviesByTitle(searchList);
 }
 
