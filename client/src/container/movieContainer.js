@@ -2,14 +2,14 @@ import React, {useState, useEffect} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import DirectorList from "../components/directorList";
 import HomeList from "../components/homeList";
-
+import { getMovies } from '../movieService';
 import ActorList from '../components/actorList';
 
 import TitleList from '../components/titleList';
 
 import Header from "../components/header"
 import Footer from "../components/footer";
-import tempMovies from "../components/tempMovies";
+// import tempMovies from "../components/tempMovies";
 import MovieDetail from "../components/movieDetail";
 import { getFavourites, postFavourite, deleteFavourite } from '../favouritesService';
 import FavouriteList from '../components/favouriteList';
@@ -27,23 +27,31 @@ const [favouriteMovies, setFavouriteMovies] = useState([]);
 
 
 
-const getMovies = () => {setMovies(tempMovies)};
-const getFilteredMovies = () => {
-  setFilteredMoviesByDirector(tempMovies);
-  setFilteredMoviesByTitle(tempMovies);
-  setFilteredMoviesByActor(tempMovies);
-};
+
 
 useEffect(() => {
-  getMovies()
-  getFilteredMovies()
+  getMovies().then((movies) => {
+    setMovies(movies)
+    setFilteredMoviesByActor(movies)
+    setFilteredMoviesByDirector(movies)
+    setFilteredMoviesByTitle(movies)
+  })
   getFavourites().then((favourites) => {
     setFavouriteMovies(favourites)  
   })
 },[])
 
+const getFilteredMovies = () => {
+  setFilteredMoviesByDirector(movies);
+  setFilteredMoviesByTitle(movies);
+  setFilteredMoviesByActor(movies);
+};
+
 const addToFavourites = (movie) => {
-  if(favouriteMovies.includes(movie)) {
+  const favouriteimdbIDs = favouriteMovies.map((movie) => {
+    return movie.imdbID
+  })
+  if(favouriteimdbIDs.includes(movie.imdbID)) {
     return null }
     else{
     postFavourite(movie)
@@ -54,9 +62,12 @@ const addToFavourites = (movie) => {
 }
 
 const removeFavourite = (id) => {
+  //remove from state
+  console.log(id)
   const favouritesToKeep = favouriteMovies.filter(movie => movie._id !== id)
-  deleteFavourite(id)
+  //remove from database
   setFavouriteMovies(favouritesToKeep)
+  deleteFavourite(id)
 }
 
 const searchByDirector = (text) => {
