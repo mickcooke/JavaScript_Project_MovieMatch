@@ -3,7 +3,7 @@ import {useParams, Link} from 'react-router-dom';
 
 
 
-const MovieDetail = ({movies, searchByDirector, addToFavourites}) => {
+const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
 
     const {id} = useParams();
 
@@ -14,7 +14,7 @@ const MovieDetail = ({movies, searchByDirector, addToFavourites}) => {
 
     const handleClick = () => {
       console.log(selectedMovie)
-      addToFavourites(selectedMovie)
+      toggleFavourites(selectedMovie)
     }
 
     const bySameDirector = movies.filter((movie) => {

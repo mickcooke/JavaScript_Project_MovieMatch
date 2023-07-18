@@ -1,10 +1,10 @@
 import {Link} from 'react-router-dom';
 
-const MovieByDirector = ({movie, addToFavourites}) => {
+const MovieByDirector = ({movie, toggleFavourites}) => {
 
   const handleClick = () => {
     console.log(movie)
-    addToFavourites(movie)
+    toggleFavourites(movie)
   }
 
   return(

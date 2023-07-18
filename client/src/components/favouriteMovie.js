@@ -1,11 +1,11 @@
 import {Link} from 'react-router-dom';
 
-const FavouriteMovie = ({movie, removeFavourite}) => {
+const FavouriteMovie = ({movie, toggleFavourites}) => {
 
   const handleClick = () => {
     console.log(movie)
 
-    removeFavourite(movie._id)
+    toggleFavourites(movie)
   }
 
     return(

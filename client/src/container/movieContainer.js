@@ -67,14 +67,7 @@ const toggleFavourites = (movie) => {
   
 }
 
-const removeFavourite = (id) => {
-  //remove from state
-  console.log(id)
-  const favouritesToKeep = favouriteMovies.filter(movie => movie._id !== id)
-  //remove from database
-  setFavouriteMovies(favouritesToKeep)
-  deleteFavourite(id)
-}
+
 
 const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
@@ -112,7 +105,7 @@ const searchByTitle = (text) => {
 
         <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} />}/>
 
-        <Route path="/favourites/" element={<FavouriteList favouriteMovies={favouriteMovies} removeFavourite={removeFavourite} movies={movies}/>}/>
+        <Route path="/favourites/" element={<FavouriteList movies={movies} toggleFavourites={toggleFavourites}/>}/>
 
 
 
