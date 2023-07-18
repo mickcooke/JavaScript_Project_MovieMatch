@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import FavouritesHeart from "./favouritesHeart";
 
 const MovieByTitle = ({movie, toggleFavourites, favouriteMovies}) => {
 
