@@ -12,6 +12,10 @@ const DirectorList = ({movies, searchByDirector, toggleFavourites}) => {
       )
     })
 
+    const listIsPopulated = () => {
+      return(movies.length > 0)
+    }
+
   return(
     <>
     <DirectorForm searchByDirector={searchByDirector}/>
@@ -19,7 +23,7 @@ const DirectorList = ({movies, searchByDirector, toggleFavourites}) => {
     <h2>Search by Director</h2>
     </div>
     <div className="Item-container">
-    {listItems}
+    {listIsPopulated() ? <>{listItems}</> : <h2>No Results Found</h2>}
     </div>
     </>
   )
