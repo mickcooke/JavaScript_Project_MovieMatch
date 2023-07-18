@@ -9,14 +9,19 @@ const MovieByActor = ({movie, toggleFavourites}) => {
     <div className='Item-box'>
        <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='img'/></Link>
       <div className='description-box'>
-      <FavouritesHeart movie={movie} toggleFavourites={toggleFavourites}/>
-
-          <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
-          <p>Featuring: {movie.Actors}</p>
-      </div>
+        <div className='heart-and-title'>
+          <div className="heart-lower">
+            <FavouritesHeart movie={movie} toggleFavourites={toggleFavourites}/>
+          </div>
+          <div>
+          <Link to={`/movie/${movie.imdbID}`}><h3 className='white-text'>{movie.Title}</h3></Link>
+          </div>
+        </div>
+        <p className='text-raise'>Featuring: {movie.Actors}</p>
+        </div>
+      <div/>  
     </div>
-    <br></br>
-      <br></br>
+
     </>
   )
 }
