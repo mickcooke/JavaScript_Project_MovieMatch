@@ -113,6 +113,40 @@ padding:20px;
   padding: 40px;
 }
 
+.Ymal-detail-box {
+  width: 400px;
+  height: 600px;
+  margin: -5 -5px;
+  text-align: left;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+
+.Ymal-box {
+  width: 105px;
+  height: 150px;
+  text-align: center;
+  padding: 30px;
+  margin-top: -20px;
+  padding-bottom: -20px;
+}
+
+.Ymal-img {
+  width:130px;
+  height: 185px;
+}
+
+.Ymal-description-box {
+  width: 105px;
+  text-align: center;
+  margin-left:15px;
+  color: white;
+}
+
+.Ymal-text {
+  color:white;
+}
 
 
 .Footer {
@@ -158,6 +192,7 @@ padding: 30px;
   margin: 5 5px;
   text-align: left;
   padding: 30px;
+
 }
 
 .margin-left {

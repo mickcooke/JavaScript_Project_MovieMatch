@@ -22,10 +22,10 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
     const mightLikeDirectorList = bySameDirectorSlice.map((movie) => {
       return(
         <>
-        <div className='Item-box'>
-    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='img'/></Link>
-    <div className='description-box'>
-    <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
+        <div className='Ymal-box'>
+    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='Ymal-img'/></Link>
+    <div className='Ymal-description-box'>
+    <Link to={`/movie/${movie.imdbID}`}><p className="Ymal-text">{movie.Title}</p></Link>
     </div>
     </div>
 
@@ -48,10 +48,10 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
     const mightLikeActorList = withSameActorSlice.map((movie) => {
       return(
         <>
-        <div className='Item-box'>
-    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='img'/></Link>
-    <div className='description-box'>
-    <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
+        <div className='Ymal-box'>
+    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='Ymal-img'/></Link>
+    <div className='Ymal-description-box'>
+    <Link to={`/movie/${movie.imdbID}`}><p className="Ymal-text">{movie.Title}</p></Link>
     </div>
     </div>
 
@@ -93,11 +93,16 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
            
          
         </div>
+        <div>
+          <br></br>
+          <br></br>
 
-        <div className='Detail-box'>
         <h2>You might also like...</h2>
+        <div className='Ymal-detail-box'>
+
         {mightLikeDirectorList}
         {mightLikeActorList}
+          </div>
           </div>
 
       </div>
