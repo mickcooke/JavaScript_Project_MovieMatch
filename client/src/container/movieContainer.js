@@ -35,29 +35,21 @@ useEffect(() => {
     setFilteredMoviesByActor(movies)
     setFilteredMoviesByDirector(movies)
     setFilteredMoviesByTitle(movies)
+    const currentFavourites = movies.filter((movie) => {
+      return movie.Favourites === true
+    })
+    setFavouriteMovies(currentFavourites);
+    
   })
-  getFavourites().then((favourites) => {
-    setFavouriteMovies(favourites)  
-  })
+  // getFavourites().then((favourites) => {
+  //   setFavouriteMovies(favourites)  
+  
 },[])
 
-const getFilteredMovies = () => {
-  setFilteredMoviesByDirector(movies);
-  setFilteredMoviesByTitle(movies);
-  setFilteredMoviesByActor(movies);
-};
+
 
 const addToFavourites = (movie) => {
-  const favouriteimdbIDs = favouriteMovies.map((movie) => {
-    return movie.imdbID
-  })
-  if(favouriteimdbIDs.includes(movie.imdbID)) {
-    return null }
-    else{
-    postFavourite(movie)
-    const updatedFavs = [...favouriteMovies, movie]
-    setFavouriteMovies(updatedFavs)
-  }
+  
   
 }
 
