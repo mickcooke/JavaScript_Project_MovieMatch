@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import DirectorList from "../components/directorList";
 import HomeList from "../components/homeList";
-import { getMovies } from '../movieService';
+import { getMovies, updateMovie } from '../movieService';
 import ActorList from '../components/actorList';
 
 import TitleList from '../components/titleList';
@@ -35,40 +35,39 @@ useEffect(() => {
     setFilteredMoviesByActor(movies)
     setFilteredMoviesByDirector(movies)
     setFilteredMoviesByTitle(movies)
+    const currentFavourites = movies.filter((movie) => {
+      return movie.Favourites === true
+    })
+    setFavouriteMovies(currentFavourites);
+    
   })
-  getFavourites().then((favourites) => {
-    setFavouriteMovies(favourites)  
-  })
+  // getFavourites().then((favourites) => {
+  //   setFavouriteMovies(favourites)  
+  
 },[])
 
-const getFilteredMovies = () => {
-  setFilteredMoviesByDirector(movies);
-  setFilteredMoviesByTitle(movies);
-  setFilteredMoviesByActor(movies);
-};
 
-const addToFavourites = (movie) => {
-  const favouriteimdbIDs = favouriteMovies.map((movie) => {
-    return movie.imdbID
-  })
-  if(favouriteimdbIDs.includes(movie.imdbID)) {
-    return null }
-    else{
-    postFavourite(movie)
-    const updatedFavs = [...favouriteMovies, movie]
-    setFavouriteMovies(updatedFavs)
+
+const toggleFavourites = (movie) => {
+  //STATE
+  //make a copy of movies
+  const moviesCopy = [...movies]
+  const index = moviesCopy.findIndex(film => {return film._id === movie._id})
+  if(index !== -1) {
+    moviesCopy[index].Favourites = !moviesCopy[index].Favourites;
   }
+  setMovies(moviesCopy);
+  //find the movie in movies where movieID === movieID
+  // remove foundMovie from moviesCopy
+  //amend movie to true
+  //set movies to new list
+
+  //call update method in movies services and pass in the _id as a parameter and the new movie object (without the _id)
+  updateMovie(movie)
   
 }
 
-const removeFavourite = (id) => {
-  //remove from state
-  console.log(id)
-  const favouritesToKeep = favouriteMovies.filter(movie => movie._id !== id)
-  //remove from database
-  setFavouriteMovies(favouritesToKeep)
-  deleteFavourite(id)
-}
+
 
 const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
@@ -96,17 +95,17 @@ const searchByTitle = (text) => {
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} addToFavourites={addToFavourites}/>}/>
+        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites}/>}/>
 
         <Route path="/home" element={<HomeList movies={movies}/>}/>
 
-        <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor} addToFavourites={addToFavourites}/>}/>
+        <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor} toggleFavourites={toggleFavourites}/>}/>
 
-        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle} addToFavourites={addToFavourites} favouriteMovies={favouriteMovies}/>}/>
+        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle} toggleFavourites={toggleFavourites} favouriteMovies={favouriteMovies}/>}/>
 
-        <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} addToFavourites={addToFavourites} />}/>
+        <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} />}/>
 
-        <Route path="/favourites/" element={<FavouriteList favouriteMovies={favouriteMovies} removeFavourite={removeFavourite} />}/>
+        <Route path="/favourites/" element={<FavouriteList movies={movies} toggleFavourites={toggleFavourites}/>}/>
 
 
 

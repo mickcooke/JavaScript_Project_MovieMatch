@@ -1,11 +1,11 @@
 import MovieByActor from "./movieByActor";
 import ActorForm from "./actorForm";
 
-const ActorList = ({movies, searchByActor, addToFavourites}) => {
+const ActorList = ({movies, searchByActor, toggleFavourites}) => {
 
     const listItems = movies.map((movie) => {
         return (
-            <MovieByActor movie={movie} key={movie.imdbID} addToFavourites={addToFavourites}/>
+            <MovieByActor movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites}/>
         )
     })
 

@@ -1,13 +1,17 @@
 import {deleteFavourite} from '../favouritesService';
 import FavouriteMovie from "../components/favouriteMovie";
 
-const FavouriteList = ({favouriteMovies, removeFavourite}) => 
+const FavouriteList = ({movies, toggleFavourites}) => 
 
 {
 
+    const favouriteMovies = movies.filter((movie) => {
+      return movie.Favourites === true;
+    })
+
     const listItems = favouriteMovies.map((movie) => {
         return(
-          <FavouriteMovie movie={movie} key={movie.imdbID} removeFavourite={removeFavourite}/>
+          <FavouriteMovie movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites}/>
         )
       })
 
