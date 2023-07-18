@@ -1,5 +1,6 @@
 import React from 'react';
 import {useParams, Link} from 'react-router-dom';
+import FavouritesHeart from "./favouritesHeart";
 
 
 
@@ -12,10 +13,6 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
       return movie.imdbID === id
     })
 
-    const handleClick = () => {
-      console.log(selectedMovie)
-      toggleFavourites(selectedMovie)
-    }
 
     const bySameDirector = movies.filter((movie) => {
       return((movie.Director === selectedMovie.Director) && (movie.Title !== selectedMovie.Title))
@@ -25,10 +22,10 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
     const mightLikeDirectorList = bySameDirectorSlice.map((movie) => {
       return(
         <>
-        <div className='Item-box'>
-    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='img'/></Link>
-    <div className='description-box'>
-    <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
+        <div className='Ymal-box'>
+    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='Ymal-img'/></Link>
+    <div className='Ymal-description-box'>
+    <Link to={`/movie/${movie.imdbID}`}><p className="Ymal-text">{movie.Title}</p></Link>
     </div>
     </div>
 
@@ -51,10 +48,10 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
     const mightLikeActorList = withSameActorSlice.map((movie) => {
       return(
         <>
-        <div className='Item-box'>
-    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='img'/></Link>
-    <div className='description-box'>
-    <Link to={`/movie/${movie.imdbID}`}><h3>{movie.Title}</h3></Link>
+        <div className='Ymal-box'>
+    <Link to={`/movie/${movie.imdbID}`}><img src={movie.Poster} className='Ymal-img'/></Link>
+    <div className='Ymal-description-box'>
+    <Link to={`/movie/${movie.imdbID}`}><p className="Ymal-text">{movie.Title}</p></Link>
     </div>
     </div>
 
@@ -91,19 +88,21 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
            <a target="blank" rel="noopener noreferrer" href={link}>IMDB link</a>
            <br></br>
            <br></br>
-           <div className='zoom'>
-          <div><img onClick={handleClick} src={require("../images/Heart1.png")}/></div>
-          <br></br>
-          </div>
+           <FavouritesHeart movie={selectedMovie} toggleFavourites={toggleFavourites}/>
           <br></br>
            
          
         </div>
+        <div>
+          <br></br>
+          <br></br>
 
-        <div className='Detail-box'>
         <h2>You might also like...</h2>
+        <div className='Ymal-detail-box'>
+
         {mightLikeDirectorList}
         {mightLikeActorList}
+          </div>
           </div>
 
       </div>

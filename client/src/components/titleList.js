@@ -5,11 +5,20 @@ import TitleForm from "../components/titleForm";
 
 const TitleList = ({movies, searchByTitle, toggleFavourites, favouriteMovies}) => {
 
-    const listItems = movies.map((movie) => {
+    
+  const listItems = movies.map((movie) => {
+      
       return(
         <MovieByTitle movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites} favouriteMovies={favouriteMovies}/>
       )
     })
+
+    const listIsPopulated = () => {
+      return(movies.length > 0)
+    }
+        
+      
+    
 
   return(
     <>
@@ -18,10 +27,11 @@ const TitleList = ({movies, searchByTitle, toggleFavourites, favouriteMovies}) =
     <h2>Search by Title</h2>
     </div>
     <div className="Item-container">
-    {listItems}
+
+    {listIsPopulated() ? <>{listItems}</> : <h2>No Results Found</h2>}
     </div>
     </>
   )
-}
 
+  }
 export default TitleList;

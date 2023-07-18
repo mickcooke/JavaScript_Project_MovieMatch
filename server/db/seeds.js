@@ -5,7 +5,7 @@ db.favourites.insertMany([]);
 
 
 db.movies.insertMany([
-    {"Title":"Jaws","Year":"1975","Rated":"PG","Released":"20 Jun 1975","Runtime":"124 min","Genre":"Adventure, Mystery, Thriller","Director":"Steven Spielberg","Writer":"Peter Benchley, Carl Gottlieb","Actors":"Roy Scheider, Robert Shaw, Richard Dreyfuss","Plot":"When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.","Language":"English","Country":"United States","Awards":"Won 3 Oscars. 15 wins & 20 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"97%"},{"Source":"Metacritic","Value":"87/100"}],"Metascore":"87","imdbRating":"8.1","imdbVotes":"628,138","imdbID":"tt0073195","Type":"movie","DVD":"14 Jun 2005","BoxOffice":"$265,859,065","Production":"N/A","Website":"N/A", "Favourites": true},
+    {"Title":"Jaws","Year":"1975","Rated":"PG","Released":"20 Jun 1975","Runtime":"124 min","Genre":"Adventure, Mystery, Thriller","Director":"Steven Spielberg","Writer":"Peter Benchley, Carl Gottlieb","Actors":"Roy Scheider, Robert Shaw, Richard Dreyfuss","Plot":"When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.","Language":"English","Country":"United States","Awards":"Won 3 Oscars. 15 wins & 20 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"97%"},{"Source":"Metacritic","Value":"87/100"}],"Metascore":"87","imdbRating":"8.1","imdbVotes":"628,138","imdbID":"tt0073195","Type":"movie","DVD":"14 Jun 2005","BoxOffice":"$265,859,065","Production":"N/A","Website":"N/A", "Favourites": false},
     {"Title":"Indiana Jones and the Temple of Doom","Year":"1984","Rated":"PG","Released":"23 May 1984","Runtime":"118 min","Genre":"Action, Adventure","Director":"Steven Spielberg","Writer":"Willard Huyck, Gloria Katz, George Lucas","Actors":"Harrison Ford, Kate Capshaw, Ke Huy Quan","Plot":"In 1935, Indiana Jones is tasked by Indian villagers with reclaiming a rock stolen from them by a secret cult beneath the catacombs of an ancient palace.","Language":"English, Sinhala, Hindi","Country":"United States","Awards":"Won 1 Oscar. 11 wins & 21 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYzgzMTIzNzctNmNiZC00ZDYyLWJjNzktMmQ2MDM2ZDkwZGVhXkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"77%"},{"Source":"Metacritic","Value":"57/100"}],"Metascore":"57","imdbRating":"7.5","imdbVotes":"512,702","imdbID":"tt0087469","Type":"movie","DVD":"13 May 2008","BoxOffice":"$179,870,271","Production":"N/A","Website":"N/A", "Favourites": false},
     {"Title":"Mean Girls","Year":"2004","Rated":"PG-13","Released":"30 Apr 2004","Runtime":"97 min","Genre":"Comedy","Director":"Mark Waters","Writer":"Rosalind Wiseman, Tina Fey","Actors":"Lindsay Lohan, Jonathan Bennett, Rachel McAdams","Plot":"Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.","Language":"English, German, Vietnamese, Swahili","Country":"United States, Canada","Awards":"7 wins & 25 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.1/10"},{"Source":"Rotten Tomatoes","Value":"84%"},{"Source":"Metacritic","Value":"66/100"}],"Metascore":"66","imdbRating":"7.1","imdbVotes":"400,967","imdbID":"tt0377092","Type":"movie","DVD":"21 Sep 2004","BoxOffice":"$86,058,055","Production":"N/A","Website":"N/A", "Favourites": false},
     {"Title":"Freaky Friday","Year":"2003","Rated":"PG","Released":"06 Aug 2003","Runtime":"97 min","Genre":"Comedy, Family, Fantasy","Director":"Mark Waters","Writer":"Mary Rodgers, Heather Hach, Leslie Dixon","Actors":"Jamie Lee Curtis, Lindsay Lohan, Mark Harmon","Plot":"An overworked mother and her daughter do not get along. When they switch bodies, each is forced to adapt to the other's life for one freaky Friday.","Language":"English, Mandarin","Country":"United States","Awards":"5 wins & 11 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BYmU4NTk4OWYtMjE4My00MGVkLTgwY2EtZTZjN2YyOGFiMDQ0L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.3/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"70/100"}],"Metascore":"70","imdbRating":"6.3","imdbVotes":"144,993","imdbID":"tt0322330","Type":"movie","DVD":"21 Dec 2004","BoxOffice":"$110,230,332","Production":"N/A","Website":"N/A","Favourites":false},
@@ -47,7 +47,9 @@ db.movies.insertMany([
       "BoxOffice": "$46,909,721",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites":false
+
+      "Favourites" : false
+
       },
       {
       "Title": "The Irishman",
@@ -87,7 +89,8 @@ db.movies.insertMany([
       "BoxOffice": "N/A",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites":false
+
+      "Favourites" : false
       },
       {
       "Title": "Taxi Driver",
@@ -127,7 +130,7 @@ db.movies.insertMany([
       "BoxOffice": "$28,262,574",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites":false
+      "Favourites" : false
       },
       {
       "Title": "The Wolf of Wall Street",
@@ -167,7 +170,9 @@ db.movies.insertMany([
       "BoxOffice": "$116,900,694",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Casino",
@@ -207,7 +212,9 @@ db.movies.insertMany([
       "BoxOffice": "$42,512,375",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "The Birds",
@@ -247,7 +254,9 @@ db.movies.insertMany([
       "BoxOffice": "N/A",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Psycho",
@@ -287,7 +296,9 @@ db.movies.insertMany([
       "BoxOffice": "$32,000,000",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Vertigo",
@@ -327,7 +338,9 @@ db.movies.insertMany([
       "BoxOffice": "$7,705,225",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "North by Northwest",
@@ -367,7 +380,9 @@ db.movies.insertMany([
       "BoxOffice": "$66,728",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Rear Window",
@@ -407,7 +422,9 @@ db.movies.insertMany([
       "BoxOffice": "$36,764,313",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Alien",
@@ -447,7 +464,9 @@ db.movies.insertMany([
       "BoxOffice": "$81,900,459",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Gladiator",
@@ -487,7 +506,9 @@ db.movies.insertMany([
       "BoxOffice": "$187,705,427",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Blade Runner",
@@ -527,7 +548,9 @@ db.movies.insertMany([
       "BoxOffice": "$32,914,489",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "The Martian",
@@ -567,7 +590,9 @@ db.movies.insertMany([
       "BoxOffice": "$228,433,663",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Prometheus",
@@ -607,7 +632,9 @@ db.movies.insertMany([
       "BoxOffice": "$126,477,084",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Unforgiven",
@@ -647,7 +674,9 @@ db.movies.insertMany([
       "BoxOffice": "$101,167,799",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "Gran Torino",
@@ -687,7 +716,9 @@ db.movies.insertMany([
       "BoxOffice": "$148,095,302",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites":false
+
       },
       {
       "Title": "American Sniper",
@@ -728,6 +759,7 @@ db.movies.insertMany([
       "Production": "N/A",
       "Website": "N/A",
       "Favourites":false
+
       },
       {
       "Title": "Million Dollar Baby",
@@ -768,6 +800,7 @@ db.movies.insertMany([
       "Production": "N/A",
       "Website": "N/A",
       "Favourites":false
+
       },
       {
       "Title": "Sully",
@@ -808,6 +841,7 @@ db.movies.insertMany([
       "Production": "N/A",
       "Website": "N/A",
       "Favourites":false
+
       },
       {
         "Title": "The Master",
@@ -848,6 +882,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "There Will Be Blood",
@@ -888,6 +923,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Magnolia",
@@ -928,6 +964,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Phantom Thread",
@@ -968,6 +1005,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Boogie Nights",
@@ -1008,6 +1046,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Batman",
@@ -1048,6 +1087,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Edward Scissorhands",
@@ -1088,6 +1128,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Sleepy Hollow",
@@ -1128,6 +1169,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Beetlejuice",
@@ -1168,6 +1210,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Mars Attacks!",
@@ -1208,6 +1251,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "The Nightmare Before Christmas",
@@ -1248,6 +1292,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Pan's Labyrinth",
@@ -1288,6 +1333,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Pacific Rim",
@@ -1328,6 +1374,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "The Shape of Water",
@@ -1368,6 +1415,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Crimson Peak",
@@ -1408,6 +1456,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Nightmare Alley",
@@ -1448,6 +1497,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Hellboy",
@@ -1488,6 +1538,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Annie Hall",
@@ -1528,6 +1579,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Midnight in Paris",
@@ -1568,6 +1620,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Match Point",
@@ -1608,6 +1661,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Antz",
@@ -1648,6 +1702,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },
         {
         "Title": "Blue Jasmine",
@@ -1688,6 +1743,7 @@ db.movies.insertMany([
         "Production": "N/A",
         "Website": "N/A",
         "Favourites":false
+
         },{
           "Title": "The Hurt Locker",
           "Year": "2008",
@@ -1727,6 +1783,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Zero Dark Thirty",
@@ -1767,6 +1824,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Winter's Bone",
@@ -1807,6 +1865,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Leave No Trace",
@@ -1847,6 +1906,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "The Babadook",
@@ -1887,6 +1947,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Iron Man",
@@ -1927,6 +1988,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Iron Man 2",
@@ -1967,6 +2029,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Iron Man 3",
@@ -2007,6 +2070,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "The Avengers",
@@ -2047,6 +2111,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Avengers: Age of Ultron",
@@ -2087,6 +2152,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Avengers: Infinity War",
@@ -2127,6 +2193,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
           "Title": "Avengers: Endgame",
@@ -2167,6 +2234,7 @@ db.movies.insertMany([
           "Production": "N/A",
           "Website": "N/A",
           "Favourites":false
+
           },
           {
             "Title": "Get Out",
@@ -2207,6 +2275,7 @@ db.movies.insertMany([
             "Production": "Universal Pictures, QC Entertainment, Blumhouse Productions",
             "Website": "N/A",
             "Favourites":false
+
             },
             {
             "Title": "Us",
@@ -2247,6 +2316,7 @@ db.movies.insertMany([
             "Production": "N/A",
             "Website": "N/A",
             "Favourites":false
+
             },
             {
             "Title": "Nope",
@@ -2287,6 +2357,7 @@ db.movies.insertMany([
             "Production": "N/A",
             "Website": "N/A",
             "Favourites":false
+
             },
             
 
