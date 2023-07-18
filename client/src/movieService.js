@@ -1,0 +1,22 @@
+const baseURL = 'http://localhost:9000/movies/';
+
+export const getMovies = () => {
+  return fetch(baseURL)
+  .then(response => response.json());
+}
+
+export const postMovie= (movie) => {
+  return fetch(baseURL, {
+    method:'POST',
+    body: JSON.stringify(movie),
+    headers: {'Content-Type': 'application/json'}
+  })
+  .then(response => response.json());
+}
+
+export const deleteMovie= (id) => {
+    return fetch(baseURL + id, {
+        method: 'DELETE'
+    })
+  
+}
