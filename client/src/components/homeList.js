@@ -1,7 +1,9 @@
 import Movie from "./movie"
 
 const HomeList = ({movies}) => {
-  const listItems = movies.map((movie) => {
+    const shuffled = [...movies].sort(() => 0.5 - Math.random());
+
+  const listItems = shuffled.map((movie) => {
     return(
         <Movie movie={movie} key={movie.imdbID}/>
     )
