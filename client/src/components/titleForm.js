@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const TitleForm = ({searchByTitle}) => {
+const TitleForm = ({searchByTitle, movies}) => {
 
 const[text, setText] = useState("")
 
@@ -13,6 +13,15 @@ const handleSubmit = (event) => {
   searchByTitle(text);
 }
 
+const handleRandomTitle = () => {
+
+  const titles = movies.map((movie) => {
+    return (movie.Title)
+  })
+  const randomTitle = titles[Math.floor(Math.random() * titles.length)]
+  searchByTitle(randomTitle)
+}
+
 
   return(
     <>
@@ -21,6 +30,7 @@ const handleSubmit = (event) => {
         <input type="text" placeholder="Title" onChange={handleText}/>
         <input type="submit"/>
     </form>
+    <button onClick={handleRandomTitle}>Random Title</button>
     </div>
     </>
   )
