@@ -9,6 +9,10 @@ const ActorList = ({movies, searchByActor, toggleFavourites}) => {
         )
     })
 
+    const listIsPopulated = () => {
+        return(movies.length > 0)
+      }
+
     return (
         <>
         <ActorForm searchByActor={searchByActor}/>
@@ -16,7 +20,7 @@ const ActorList = ({movies, searchByActor, toggleFavourites}) => {
         <h2>Search by Actor</h2>
         </div>
         <div className="Item-container">
-            {listItems}
+        {listIsPopulated() ? <>{listItems}</> : <h2>No Results Found</h2>}
         </div>
         </>
     )

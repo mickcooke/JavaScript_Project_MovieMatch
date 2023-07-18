@@ -15,6 +15,10 @@ const FavouriteList = ({movies, toggleFavourites}) =>
         )
       })
 
+      const listIsPopulated = () => {
+        return(favouriteMovies.length > 0)
+      }
+
 
 
 
@@ -27,7 +31,7 @@ const FavouriteList = ({movies, toggleFavourites}) =>
     <h2>Favourites</h2>
     </div>
     <div className="Item-container">
-    {listItems}
+    {listIsPopulated() ? <>{listItems}</> : <h2>Favourites List Empty</h2>}
     </div>
 
     </>
