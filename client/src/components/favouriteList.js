@@ -1,7 +1,7 @@
 import {deleteFavourite} from '../favouritesService';
 import FavouriteMovie from "../components/favouriteMovie";
 
-const FavouriteList = ({favouriteMovies, removeFavourite}) => 
+const FavouriteList = ({favouriteMovies, removeFavourite, movies}) => 
 
 {
 

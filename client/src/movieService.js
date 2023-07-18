@@ -20,3 +20,12 @@ export const deleteMovie= (id) => {
     })
   
 }
+
+export const updateMovie = (movie) => {
+    return fetch(baseURL + movie._id, {
+        method: 'PUT',
+        body: JSON.stringify(movie),
+        headers: {'Content-Type': 'application/json'}
+    })
+    .then(response => response.json());
+}
