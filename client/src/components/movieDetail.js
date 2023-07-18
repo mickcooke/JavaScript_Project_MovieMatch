@@ -13,10 +13,6 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
       return movie.imdbID === id
     })
 
-    const handleClick = () => {
-      console.log(selectedMovie)
-      toggleFavourites(selectedMovie)
-    }
 
     const bySameDirector = movies.filter((movie) => {
       return((movie.Director === selectedMovie.Director) && (movie.Title !== selectedMovie.Title))
@@ -92,10 +88,7 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
            <a target="blank" rel="noopener noreferrer" href={link}>IMDB link</a>
            <br></br>
            <br></br>
-           <div className='zoom'>
-          <div><img onClick={handleClick} src={require("../images/Heart1.png")}/></div>
-          <br></br>
-          </div>
+           <FavouritesHeart movie={selectedMovie} toggleFavourites={toggleFavourites}/>
           <br></br>
            
          
