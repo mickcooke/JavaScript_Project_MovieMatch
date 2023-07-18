@@ -5,8 +5,10 @@ import DirectorForm from "../components/directorForm";
 
 
 const DirectorList = ({movies, searchByDirector, toggleFavourites, allMovies}) => {
+  const shuffled = [...movies].sort(() => 0.5 - Math.random());
 
-    const listItems = movies.map((movie) => {
+
+    const listItems = shuffled.map((movie) => {
       return(
         <MovieByDirector movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites}/>
       )
