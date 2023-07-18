@@ -3,11 +3,6 @@ import FavouritesHeart from "./favouritesHeart";
 
 const FavouriteMovie = ({movie, toggleFavourites}) => {
 
-  const handleClick = () => {
-    console.log(movie)
-
-    toggleFavourites(movie)
-  }
 
     return(
       <>
