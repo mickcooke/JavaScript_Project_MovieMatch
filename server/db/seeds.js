@@ -47,7 +47,9 @@ db.movies.insertMany([
       "BoxOffice": "$46,909,721",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites" : false
+
       },
       {
       "Title": "The Irishman",
@@ -87,6 +89,7 @@ db.movies.insertMany([
       "BoxOffice": "N/A",
       "Production": "N/A",
       "Website": "N/A",
+
       "Favourites" : false
       },
       {
@@ -167,7 +170,9 @@ db.movies.insertMany([
       "BoxOffice": "$116,900,694",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Casino",
@@ -207,7 +212,9 @@ db.movies.insertMany([
       "BoxOffice": "$42,512,375",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "The Birds",
@@ -247,7 +254,9 @@ db.movies.insertMany([
       "BoxOffice": "N/A",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Psycho",
@@ -287,7 +296,9 @@ db.movies.insertMany([
       "BoxOffice": "$32,000,000",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Vertigo",
@@ -327,7 +338,9 @@ db.movies.insertMany([
       "BoxOffice": "$7,705,225",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "North by Northwest",
@@ -367,7 +380,9 @@ db.movies.insertMany([
       "BoxOffice": "$66,728",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Rear Window",
@@ -407,7 +422,9 @@ db.movies.insertMany([
       "BoxOffice": "$36,764,313",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Alien",
@@ -447,7 +464,9 @@ db.movies.insertMany([
       "BoxOffice": "$81,900,459",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Gladiator",
@@ -487,7 +506,9 @@ db.movies.insertMany([
       "BoxOffice": "$187,705,427",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Blade Runner",
@@ -527,7 +548,9 @@ db.movies.insertMany([
       "BoxOffice": "$32,914,489",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "The Martian",
@@ -567,7 +590,9 @@ db.movies.insertMany([
       "BoxOffice": "$228,433,663",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Prometheus",
@@ -607,7 +632,9 @@ db.movies.insertMany([
       "BoxOffice": "$126,477,084",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Unforgiven",
@@ -647,7 +674,9 @@ db.movies.insertMany([
       "BoxOffice": "$101,167,799",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "Gran Torino",
@@ -687,7 +716,9 @@ db.movies.insertMany([
       "BoxOffice": "$148,095,302",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+
+      "Favourites":false
+
       },
       {
       "Title": "American Sniper",
@@ -727,7 +758,8 @@ db.movies.insertMany([
       "BoxOffice": "$350,159,020",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+      "Favourites":false
+
       },
       {
       "Title": "Million Dollar Baby",
@@ -767,7 +799,8 @@ db.movies.insertMany([
       "BoxOffice": "$100,492,203",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+      "Favourites":false
+
       },
       {
       "Title": "Sully",
@@ -807,7 +840,8 @@ db.movies.insertMany([
       "BoxOffice": "$125,070,033",
       "Production": "N/A",
       "Website": "N/A",
-      "Favourites" : false
+      "Favourites":false
+
       },
       {
         "Title": "The Master",
@@ -847,7 +881,8 @@ db.movies.insertMany([
         "BoxOffice": "$16,377,274",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "There Will Be Blood",
@@ -887,7 +922,8 @@ db.movies.insertMany([
         "BoxOffice": "$40,222,514",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Magnolia",
@@ -927,7 +963,8 @@ db.movies.insertMany([
         "BoxOffice": "$22,455,976",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Phantom Thread",
@@ -967,7 +1004,8 @@ db.movies.insertMany([
         "BoxOffice": "$21,198,205",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Boogie Nights",
@@ -1007,7 +1045,8 @@ db.movies.insertMany([
         "BoxOffice": "$26,416,349",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Batman",
@@ -1047,7 +1086,8 @@ db.movies.insertMany([
         "BoxOffice": "$251,409,241",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Edward Scissorhands",
@@ -1087,7 +1127,8 @@ db.movies.insertMany([
         "BoxOffice": "$56,362,352",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Sleepy Hollow",
@@ -1127,7 +1168,8 @@ db.movies.insertMany([
         "BoxOffice": "$101,071,502",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Beetlejuice",
@@ -1167,7 +1209,8 @@ db.movies.insertMany([
         "BoxOffice": "$74,664,632",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Mars Attacks!",
@@ -1207,7 +1250,8 @@ db.movies.insertMany([
         "BoxOffice": "$37,781,197",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "The Nightmare Before Christmas",
@@ -1247,7 +1291,8 @@ db.movies.insertMany([
         "BoxOffice": "$77,368,668",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Pan's Labyrinth",
@@ -1287,7 +1332,8 @@ db.movies.insertMany([
         "BoxOffice": "$37,646,380",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Pacific Rim",
@@ -1327,7 +1373,8 @@ db.movies.insertMany([
         "BoxOffice": "$101,802,906",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "The Shape of Water",
@@ -1367,7 +1414,8 @@ db.movies.insertMany([
         "BoxOffice": "$63,859,435",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Crimson Peak",
@@ -1407,7 +1455,8 @@ db.movies.insertMany([
         "BoxOffice": "$31,090,320",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Nightmare Alley",
@@ -1447,7 +1496,8 @@ db.movies.insertMany([
         "BoxOffice": "$11,338,107",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Hellboy",
@@ -1487,7 +1537,8 @@ db.movies.insertMany([
         "BoxOffice": "$59,623,958",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Annie Hall",
@@ -1527,7 +1578,8 @@ db.movies.insertMany([
         "BoxOffice": "$38,251,425",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Midnight in Paris",
@@ -1567,7 +1619,8 @@ db.movies.insertMany([
         "BoxOffice": "$56,817,045",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Match Point",
@@ -1607,7 +1660,8 @@ db.movies.insertMany([
         "BoxOffice": "$23,151,529",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Antz",
@@ -1647,7 +1701,8 @@ db.movies.insertMany([
         "BoxOffice": "$90,757,863",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },
         {
         "Title": "Blue Jasmine",
@@ -1687,7 +1742,8 @@ db.movies.insertMany([
         "BoxOffice": "$33,405,481",
         "Production": "N/A",
         "Website": "N/A",
-        "Favourites" : false
+        "Favourites":false
+
         },{
           "Title": "The Hurt Locker",
           "Year": "2008",
@@ -1726,7 +1782,8 @@ db.movies.insertMany([
           "BoxOffice": "$17,017,811",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Zero Dark Thirty",
@@ -1766,7 +1823,8 @@ db.movies.insertMany([
           "BoxOffice": "$95,720,716",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Winter's Bone",
@@ -1806,7 +1864,8 @@ db.movies.insertMany([
           "BoxOffice": "$6,531,503",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Leave No Trace",
@@ -1846,7 +1905,8 @@ db.movies.insertMany([
           "BoxOffice": "$6,046,104",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "The Babadook",
@@ -1886,7 +1946,8 @@ db.movies.insertMany([
           "BoxOffice": "$964,413",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Iron Man",
@@ -1926,7 +1987,8 @@ db.movies.insertMany([
           "BoxOffice": "$319,034,126",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Iron Man 2",
@@ -1966,7 +2028,8 @@ db.movies.insertMany([
           "BoxOffice": "$312,433,331",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Iron Man 3",
@@ -2006,7 +2069,8 @@ db.movies.insertMany([
           "BoxOffice": "$409,013,994",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "The Avengers",
@@ -2046,7 +2110,8 @@ db.movies.insertMany([
           "BoxOffice": "$623,357,910",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Avengers: Age of Ultron",
@@ -2086,7 +2151,8 @@ db.movies.insertMany([
           "BoxOffice": "$459,005,868",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Avengers: Infinity War",
@@ -2126,7 +2192,8 @@ db.movies.insertMany([
           "BoxOffice": "$678,815,482",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
           "Title": "Avengers: Endgame",
@@ -2166,7 +2233,8 @@ db.movies.insertMany([
           "BoxOffice": "$858,373,000",
           "Production": "N/A",
           "Website": "N/A",
-          "Favourites" : false
+          "Favourites":false
+
           },
           {
             "Title": "Get Out",
@@ -2206,7 +2274,8 @@ db.movies.insertMany([
             "BoxOffice": "$176,196,665",
             "Production": "Universal Pictures, QC Entertainment, Blumhouse Productions",
             "Website": "N/A",
-            "Favourites" : false
+            "Favourites":false
+
             },
             {
             "Title": "Us",
@@ -2246,7 +2315,8 @@ db.movies.insertMany([
             "BoxOffice": "$175,084,580",
             "Production": "N/A",
             "Website": "N/A",
-            "Favourites" : false
+            "Favourites":false
+
             },
             {
             "Title": "Nope",
@@ -2286,7 +2356,8 @@ db.movies.insertMany([
             "BoxOffice": "$123,277,080",
             "Production": "N/A",
             "Website": "N/A",
-            "Favourites" : false
+            "Favourites":false
+
             },
             
 

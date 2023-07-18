@@ -30,21 +30,26 @@ const [favouriteMovies, setFavouriteMovies] = useState([]);
 
 
 useEffect(() => {
-  getMovies().then((movies) => {
-    setMovies(movies)
-    setFilteredMoviesByActor(movies)
-    setFilteredMoviesByDirector(movies)
-    setFilteredMoviesByTitle(movies)
-    const currentFavourites = movies.filter((movie) => {
-      return movie.Favourites === true
-    })
-    setFavouriteMovies(currentFavourites);
-    
-  })
-  // getFavourites().then((favourites) => {
-  //   setFavouriteMovies(favourites)  
+ fetchMyData()
   
-},[])
+},[ ])
+
+const fetchMyData = () => {
+getMovies().then((movies) => {
+  setMovies(movies)
+  setFilteredMoviesByActor(movies)
+  setFilteredMoviesByDirector(movies)
+  setFilteredMoviesByTitle(movies)
+  const currentFavourites = movies.filter((movie) => {
+    return movie.Favourites === true
+  })
+  setFavouriteMovies(currentFavourites);
+  
+})
+// getFavourites().then((favourites) => {
+//   setFavouriteMovies(favourites) 
+}
+ 
 
 
 
@@ -73,7 +78,9 @@ const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Director.toLowerCase().includes(text.toLowerCase()))
   })
+  console.log({searchList})
   setFilteredMoviesByDirector(searchList);
+
 }
 const searchByActor = (text) => {
   const actorSearchList = movies.filter((movie) => {
@@ -95,7 +102,7 @@ const searchByTitle = (text) => {
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites}/>}/>
+        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} allMovies={movies}/>}/>
 
         <Route path="/home" element={<HomeList movies={movies}/>}/>
 
