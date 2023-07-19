@@ -23,6 +23,7 @@ const [filteredMoviesByDirector, setFilteredMoviesByDirector] = useState([]);
 const [filteredMoviesByTitle, setFilteredMoviesByTitle] = useState([]);
 const [filteredMoviesByActor, setFilteredMoviesByActor] = useState([]);
 const [favouriteMovies, setFavouriteMovies] = useState([]);
+const [homeMovies, setHomeMovies] = useState([]);
 
 
 
@@ -34,17 +35,24 @@ useEffect(() => {
   
 },[ ])
 
+const shuffle = (movies) => {
+  const shuffled = [...movies].sort(() => 0.5 - Math.random());
+  setHomeMovies(shuffled);
+  setFilteredMoviesByActor(shuffled)
+  setFilteredMoviesByDirector(shuffled)
+  setFilteredMoviesByTitle(shuffled)
+
+}
+
 const fetchMyData = () => {
 getMovies().then((movies) => {
   setMovies(movies)
-  setFilteredMoviesByActor(movies)
-  setFilteredMoviesByDirector(movies)
-  setFilteredMoviesByTitle(movies)
+
   const currentFavourites = movies.filter((movie) => {
     return movie.Favourites === true
   })
   setFavouriteMovies(currentFavourites);
-  
+  shuffle(movies)
 })
 // getFavourites().then((favourites) => {
 //   setFavouriteMovies(favourites) 
@@ -78,7 +86,6 @@ const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Director.toLowerCase().includes(text.toLowerCase()))
   })
-  console.log({searchList})
   setFilteredMoviesByDirector(searchList);
 
 }
@@ -93,6 +100,7 @@ const searchByTitle = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Title.toLowerCase().includes(text.toLowerCase()))
   })
+  console.log({searchList})
   setFilteredMoviesByTitle(searchList);
 }
 
@@ -102,13 +110,13 @@ const searchByTitle = (text) => {
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} allMovies={movies}/>}/>
+        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} allMovies={movies} shuffle={shuffle}/>}/>
 
-        <Route path="/home" element={<HomeList movies={movies}/>}/>
+        <Route path="/home" element={<HomeList movies={homeMovies} toggleFavourites={toggleFavourites}/>}/>
 
-        <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor} toggleFavourites={toggleFavourites}/>}/>
+        <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor} toggleFavourites={toggleFavourites} allMovies={movies} shuffle={shuffle}/>}/>
 
-        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle} toggleFavourites={toggleFavourites} favouriteMovies={favouriteMovies}/>}/>
+        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle} toggleFavourites={toggleFavourites} favouriteMovies={favouriteMovies} allMovies={movies} shuffle={shuffle}/>}/>
 
         <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} />}/>
 

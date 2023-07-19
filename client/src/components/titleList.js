@@ -3,7 +3,8 @@ import TitleForm from "../components/titleForm";
 
 
 
-const TitleList = ({movies, searchByTitle, toggleFavourites, favouriteMovies}) => {
+const TitleList = ({movies, searchByTitle, toggleFavourites, favouriteMovies, allMovies, shuffle}) => {
+  // const shuffled = [...movies].sort(() => 0.5 - Math.random());
 
     
   const listItems = movies.map((movie) => {
@@ -22,7 +23,7 @@ const TitleList = ({movies, searchByTitle, toggleFavourites, favouriteMovies}) =
 
   return(
     <>
-    <TitleForm searchByTitle={searchByTitle}/>
+    <TitleForm searchByTitle={searchByTitle} movies={allMovies} shuffle={shuffle}/>
     <div className="App">
     <h2>Search by Title</h2>
     </div>
