@@ -152,7 +152,7 @@ padding:20px;
 }
 
 .poster {
-  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
 }
 
 .Ymal-detail-box {
@@ -177,13 +177,13 @@ padding:20px;
 .Ymal-img {
   width:130px;
   height: 185px;
-  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
 }
 
 .Ymal-img:hover {
   transform: scale(1.05);
   /* Scaling button to 0.98 to its original size */
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
   /* Lowering the shadow */
 }
 
@@ -298,13 +298,13 @@ padding: 30px;
     margin: 0.3em;
     margin-left: 0.6em;
     border: 2px solid black;
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.4);
 }
 
 .submit:active {
   transform: scale(0.95);
   /* Scaling button to 0.98 to its original size */
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.4);
   /* Lowering the shadow */
 }
 
@@ -316,13 +316,13 @@ padding: 30px;
   margin: 0.3em;
   border: 2px solid black;
   border-radius: 6px;
-  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.4);
 }
 
 .random:active {
   transform: scale(0.95);
   /* Scaling button to 0.98 to its original size */
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.4);
   /* Lowering the shadow */
 }
 
@@ -334,13 +334,13 @@ padding: 30px;
   margin: 0.3em;
   border: 2px solid black;
   border-radius: 6px;
-  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.4);
 }
 
 .reset:active {
   transform: scale(0.95);
   /* Scaling button to 0.98 to its original size */
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.4);
   /* Lowering the shadow */
 
 }
@@ -348,6 +348,14 @@ padding: 30px;
 .text-input-box {
   height: 22px;
   border: 2px solid black;
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.4);
 
+}
+
+.IMDB {
+  width: 80px ;
+}
+
+.IMDB:hover {
+  transform: scale(1.2);
 }

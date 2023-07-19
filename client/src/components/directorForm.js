@@ -30,7 +30,7 @@ const handleShuffle = () => {
     <>
     <div className='App'>
     <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Director"  onChange={handleText}/>
+        <input type="text" placeholder="Director" className='text-input-box' onChange={handleText}/>
         <input type="submit" className="submit"/>
     </form>
     <button className="random" onClick={handleRandomDirector}>Random Director</button>

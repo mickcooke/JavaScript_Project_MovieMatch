@@ -85,7 +85,9 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
           <p><b>Starring:</b> {selectedMovie.Actors}</p>
           <p><b>Plot: </b>{selectedMovie.Plot}</p>
           <p><b>Rotten Tomatoes Rating:</b> {selectedMovie.Ratings[1].Value}</p>
-           <a target="blank" rel="noopener noreferrer" href={link}>IMDB link</a>
+           <div className='IMDB'>
+           <a target="blank" rel="noopener noreferrer" href={link} className='white-text'>IMDB link</a>
+           </div>
            <br></br>
            <br></br>
            <FavouritesHeart movie={selectedMovie} toggleFavourites={toggleFavourites}/>
