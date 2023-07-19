@@ -112,7 +112,7 @@ const searchByTitle = (text) => {
   return(
     <>
       <Router>
-      <Header/>
+      <Header favouriteMovies={favouriteMovies}/>
       <Routes>
         <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} allMovies={movies} shuffle={shuffle}/>}/>
 
