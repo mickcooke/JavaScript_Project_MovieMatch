@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const ActorForm = ({searchByActor, movies}) => {
+const ActorForm = ({searchByActor, movies, shuffle}) => {
 
 const[text, setText] = useState("")
 
@@ -22,6 +22,9 @@ const handleRandomActor = () => {
   searchByActor(randomActor)
 }
 
+const handleShuffle = () => {
+  shuffle(movies)
+}
 
   return (
     <>
@@ -31,6 +34,7 @@ const handleRandomActor = () => {
         <input type="submit"/>
     </form>
   
+    <button onClick={handleShuffle}>Shuffle Movies</button>
 
     </div>
     </>
