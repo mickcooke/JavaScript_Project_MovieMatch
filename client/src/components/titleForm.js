@@ -1,8 +1,15 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 
-const TitleForm = ({searchByTitle}) => {
+
+const TitleForm = ({searchByTitle, movies, shuffle}) => {
 
 const[text, setText] = useState("")
+
+const titles = movies.map((movie) => {
+  return (movie.imdbID)
+})
+const randomTitle = titles[Math.floor(Math.random() * titles.length)]
 
 const handleText = (event) => {
   setText(event.target.value);
@@ -13,6 +20,9 @@ const handleSubmit = (event) => {
   searchByTitle(text);
 }
 
+const handleShuffle = () => {
+  shuffle(movies)
+}
 
   return(
     <>
@@ -21,6 +31,8 @@ const handleSubmit = (event) => {
         <input type="text" placeholder="Title" onChange={handleText}/>
         <input type="submit"/>
     </form>
+    <Link to={`/movie/${randomTitle}`}><button className="random">Random Title</button></Link>
+    <button className='reset' onClick={handleShuffle}>Reset</button>
     </div>
     </>
   )
