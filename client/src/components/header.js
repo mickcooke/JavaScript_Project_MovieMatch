@@ -62,7 +62,7 @@ const fifteenFavs = () => {
       </div>
       <div className="title">
         <div className="title-text-box">
-         <Link to={'/home'}><p className="title-text">moviematch</p></Link>
+         <Link to={'/home'}><div className="camera-box"><img src={require("../images/CameraWhite.png")} className="camera"/></div><p className="title-text">moviematch</p></Link>
          </div>
       </div>
         

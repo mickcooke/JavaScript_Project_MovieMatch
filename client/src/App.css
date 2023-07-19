@@ -38,22 +38,32 @@ body {
 }
 
 .title-text-box {
-  width: 270px;
+  width: 320px;
   height: 80px;
-  
+  transition: all 0.2s ease-in-out;
+}
+
+.title-text-box:hover {
+  transform: scale(1.2);
+}
+
+.camera {
+  width: 50px;
+}
+
+.camera-box {
+  width:32px;
+  margin-top:25px;
 }
 
 .title-text {
-  margin-top: 10px;
+  margin-top: -45px;
+  margin-left: 25px;
   font-family: 'Maven Pro', cursive;
   font-size: 1.8em;
   text-align: center;
   color:white;
-  transition: all 0.2s ease-in-out;
-}
-
-.title-text:hover{
-  transform: scale(1.2);
+  
 }
 
 .heart-container {
@@ -359,3 +369,4 @@ padding: 30px;
 .IMDB:hover {
   transform: scale(1.2);
 }
+
