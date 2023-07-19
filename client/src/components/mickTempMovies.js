@@ -37,7 +37,7 @@ const mickTempMovies = [
         "BoxOffice": "$107,928,762",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "Reservoir Dogs",
@@ -77,7 +77,7 @@ const mickTempMovies = [
         "BoxOffice": "$2,832,029",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "Inglourious Basterds",
@@ -117,7 +117,7 @@ const mickTempMovies = [
         "BoxOffice": "$120,540,719",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "Kill Bill: Vol. 1",
@@ -157,7 +157,7 @@ const mickTempMovies = [
         "BoxOffice": "$70,099,045",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "A Clockwork Orange",
@@ -197,7 +197,7 @@ const mickTempMovies = [
         "BoxOffice": "$26,617,553",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "2001: A Space Odyssey",
@@ -237,7 +237,7 @@ const mickTempMovies = [
         "BoxOffice": "$60,481,243",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "The Shining",
@@ -277,7 +277,7 @@ const mickTempMovies = [
         "BoxOffice": "$45,634,352",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "Dr. Strangelove",
@@ -304,7 +304,7 @@ const mickTempMovies = [
         "BoxOffice": "N/A",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "The Godfather",
@@ -344,7 +344,7 @@ const mickTempMovies = [
         "BoxOffice": "$136,381,073",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "Apocalypse Now",
@@ -384,7 +384,7 @@ const mickTempMovies = [
         "BoxOffice": "$96,042,913",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "The Godfather Part II",
@@ -424,7 +424,7 @@ const mickTempMovies = [
         "BoxOffice": "$47,834,595",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     },
     {
         "Title": "The Godfather Part III",
@@ -464,6 +464,6 @@ const mickTempMovies = [
         "BoxOffice": "$66,761,392",
         "Production": "N/A",
         "Website": "N/A",
-        "Response": "True"
+        "Favourites": false
     }
 ]

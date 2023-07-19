@@ -102,6 +102,7 @@ padding:20px;
 }
 
 .img {
+  margin-top: -35px;
   width:200px;
   height: 300px;
 }
@@ -115,8 +116,15 @@ padding:20px;
 .Item-box-2 {
   width: 160px;
   height: 400px;
-  text-align: center;
   padding: 40px;
+}
+
+.heart-lower {
+  margin-top: 15px;
+}
+
+.text-raise {
+  margin-top: 0px;
 }
 
 .Ymal-detail-box {
@@ -174,11 +182,23 @@ padding:20px;
 }
 
 .description-box {
-  width: 160px;
+  width: 200px;
   text-align: center;
-  margin-left:15px;
+  margin-left:0px;
   color: white;
 }
+
+.heart-and-title {
+  width: 200px;
+  display: grid;
+  grid-template-columns:15% 85%;
+  color: white;
+}
+
+.white-text {
+  color: white;
+}
+
 
 .description-box > a {
   color: white;
