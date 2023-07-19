@@ -2,9 +2,9 @@ import MovieByActor from "./movieByActor";
 import ActorForm from "./actorForm";
 
 const ActorList = ({movies, searchByActor, toggleFavourites}) => {
-  const shuffled = [...movies].sort(() => 0.5 - Math.random());
+  // const shuffled = [...movies].sort(() => 0.5 - Math.random());
 
-    const listItems = shuffled.map((movie) => {
+    const listItems = movies.map((movie) => {
         return (
             <MovieByActor movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites}/>
         )

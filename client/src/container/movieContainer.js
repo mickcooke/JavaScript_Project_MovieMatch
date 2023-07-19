@@ -23,6 +23,7 @@ const [filteredMoviesByDirector, setFilteredMoviesByDirector] = useState([]);
 const [filteredMoviesByTitle, setFilteredMoviesByTitle] = useState([]);
 const [filteredMoviesByActor, setFilteredMoviesByActor] = useState([]);
 const [favouriteMovies, setFavouriteMovies] = useState([]);
+const [homeMovies, setHomeMovies] = useState([]);
 
 
 
@@ -34,17 +35,24 @@ useEffect(() => {
   
 },[ ])
 
+const shuffle = (movies) => {
+  const shuffled = [...movies].sort(() => 0.5 - Math.random());
+  setHomeMovies(shuffled);
+  setFilteredMoviesByActor(shuffled)
+  setFilteredMoviesByDirector(shuffled)
+  setFilteredMoviesByTitle(shuffled)
+
+}
+
 const fetchMyData = () => {
 getMovies().then((movies) => {
   setMovies(movies)
-  setFilteredMoviesByActor(movies)
-  setFilteredMoviesByDirector(movies)
-  setFilteredMoviesByTitle(movies)
+
   const currentFavourites = movies.filter((movie) => {
     return movie.Favourites === true
   })
   setFavouriteMovies(currentFavourites);
-  
+  shuffle(movies)
 })
 // getFavourites().then((favourites) => {
 //   setFavouriteMovies(favourites) 
@@ -102,9 +110,9 @@ const searchByTitle = (text) => {
       <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} allMovies={movies}/>}/>
+        <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} allMovies={movies} shuffle={shuffle}/>}/>
 
-        <Route path="/home" element={<HomeList movies={movies}/>}/>
+        <Route path="/home" element={<HomeList movies={homeMovies} toggleFavourites={toggleFavourites}/>}/>
 
         <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor} toggleFavourites={toggleFavourites}/>}/>
 

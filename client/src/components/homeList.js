@@ -1,11 +1,10 @@
 import Movie from "./movie"
 
-const HomeList = ({movies}) => {
-  const shuffled = [...movies].sort(() => 0.5 - Math.random());
+const HomeList = ({movies, toggleFavourites}) => {
 
-  const listItems = shuffled.map((movie) => {
+  const listItems = movies.map((movie) => {
     return(
-        <Movie movie={movie} key={movie.imdbID}/>
+        <Movie movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites}/>
     )
   })
 

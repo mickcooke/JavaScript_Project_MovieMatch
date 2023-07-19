@@ -4,10 +4,10 @@ import TitleForm from "../components/titleForm";
 
 
 const TitleList = ({movies, searchByTitle, toggleFavourites, favouriteMovies, allMovies}) => {
-  const shuffled = [...movies].sort(() => 0.5 - Math.random());
+  // const shuffled = [...movies].sort(() => 0.5 - Math.random());
 
     
-  const listItems = shuffled.map((movie) => {
+  const listItems = movies.map((movie) => {
       
       return(
         <MovieByTitle movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites} favouriteMovies={favouriteMovies}/>

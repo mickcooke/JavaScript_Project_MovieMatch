@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const ActorForm = ({searchByActor}) => {
+const ActorForm = ({searchByActor, movies}) => {
 
 const[text, setText] = useState("")
 
@@ -13,6 +13,15 @@ const handleSubmit = (event) => {
   searchByActor(text);
 }
 
+const handleRandomActor = () => {
+
+  const actors = movies.map((movie) => {
+    return (movie.Actors)
+  })
+  const randomActor = actors[Math.floor(Math.random() * actors.length)]
+  searchByActor(randomActor)
+}
+
 
   return (
     <>
@@ -21,6 +30,8 @@ const handleSubmit = (event) => {
         <input type="text" placeholder="Actor" onChange={handleText}/>
         <input type="submit"/>
     </form>
+  
+
     </div>
     </>
   )

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const DirectorForm = ({searchByDirector, movies}) => {
+const DirectorForm = ({searchByDirector, movies, shuffle}) => {
 const[text, setText] = useState("")
 
 const handleText = (event) => {
@@ -21,6 +21,10 @@ const handleRandomDirector = () => {
   searchByDirector(randomDirector)
 }
 
+const handleShuffle = () => {
+  shuffle(movies)
+}
+
 
   return(
     <>
@@ -30,6 +34,7 @@ const handleRandomDirector = () => {
         <input type="submit"/>
     </form>
     <button onClick={handleRandomDirector}>Random Director</button>
+    <button onClick={handleShuffle}>Shuffle Movies</button>
     </div>
     </>
   )

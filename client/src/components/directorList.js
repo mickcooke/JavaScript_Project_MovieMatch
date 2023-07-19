@@ -4,11 +4,11 @@ import DirectorForm from "../components/directorForm";
 
 
 
-const DirectorList = ({movies, searchByDirector, toggleFavourites, allMovies}) => {
-  const shuffled = [...movies].sort(() => 0.5 - Math.random());
+const DirectorList = ({movies, searchByDirector, toggleFavourites, allMovies, shuffle}) => {
+  // const shuffled = [...movies].sort(() => 0.5 - Math.random());
 
 
-    const listItems = shuffled.map((movie) => {
+    const listItems = movies.map((movie) => {
       return(
         <MovieByDirector movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites}/>
       )
@@ -20,7 +20,7 @@ const DirectorList = ({movies, searchByDirector, toggleFavourites, allMovies}) =
 
   return(
     <>
-    <DirectorForm searchByDirector={searchByDirector} movies={allMovies}/>
+    <DirectorForm searchByDirector={searchByDirector} movies={allMovies} shuffle={shuffle}/>
     <div className="App">
     <h2>Search by Director</h2>
     </div>
