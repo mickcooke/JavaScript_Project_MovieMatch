@@ -5,9 +5,10 @@ import {Link} from 'react-router-dom';
 const Header = () => {
   return(
     <div className="Header">
-
-      <div className="heart">
+      <div className="heart-container">
+        <div className="heart">
       <Link to={'/favourites'}><img src={require("../images/Heart1.png")}/></Link>
+      </div>
       </div>
       <div className="title">
         <div className="title-text-box">
