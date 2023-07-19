@@ -8,7 +8,7 @@ a {
 
 body {
   margin: 0;
-  font-family: 'Maven Pro', cursive;
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
   font-size: 16px;
   background-image: url(/src/images/RedCurtains.png);
   background-size: contain;
@@ -16,7 +16,7 @@ body {
 }
 
 .Header {
-  font-family: 'Maven Pro', cursive;
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
   font-size:1.5em;
   color: #fff;
   background: #080B59;
@@ -123,12 +123,12 @@ padding:20px;
   width:200px;
   height: 300px;
   /* border: solid white; */
-  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
 }
 
 .img:hover {
   transform: scale(1.05);
-  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
 }
 
 .Item-box {
@@ -149,6 +149,10 @@ padding:20px;
 
 .text-raise {
   margin-top: 0px;
+}
+
+.poster {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
 }
 
 .Ymal-detail-box {
@@ -283,4 +287,67 @@ padding: 30px;
 
 .delete-heart:hover {
   transform: scale(1.2);
+}
+
+.submit {
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+   font-size: 0.9em;
+   border-radius: 6px;
+    padding: 0.3em;
+    margin: 0.3em;
+    margin-left: 0.6em;
+    border: 2px solid black;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+}
+
+.submit:active {
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
+  /* Lowering the shadow */
+}
+
+.random {
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.3em;
+  margin: 0.3em;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+}
+
+.random:active {
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
+  /* Lowering the shadow */
+}
+
+.reset {
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.3em;
+  margin: 0.3em;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+}
+
+.reset:active {
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
+  /* Lowering the shadow */
+
+}
+
+.text-input-box {
+  height: 22px;
+  border: 2px solid black;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+
 }

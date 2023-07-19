@@ -29,7 +29,7 @@ const handleShuffle = () => {
     <div className='App'>
     <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Title" onChange={handleText}/>
-        <input type="submit"/>
+        <input type="submit" className="submit"/>
     </form>
     <Link to={`/movie/${randomTitle}`}><button className="random">Random Title</button></Link>
     <button className='reset' onClick={handleShuffle}>Reset</button>
