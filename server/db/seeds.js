@@ -2359,6 +2359,604 @@ db.movies.insertMany([
             "Favourites":false
 
             },
+            {
+              "Title":"Schindler's List","Year":"1993","Rated":"R","Released":"04 Feb 1994","Runtime":"195 min","Genre":"Biography, Drama, History","Director":"Steven Spielberg","Writer":"Thomas Keneally, Steven Zaillian","Actors":"Liam Neeson, Ralph Fiennes, Ben Kingsley","Plot":"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.","Language":"English, Hebrew, German, Polish, Latin","Country":"United States","Awards":"Won 7 Oscars. 91 wins & 49 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"9.0/10"},{"Source":"Rotten Tomatoes","Value":"98%"},{"Source":"Metacritic","Value":"95/100"}],"Metascore":"95","imdbRating":"9.0","imdbVotes":"1,390,913","imdbID":"tt0108052","Type":"movie","DVD":"12 Feb 2008","BoxOffice":"$96,898,818","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Jurassic Park","Year":"1993","Rated":"PG-13","Released":"11 Jun 1993","Runtime":"127 min","Genre":"Action, Adventure, Sci-Fi","Director":"Steven Spielberg","Writer":"Michael Crichton, David Koepp","Actors":"Sam Neill, Laura Dern, Jeff Goldblum","Plot":"A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.","Language":"English, Spanish","Country":"United States","Awards":"Won 3 Oscars. 44 wins & 27 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"91%"},{"Source":"Metacritic","Value":"68/100"}],"Metascore":"68","imdbRating":"8.2","imdbVotes":"1,020,527","imdbID":"tt0107290","Type":"movie","DVD":"28 Oct 2003","BoxOffice":"$404,214,720","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Saving Private Ryan","Year":"1998","Rated":"R","Released":"24 Jul 1998","Runtime":"169 min","Genre":"Drama, War","Director":"Steven Spielberg","Writer":"Robert Rodat","Actors":"Tom Hanks, Matt Damon, Tom Sizemore","Plot":"Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.","Language":"English, French, German, Czech","Country":"United States","Awards":"Won 5 Oscars. 79 wins & 75 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.6/10"},{"Source":"Rotten Tomatoes","Value":"94%"},{"Source":"Metacritic","Value":"91/100"}],"Metascore":"91","imdbRating":"8.6","imdbVotes":"1,429,850","imdbID":"tt0120815","Type":"movie","DVD":"25 May 2004","BoxOffice":"$217,049,603","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Munich","Year":"2005","Rated":"R","Released":"06 Jan 2006","Runtime":"164 min","Genre":"Action, Drama, History","Director":"Steven Spielberg","Writer":"Tony Kushner, Eric Roth, George Jonas","Actors":"Eric Bana, Daniel Craig, Marie-Josée Croze","Plot":"After the Black September capture and massacre of Israeli athletes at the 1972 Olympics, five men are chosen to eliminate the people responsible for that fateful day.","Language":"English, German, French, Hebrew, Arabic, Italian, Greek, Russian, Dutch","Country":"United States, Canada, France","Awards":"Nominated for 5 Oscars. 14 wins & 75 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTcwNzYzMzMwMF5BMl5BanBnXkFtZTcwMzMzODczMQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"78%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"7.5","imdbVotes":"232,349","imdbID":"tt0408306","Type":"movie","DVD":"09 May 2006","BoxOffice":"$47,403,685","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Barry Keoghan, Mark Rylance","Plot":"Allied soldiers from Belgium, the British Commonwealth and Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"United Kingdom, Netherlands, France, United States","Awards":"Won 3 Oscars. 65 wins & 233 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"7.8","imdbVotes":"686,826","imdbID":"tt5013056","Type":"movie","DVD":"12 Dec 2017","BoxOffice":"$189,740,665","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The Dark Knight","Year":"2008","Rated":"PG-13","Released":"18 Jul 2008","Runtime":"152 min","Genre":"Action, Crime, Drama","Director":"Christopher Nolan","Writer":"Jonathan Nolan, Christopher Nolan, David S. Goyer","Actors":"Christian Bale, Heath Ledger, Aaron Eckhart","Plot":"When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.","Language":"English, Mandarin","Country":"United States, United Kingdom","Awards":"Won 2 Oscars. 162 wins & 164 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"9.0/10"},{"Source":"Rotten Tomatoes","Value":"94%"},{"Source":"Metacritic","Value":"84/100"}],"Metascore":"84","imdbRating":"9.0","imdbVotes":"2,733,700","imdbID":"tt0468569","Type":"movie","DVD":"09 Dec 2008","BoxOffice":"$534,987,076","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Inception","Year":"2010","Rated":"PG-13","Released":"16 Jul 2010","Runtime":"148 min","Genre":"Action, Adventure, Sci-Fi","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page","Plot":"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.","Language":"English, Japanese, French","Country":"United States, United Kingdom","Awards":"Won 4 Oscars. 159 wins & 220 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.8/10"},{"Source":"Rotten Tomatoes","Value":"87%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"8.8","imdbVotes":"2,425,956","imdbID":"tt1375666","Type":"movie","DVD":"07 Dec 2010","BoxOffice":"$292,587,330","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Interstellar","Year":"2014","Rated":"PG-13","Released":"07 Nov 2014","Runtime":"169 min","Genre":"Adventure, Drama, Sci-Fi","Director":"Christopher Nolan","Writer":"Jonathan Nolan, Christopher Nolan","Actors":"Matthew McConaughey, Anne Hathaway, Jessica Chastain","Plot":"When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.","Language":"English","Country":"United States, United Kingdom, Canada","Awards":"Won 1 Oscar. 44 wins & 148 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.7/10"},{"Source":"Rotten Tomatoes","Value":"73%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"8.7","imdbVotes":"1,928,320","imdbID":"tt0816692","Type":"movie","DVD":"31 Mar 2015","BoxOffice":"$188,020,017","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The Terminator","Year":"1984","Rated":"R","Released":"26 Oct 1984","Runtime":"107 min","Genre":"Action, Sci-Fi","Director":"James Cameron","Writer":"James Cameron, Gale Anne Hurd, William Wisher","Actors":"Arnold Schwarzenegger, Linda Hamilton, Michael Biehn","Plot":"A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvat...","Language":"English, Spanish","Country":"United Kingdom, United States","Awards":"8 wins & 6 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"100%"},{"Source":"Metacritic","Value":"84/100"}],"Metascore":"84","imdbRating":"8.1","imdbVotes":"890,116","imdbID":"tt0088247","Type":"movie","DVD":"02 Oct 2001","BoxOffice":"$38,371,200","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Aliens","Year":"1986","Rated":"R","Released":"18 Jul 1986","Runtime":"137 min","Genre":"Action, Adventure, Sci-Fi","Director":"James Cameron","Writer":"James Cameron, David Giler, Walter Hill","Actors":"Sigourney Weaver, Michael Biehn, Carrie Henn","Plot":"Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.","Language":"English, Spanish","Country":"United Kingdom, United States","Awards":"Won 2 Oscars. 20 wins & 23 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZTM1Nzk5ZTItN2ZkNi00MDRjLWIwYWUtOWY4ZjZmZjkyM2I0XkEyXkFqcGdeQXVyNTU1NTcwOTk@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.4/10"},{"Source":"Rotten Tomatoes","Value":"98%"},{"Source":"Metacritic","Value":"84/100"}],"Metascore":"84","imdbRating":"8.4","imdbVotes":"735,496","imdbID":"tt0090605","Type":"movie","DVD":"01 Jun 1999","BoxOffice":"$85,160,248","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Titanic","Year":"1997","Rated":"PG-13","Released":"19 Dec 1997","Runtime":"194 min","Genre":"Drama, Romance","Director":"James Cameron","Writer":"James Cameron","Actors":"Leonardo DiCaprio, Kate Winslet, Billy Zane","Plot":"A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.","Language":"English, Swedish, Italian, French","Country":"United States, Mexico","Awards":"Won 11 Oscars. 126 wins & 83 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.9/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"75/100"}],"Metascore":"75","imdbRating":"7.9","imdbVotes":"1,228,124","imdbID":"tt0120338","Type":"movie","DVD":"08 Jan 2002","BoxOffice":"$674,292,608","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Avatar","Year":"2009","Rated":"PG-13","Released":"18 Dec 2009","Runtime":"162 min","Genre":"Action, Adventure, Fantasy","Director":"James Cameron","Writer":"James Cameron","Actors":"Sam Worthington, Zoe Saldana, Sigourney Weaver","Plot":"A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.","Language":"English, Spanish","Country":"United States","Awards":"Won 3 Oscars. 89 wins & 131 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.9/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"83/100"}],"Metascore":"83","imdbRating":"7.9","imdbVotes":"1,350,555","imdbID":"tt0499549","Type":"movie","DVD":"22 Apr 2010","BoxOffice":"$785,221,649","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Se7en","Year":"1995","Rated":"R","Released":"22 Sep 1995","Runtime":"127 min","Genre":"Crime, Drama, Mystery","Director":"David Fincher","Writer":"Andrew Kevin Walker","Actors":"Morgan Freeman, Brad Pitt, Kevin Spacey","Plot":"Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.","Language":"English","Country":"United States","Awards":"Nominated for 1 Oscar. 29 wins & 43 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.6/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"65/100"}],"Metascore":"65","imdbRating":"8.6","imdbVotes":"1,704,879","imdbID":"tt0114369","Type":"movie","DVD":"19 Dec 2000","BoxOffice":"$100,125,643","Production":"N/A","Website":"N/A","Response":"True"},  
+          {
+              "Title":"Fight Club","Year":"1999","Rated":"R","Released":"15 Oct 1999","Runtime":"139 min","Genre":"Drama","Director":"David Fincher","Writer":"Chuck Palahniuk, Jim Uhls","Actors":"Brad Pitt, Edward Norton, Meat Loaf","Plot":"An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.","Language":"English","Country":"Germany, United States","Awards":"Nominated for 1 Oscar. 12 wins & 38 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.8/10"},{"Source":"Rotten Tomatoes","Value":"79%"},{"Source":"Metacritic","Value":"66/100"}],"Metascore":"66","imdbRating":"8.8","imdbVotes":"2,194,869","imdbID":"tt0137523","Type":"movie","DVD":"14 Oct 2003","BoxOffice":"$37,030,102","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Alien³","Year":"1992","Rated":"R","Released":"22 May 1992","Runtime":"114 min","Genre":"Action, Horror, Sci-Fi","Director":"David Fincher","Writer":"Dan O'Bannon, Ronald Shusett, Vincent Ward","Actors":"Sigourney Weaver, Charles S. Dutton, Charles Dance","Plot":"Returning from LV-426, Ellen Ripley crash-lands on the maximum-security prison Fiorina 161, where she discovers that she has unwittingly brought along an unwelcome visitor.","Language":"English","Country":"United States","Awards":"Nominated for 1 Oscar. 5 wins & 25 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYTNiYmQzNTctNzAyZC00ODY2LWE3ZjgtODU1NDA0NGI5ZDY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.4/10"},{"Source":"Rotten Tomatoes","Value":"47%"},{"Source":"Metacritic","Value":"59/100"}],"Metascore":"59","imdbRating":"6.4","imdbVotes":"308,153","imdbID":"tt0103644","Type":"movie","DVD":"01 Jun 1999","BoxOffice":"$55,473,545","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Gone Girl","Year":"2014","Rated":"R","Released":"03 Oct 2014","Runtime":"149 min","Genre":"Drama, Mystery, Thriller","Director":"David Fincher","Writer":"Gillian Flynn","Actors":"Ben Affleck, Rosamund Pike, Neil Patrick Harris","Plot":"With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.","Language":"English","Country":"United States","Awards":"Nominated for 1 Oscar. 64 wins & 188 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"79/100"}],"Metascore":"79","imdbRating":"8.1","imdbVotes":"1,013,681","imdbID":"tt2267998","Type":"movie","DVD":"13 Jan 2015","BoxOffice":"$167,767,189","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The Grand Budapest Hotel","Year":"2014","Rated":"R","Released":"28 Mar 2014","Runtime":"99 min","Genre":"Adventure, Comedy, Crime","Director":"Wes Anderson","Writer":"Stefan Zweig, Wes Anderson, Hugo Guinness","Actors":"Ralph Fiennes, F. Murray Abraham, Mathieu Amalric","Plot":"A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.","Language":"English, French, German","Country":"United States, Germany","Awards":"Won 4 Oscars. 137 wins & 227 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"88/100"}],"Metascore":"88","imdbRating":"8.1","imdbVotes":"840,044","imdbID":"tt2278388","Type":"movie","DVD":"17 Jun 2014","BoxOffice":"$59,301,324","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Isle of Dogs","Year":"2018","Rated":"PG-13","Released":"13 Apr 2018","Runtime":"101 min","Genre":"Animation, Adventure, Comedy","Director":"Wes Anderson","Writer":"Wes Anderson, Roman Coppola, Jason Schwartzman","Actors":"Bryan Cranston, Koyu Rankin, Edward Norton","Plot":"Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog.","Language":"English, Japanese","Country":"United States, Germany, United Kingdom, Japan","Awards":"Nominated for 2 Oscars. 34 wins & 93 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZDQwOWQ2NmUtZThjZi00MGM0LTkzNDctMzcyMjcyOGI1OGRkXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"90%"},{"Source":"Metacritic","Value":"82/100"}],"Metascore":"82","imdbRating":"7.8","imdbVotes":"179,575","imdbID":"tt5104604","Type":"movie","DVD":"17 Jul 2018","BoxOffice":"$32,015,231","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Moonrise Kingdom","Year":"2012","Rated":"PG-13","Released":"29 Jun 2012","Runtime":"94 min","Genre":"Comedy, Drama, Family","Director":"Wes Anderson","Writer":"Wes Anderson, Roman Coppola","Actors":"Jared Gilman, Kara Hayward, Bruce Willis","Plot":"A pair of young lovers flee their New England town, which causes a local search party to fan out to find them.","Language":"English","Country":"United States","Awards":"Nominated for 1 Oscar. 36 wins & 122 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYTNjNjRhNjMtYTQyOS00MGIxLWJmZjktNGUxY2M2YTc4ZDYwXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"93%"},{"Source":"Metacritic","Value":"84/100"}],"Metascore":"84","imdbRating":"7.8","imdbVotes":"358,429","imdbID":"tt1748122","Type":"movie","DVD":"16 Oct 2012","BoxOffice":"$45,512,466","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The French Dispatch","Year":"2021","Rated":"R","Released":"22 Oct 2021","Runtime":"107 min","Genre":"Comedy, Drama, Romance","Director":"Wes Anderson","Writer":"Wes Anderson, Roman Coppola, Hugo Guinness","Actors":"Benicio Del Toro, Adrien Brody, Tilda Swinton","Plot":"A love letter to journalists set in an outpost of an American newspaper in a fictional twentieth century French city that brings to life a collection of stories published in \"The French Dispatch Magazine\".","Language":"English, French","Country":"United States, Germany","Awards":"Nominated for 3 BAFTA 24 wins & 120 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNmQxZTNiODYtNzBhYy00MzVlLWJlN2UtNTc4YWZjMDIwMmEzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.1/10"},{"Source":"Rotten Tomatoes","Value":"75%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"7.1","imdbVotes":"135,926","imdbID":"tt8847712","Type":"movie","DVD":"13 Dec 2021","BoxOffice":"$16,124,375","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The Royal Tenenbaums","Year":"2001","Rated":"R","Released":"04 Jan 2002","Runtime":"110 min","Genre":"Comedy, Drama","Director":"Wes Anderson","Writer":"Wes Anderson, Owen Wilson","Actors":"Gene Hackman, Gwyneth Paltrow, Anjelica Huston","Plot":"The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons.","Language":"English, Italian","Country":"United States","Awards":"Nominated for 1 Oscar. 11 wins & 46 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYmUzODQ5MGItZTZlNy00MDBhLWIxMmItMjg4Y2QyNDFlMWQ2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.6/10"},{"Source":"Rotten Tomatoes","Value":"81%"},{"Source":"Metacritic","Value":"76/100"}],"Metascore":"76","imdbRating":"7.6","imdbVotes":"303,258","imdbID":"tt0265666","Type":"movie","DVD":"07 Sep 2004","BoxOffice":"$52,364,010","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Citizen Kane","Year":"1941","Rated":"PG","Released":"05 Sep 1941","Runtime":"119 min","Genre":"Drama, Mystery","Director":"Orson Welles","Writer":"Herman J. Mankiewicz, Orson Welles, John Houseman","Actors":"Orson Welles, Joseph Cotten, Dorothy Comingore","Plot":"Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'","Language":"English, Italian","Country":"United States","Awards":"Won 1 Oscar. 11 wins & 13 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.3/10"},{"Source":"Rotten Tomatoes","Value":"99%"},{"Source":"Metacritic","Value":"100/100"}],"Metascore":"100","imdbRating":"8.3","imdbVotes":"452,281","imdbID":"tt0033467","Type":"movie","DVD":"23 Feb 2010","BoxOffice":"$1,627,530","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The Long, Hot Summer","Year":"1958","Rated":"Not Rated","Released":"18 May 1958","Runtime":"115 min","Genre":"Drama","Director":"Martin Ritt","Writer":"William Faulkner, Irving Ravetch, Harriet Frank Jr.","Actors":"Paul Newman, Joanne Woodward, Anthony Franciosa","Plot":"Accused barn burner and conman Ben Quick arrives in a small Mississippi town and quickly ingratiates himself with its richest family, the Varners.","Language":"English","Country":"United States","Awards":"2 wins & 4 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDJhYzQzMTYtYzQ1OC00NTdkLTlmYzctM2E4ZjY5NTBiYjUwXkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.3/10"},{"Source":"Rotten Tomatoes","Value":"86%"}],"Metascore":"N/A","imdbRating":"7.3","imdbVotes":"11,635","imdbID":"tt0051878","Type":"movie","DVD":"11 May 2004","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Touch of Evil","Year":"1958","Rated":"PG-13","Released":"23 Apr 1958","Runtime":"95 min","Genre":"Crime, Drama, Film-Noir","Director":"Orson Welles","Writer":"Orson Welles, Whit Masterson, Franklin Coen","Actors":"Charlton Heston, Orson Welles, Janet Leigh","Plot":"A stark, perverse story of murder, kidnapping and police corruption in a Mexican border town.","Language":"English, Spanish","Country":"United States","Awards":"7 wins & 1 nomination","Poster":"https://m.media-amazon.com/images/M/MV5BOTA1MjA3M2EtMmJjZS00OWViLTkwMTEtM2E5ZDk0NTAyNGJiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"95%"},{"Source":"Metacritic","Value":"99/100"}],"Metascore":"99","imdbRating":"8.0","imdbVotes":"107,216","imdbID":"tt0052311","Type":"movie","DVD":"06 Jul 2004","BoxOffice":"$2,247,465","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The Third Man","Year":"1949","Rated":"Approved","Released":"03 Sep 1949","Runtime":"93 min","Genre":"Film-Noir, Mystery, Thriller","Director":"Carol Reed","Writer":"Graham Greene, Orson Welles, Alexander Korda","Actors":"Orson Welles, Joseph Cotten, Alida Valli","Plot":"Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.","Language":"English, German, Russian, French","Country":"United Kingdom","Awards":"Won 1 Oscar. 5 wins & 4 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BYjE2OTdhMWUtOGJlMy00ZDViLWIzZjgtYjZkZGZmMDZjYmEyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"99%"},{"Source":"Metacritic","Value":"97/100"}],"Metascore":"97","imdbRating":"8.1","imdbVotes":"176,064","imdbID":"tt0041959","Type":"movie","DVD":"28 Oct 2008","BoxOffice":"$1,067,364","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The Pianist","Year":"2002","Rated":"R","Released":"28 Mar 2003","Runtime":"150 min","Genre":"Biography, Drama, Music","Director":"Roman Polanski","Writer":"Ronald Harwood, Wladyslaw Szpilman","Actors":"Adrien Brody, Thomas Kretschmann, Frank Finlay","Plot":"A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.","Language":"English, German, Russian","Country":"France, Poland, Germany, United Kingdom","Awards":"Won 3 Oscars. 57 wins & 74 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.5/10"},{"Source":"Rotten Tomatoes","Value":"95%"},{"Source":"Metacritic","Value":"85/100"}],"Metascore":"85","imdbRating":"8.5","imdbVotes":"859,691","imdbID":"tt0253474","Type":"movie","DVD":"27 May 2003","BoxOffice":"$32,572,577","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Rosemary's Baby","Year":"1968","Rated":"Approved","Released":"12 Jun 1968","Runtime":"137 min","Genre":"Drama, Horror","Director":"Roman Polanski","Writer":"Ira Levin, Roman Polanski","Actors":"Mia Farrow, John Cassavetes, Ruth Gordon","Plot":"A young couple trying for a baby moves into an aging, ornate apartment building on Central Park West, where they find themselves surrounded by peculiar neighbors.","Language":"English","Country":"United States","Awards":"Won 1 Oscar. 12 wins & 12 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTA5NWQwMmYtZjEyYS00Nzc2LTgwZjAtNTQ4NmFmZjNkNjg4XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"96%"},{"Source":"Metacritic","Value":"96/100"}],"Metascore":"96","imdbRating":"8.0","imdbVotes":"224,410","imdbID":"tt0063522","Type":"movie","DVD":"03 Oct 2000","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Chinatown","Year":"1974","Rated":"R","Released":"20 Jun 1974","Runtime":"130 min","Genre":"Drama, Mystery, Thriller","Director":"Roman Polanski","Writer":"Robert Towne, Roman Polanski","Actors":"Jack Nicholson, Faye Dunaway, John Huston","Plot":"A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder.","Language":"English, Cantonese, Spanish","Country":"United States","Awards":"Won 1 Oscar. 21 wins & 24 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjJkMDZhYzItZTFhMi00ZGI4LThlNTAtZDNlYmEwNjFkNDYzXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"99%"},{"Source":"Metacritic","Value":"92/100"}],"Metascore":"92","imdbRating":"8.2","imdbVotes":"336,150","imdbID":"tt0071315","Type":"movie","DVD":"23 Nov 1999","BoxOffice":"$29,200,000","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Macbeth","Year":"1971","Rated":"R","Released":"25 Dec 1971","Runtime":"140 min","Genre":"Drama, History","Director":"Roman Polanski","Writer":"Roman Polanski, William Shakespeare, Kenneth Tynan","Actors":"Jon Finch, Francesca Annis, Martin Shaw","Plot":"A ruthlessly ambitious Scottish lord seizes the throne with the help of his scheming wife and a trio of witches.","Language":"English","Country":"United Kingdom, United States","Awards":"Won 1 BAFTA Award3 wins & 2 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BZGM3OTYzOTYtN2Y3MC00YmU5LWEzMGEtN2ZhNjQ1ZWU2YWYxXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"84%"}],"Metascore":"N/A","imdbRating":"7.4","imdbVotes":"14,480","imdbID":"tt0067372","Type":"movie","DVD":"07 May 2002","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Oldboy","Year":"2003","Rated":"R","Released":"21 Nov 2003","Runtime":"120 min","Genre":"Action, Drama, Mystery","Director":"Park Chan-wook","Writer":"Garon Tsuchiya, Nobuaki Minegishi, Park Chan-wook","Actors":"Choi Min-sik, Yoo Ji-tae, Kang Hye-jeong","Plot":"After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.","Language":"Korean","Country":"South Korea","Awards":"40 wins & 27 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.4/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"77/100"}],"Metascore":"77","imdbRating":"8.4","imdbVotes":"599,515","imdbID":"tt0364569","Type":"movie","DVD":"07 Aug 2008","BoxOffice":"$707,481","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Lady Vengeance","Year":"2005","Rated":"R","Released":"29 Jul 2005","Runtime":"115 min","Genre":"Crime, Drama, Thriller","Director":"Park Chan-wook","Writer":"Park Chan-wook, Myeong-chan Park, Chung Seo-kyung","Actors":"Nam-mi Kang, Jeong-nam Choi, Hye-Sook Go","Plot":"After being wrongfully imprisoned for thirteen years and having her child taken away from her, a woman seeks revenge through increasingly brutal means.","Language":"Korean, English, Japanese","Country":"South Korea","Awards":"12 wins & 13 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BODdmZGI0MjktNjA4NS00ODgxLWEzZjUtMTc0OTZlMTlhYWE5XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"76%"},{"Source":"Metacritic","Value":"75/100"}],"Metascore":"75","imdbRating":"7.5","imdbVotes":"82,665","imdbID":"tt0451094","Type":"movie","DVD":"06 Oct 2009","BoxOffice":"$211,667","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Sympathy for Mr. Vengeance","Year":"2002","Rated":"R","Released":"29 Mar 2002","Runtime":"129 min","Genre":"Crime, Drama, Thriller","Director":"Park Chan-wook","Writer":"Myeong-chan Park, Mu-yeong Lee, Park Chan-wook","Actors":"Song Kang-ho, Shin Ha-kyun, Bae Doona","Plot":"A recently laid off factory worker kidnaps his former boss' friend's daughter, hoping to use the ransom money to pay for his sister's kidney transplant.","Language":"Korean, Korean Sign ","Country":"South Korea","Awards":"7 wins & 7 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BOTc3ZGIzNGUtOTA2MC00ZWMyLTk2MzAtYThiYWI0NmM5N2UxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"53%"},{"Source":"Metacritic","Value":"56/100"}],"Metascore":"56","imdbRating":"7.5","imdbVotes":"72,167","imdbID":"tt0310775","Type":"movie","DVD":"17 Jan 2012","BoxOffice":"$45,289","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Joint Security Area","Year":"2000","Rated":"Not Rated","Released":"09 Sep 2000","Runtime":"110 min","Genre":"Action, Drama, Thriller","Director":"Park Chan-wook","Writer":"Park Chan-wook, Seong-san Jeong, Hyun-seok Kim","Actors":"Lee Yeong-ae, Lee Byung-hun, Song Kang-ho","Plot":"After a shooting incident at the North/South Korean border/DMZ leaves 2 North Korean soldiers dead, a neutral Swiss/Swedish team investigates, what actually happened.","Language":"Korean, English, German","Country":"South Korea","Awards":"18 wins & 14 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMTI1NDA4NTMyN15BMl5BanBnXkFtZTYwNTA2ODc5._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.7/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"58/100"}],"Metascore":"58","imdbRating":"7.7","imdbVotes":"32,402","imdbID":"tt0260991","Type":"movie","DVD":"15 Dec 2014","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"The Nightingale","Year":"2018","Rated":"R","Released":"29 Aug 2019","Runtime":"136 min","Genre":"Adventure, Drama, Thriller","Director":"Jennifer Kent","Writer":"Jennifer Kent","Actors":"Aisling Franciosi, Maya Christie, Baykali Ganambarr","Plot":"Set in 1825, Clare, a young Irish convict woman, chases a British officer through the rugged Tasmanian wilderness, bent on revenge for a terrible act of violence he committed against her family. On the way she enlists the services...","Language":"English, Irish Gaelic, Aboriginal","Country":"Australia, Canada","Awards":"25 wins & 37 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BNjVmZmY1NmQtMWNhZS00ZDUwLTk5ZTQtZGE4NWIyM2YwMDRiXkEyXkFqcGdeQXVyODY3Nzc0OTk@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.3/10"},{"Source":"Rotten Tomatoes","Value":"86%"},{"Source":"Metacritic","Value":"77/100"}],"Metascore":"77","imdbRating":"7.3","imdbVotes":"32,975","imdbID":"tt4068576","Type":"movie","DVD":"25 Oct 2019","BoxOffice":"$400,209","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Monster","Year":"2003","Rated":"R","Released":"30 Jan 2004","Runtime":"109 min","Genre":"Biography, Crime, Drama","Director":"Patty Jenkins","Writer":"Patty Jenkins","Actors":"Charlize Theron, Christina Ricci, Bruce Dern","Plot":"Based on the life of Aileen Wuornos, a Daytona Beach prostitute who became a serial killer.","Language":"English","Country":"United States, Germany","Awards":"Won 1 Oscar. 30 wins & 26 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTI4NzI5NzEwNl5BMl5BanBnXkFtZTcwNjc1NjQyMQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.3/10"},{"Source":"Rotten Tomatoes","Value":"81%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"7.3","imdbVotes":"156,230","imdbID":"tt0340855","Type":"movie","DVD":"30 May 2006","BoxOffice":"$34,469,210","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Wonder Woman","Year":"2017","Rated":"PG-13","Released":"02 Jun 2017","Runtime":"141 min","Genre":"Action, Adventure, Fantasy","Director":"Patty Jenkins","Writer":"Allan Heinberg, Zack Snyder, Jason Fuchs","Actors":"Gal Gadot, Chris Pine, Robin Wright","Plot":"When a pilot crashes and tells of conflict in the outside world, Diana, an Amazonian warrior in training, leaves home to fight a war, discovering her full powers and true destiny.","Language":"English, German, Dutch, Flemish, French, Spanish, Chinese, Greek, Ancient (to 1453), North American Indian","Country":"United States, China","Awards":"38 wins & 72 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"93%"},{"Source":"Metacritic","Value":"76/100"}],"Metascore":"76","imdbRating":"7.4","imdbVotes":"677,523","imdbID":"tt0451279","Type":"movie","DVD":"26 Sep 2017","BoxOffice":"$412,845,172","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"You Were Never Really Here","Year":"2017","Rated":"R","Released":"06 Apr 2018","Runtime":"89 min","Genre":"Crime, Drama","Director":"Lynne Ramsay","Writer":"Lynne Ramsay, Jonathan Ames","Actors":"Joaquin Phoenix, Judith Roberts, Ekaterina Samsonov","Plot":"A traumatized veteran unafraid of violence tracks down missing girls for a living. When a job spins out of control, Joe's nightmares overtake him as a conspiracy is uncovered leading to what could be his death trip or his awakening.","Language":"English","Country":"United Kingdom, France, United States","Awards":"Nominated for 1 BAFTA Award23 wins & 75 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMDkwOTE0ZjMtZmRiYS00M2M3LWE3MzUtNzNmNmExNTNmNjg5XkEyXkFqcGdeQXVyODE1MjMyNzI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.7/10"},{"Source":"Rotten Tomatoes","Value":"89%"},{"Source":"Metacritic","Value":"84/100"}],"Metascore":"84","imdbRating":"6.7","imdbVotes":"123,399","imdbID":"tt5742374","Type":"movie","DVD":"17 Jul 2018","BoxOffice":"$2,528,078","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"We Need to Talk About Kevin","Year":"2011","Rated":"R","Released":"21 Oct 2011","Runtime":"112 min","Genre":"Drama, Mystery, Thriller","Director":"Lynne Ramsay","Writer":"Lynne Ramsay, Rory Stewart Kinnear, Lionel Shriver","Actors":"Tilda Swinton, John C. Reilly, Ezra Miller","Plot":"Kevin's mother struggles to love her strange child despite the increasingly dangerous things he says and does as he grows up. But Kevin is just getting started, and his final act will be beyond anything anyone imagined.","Language":"English","Country":"United Kingdom, United States","Awards":"Nominated for 3 BAFTA 26 wins & 66 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjE0NDE0MjYxNF5BMl5BanBnXkFtZTcwNjM2NTY5Ng@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"75%"},{"Source":"Metacritic","Value":"68/100"}],"Metascore":"68","imdbRating":"7.5","imdbVotes":"161,516","imdbID":"tt1242460","Type":"movie","DVD":"29 May 2012","BoxOffice":"$1,738,692","Production":"N/A","Website":"N/A","Response":"True"},
+          {
+              "Title":"Ratcatcher","Year":"1999","Rated":"Not Rated","Released":"12 Nov 1999","Runtime":"94 min","Genre":"Drama","Director":"Lynne Ramsay","Writer":"Lynne Ramsay","Actors":"Tommy Flanagan, Mandy Matthews, William Eadie","Plot":"A naïve young lad navigates the dirty squalid streets of 1973 Glasgow and the poor youth around him.","Language":"English","Country":"United Kingdom, France","Awards":"Won 1 BAFTA Award12 wins & 6 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMzE5OTRhYjgtNjY4MS00ZGZiLWEzZTItYmFkNmFiODNkZGQ4XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.5/10"},{"Source":"Rotten Tomatoes","Value":"86%"},{"Source":"Metacritic","Value":"77/100"}],"Metascore":"77","imdbRating":"7.5","imdbVotes":"11,269","imdbID":"tt0171685","Type":"movie","DVD":"10 Sep 2002","BoxOffice":"$217,244","Production":"N/A","Website":"N/A","Response":"True"},
+              {
+                "Title": "Pulp Fiction",
+                "Year": "1994",
+                "Rated": "R",
+                "Released": "14 Oct 1994",
+                "Runtime": "154 min",
+                "Genre": "Crime, Drama",
+                "Director": "Quentin Tarantino",
+                "Writer": "Quentin Tarantino, Roger Avary",
+                "Actors": "John Travolta, Uma Thurman, Samuel L. Jackson",
+                "Plot": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+                "Language": "English, Spanish, French",
+                "Country": "United States",
+                "Awards": "Won 1 Oscar. 69 wins & 72 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.9/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "92%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "95/100"
+                    }
+                ],
+                "Metascore": "95",
+                "imdbRating": "8.9",
+                "imdbVotes": "2,119,201",
+                "imdbID": "tt0110912",
+                "Type": "movie",
+                "DVD": "20 Aug 2002",
+                "BoxOffice": "$107,928,762",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "Reservoir Dogs",
+                "Year": "1992",
+                "Rated": "R",
+                "Released": "02 Sep 1992",
+                "Runtime": "99 min",
+                "Genre": "Crime, Thriller",
+                "Director": "Quentin Tarantino",
+                "Writer": "Quentin Tarantino, Roger Avary",
+                "Actors": "Harvey Keitel, Tim Roth, Michael Madsen",
+                "Plot": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+                "Language": "English",
+                "Country": "United States",
+                "Awards": "12 wins & 23 nominations",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.3/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "90%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "81/100"
+                    }
+                ],
+                "Metascore": "81",
+                "imdbRating": "8.3",
+                "imdbVotes": "1,047,311",
+                "imdbID": "tt0105236",
+                "Type": "movie",
+                "DVD": "18 Mar 2003",
+                "BoxOffice": "$2,832,029",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "Inglourious Basterds",
+                "Year": "2009",
+                "Rated": "R",
+                "Released": "21 Aug 2009",
+                "Runtime": "153 min",
+                "Genre": "Adventure, Drama, War",
+                "Director": "Quentin Tarantino",
+                "Writer": "Quentin Tarantino",
+                "Actors": "Brad Pitt, Diane Kruger, Eli Roth",
+                "Plot": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+                "Language": "English, German, French, Italian",
+                "Country": "Germany, United States",
+                "Awards": "Won 1 Oscar. 134 wins & 172 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.3/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "89%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "69/100"
+                    }
+                ],
+                "Metascore": "69",
+                "imdbRating": "8.3",
+                "imdbVotes": "1,499,912",
+                "imdbID": "tt0361748",
+                "Type": "movie",
+                "DVD": "15 Dec 2009",
+                "BoxOffice": "$120,540,719",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "Kill Bill: Vol. 1",
+                "Year": "2003",
+                "Rated": "R",
+                "Released": "10 Oct 2003",
+                "Runtime": "111 min",
+                "Genre": "Action, Crime, Thriller",
+                "Director": "Quentin Tarantino",
+                "Writer": "Quentin Tarantino, Uma Thurman",
+                "Actors": "Uma Thurman, David Carradine, Daryl Hannah",
+                "Plot": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+                "Language": "English, Japanese, French",
+                "Country": "United States",
+                "Awards": "Nominated for 5 BAFTA 30 wins & 103 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.2/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "85%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "69/100"
+                    }
+                ],
+                "Metascore": "69",
+                "imdbRating": "8.2",
+                "imdbVotes": "1,143,769",
+                "imdbID": "tt0266697",
+                "Type": "movie",
+                "DVD": "13 Apr 2004",
+                "BoxOffice": "$70,099,045",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "A Clockwork Orange",
+                "Year": "1971",
+                "Rated": "X",
+                "Released": "02 Feb 1972",
+                "Runtime": "136 min",
+                "Genre": "Crime, Sci-Fi",
+                "Director": "Stanley Kubrick",
+                "Writer": "Stanley Kubrick, Anthony Burgess",
+                "Actors": "Malcolm McDowell, Patrick Magee, Michael Bates",
+                "Plot": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.",
+                "Language": "English",
+                "Country": "United Kingdom, United States",
+                "Awards": "Nominated for 4 Oscars. 12 wins & 25 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.3/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "88%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "77/100"
+                    }
+                ],
+                "Metascore": "77",
+                "imdbRating": "8.3",
+                "imdbVotes": "851,003",
+                "imdbID": "tt0066921",
+                "Type": "movie",
+                "DVD": "23 Oct 2007",
+                "BoxOffice": "$26,617,553",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "2001: A Space Odyssey",
+                "Year": "1968",
+                "Rated": "G",
+                "Released": "24 Jun 1970",
+                "Runtime": "149 min",
+                "Genre": "Adventure, Sci-Fi",
+                "Director": "Stanley Kubrick",
+                "Writer": "Stanley Kubrick, Arthur C. Clarke",
+                "Actors": "Keir Dullea, Gary Lockwood, William Sylvester",
+                "Plot": "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000.",
+                "Language": "English, Russian, French",
+                "Country": "United Kingdom, United States",
+                "Awards": "Won 1 Oscar. 17 wins & 13 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.3/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "92%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "84/100"
+                    }
+                ],
+                "Metascore": "84",
+                "imdbRating": "8.3",
+                "imdbVotes": "688,684",
+                "imdbID": "tt0062622",
+                "Type": "movie",
+                "DVD": "23 Oct 2007",
+                "BoxOffice": "$60,481,243",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "The Shining",
+                "Year": "1980",
+                "Rated": "R",
+                "Released": "13 Jun 1980",
+                "Runtime": "146 min",
+                "Genre": "Drama, Horror",
+                "Director": "Stanley Kubrick",
+                "Writer": "Stephen King, Stanley Kubrick, Diane Johnson",
+                "Actors": "Jack Nicholson, Shelley Duvall, Danny Lloyd",
+                "Plot": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+                "Language": "English",
+                "Country": "United Kingdom, United States",
+                "Awards": "5 wins & 8 nominations",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.4/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "82%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "66/100"
+                    }
+                ],
+                "Metascore": "66",
+                "imdbRating": "8.4",
+                "imdbVotes": "1,053,149",
+                "imdbID": "tt0081505",
+                "Type": "movie",
+                "DVD": "23 Oct 2007",
+                "BoxOffice": "$45,634,352",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
             
+            {
+                "Title": "The Godfather",
+                "Year": "1972",
+                "Rated": "R",
+                "Released": "24 Mar 1972",
+                "Runtime": "175 min",
+                "Genre": "Crime, Drama",
+                "Director": "Francis Ford Coppola",
+                "Writer": "Mario Puzo, Francis Ford Coppola",
+                "Actors": "Marlon Brando, Al Pacino, James Caan",
+                "Plot": "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
+                "Language": "English, Italian, Latin",
+                "Country": "United States",
+                "Awards": "Won 3 Oscars. 30 wins & 30 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "9.2/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "97%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "100/100"
+                    }
+                ],
+                "Metascore": "100",
+                "imdbRating": "9.2",
+                "imdbVotes": "1,920,817",
+                "imdbID": "tt0068646",
+                "Type": "movie",
+                "DVD": "11 May 2004",
+                "BoxOffice": "$136,381,073",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "Apocalypse Now",
+                "Year": "1979",
+                "Rated": "R",
+                "Released": "15 Aug 1979",
+                "Runtime": "147 min",
+                "Genre": "Drama, Mystery, War",
+                "Director": "Francis Ford Coppola",
+                "Writer": "John Milius, Francis Ford Coppola, Michael Herr",
+                "Actors": "Martin Sheen, Marlon Brando, Robert Duvall",
+                "Plot": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+                "Language": "English, French, Vietnamese",
+                "Country": "United States",
+                "Awards": "Won 2 Oscars. 21 wins & 33 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BYmQyNTA1ZGItNjZjMi00NzFlLWEzMWEtNWMwN2Q2MjJhYzEyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "8.4/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "98%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "94/100"
+                    }
+                ],
+                "Metascore": "94",
+                "imdbRating": "8.4",
+                "imdbVotes": "684,979",
+                "imdbID": "tt0078788",
+                "Type": "movie",
+                "DVD": "18 May 2010",
+                "BoxOffice": "$96,042,913",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "The Godfather Part II",
+                "Year": "1974",
+                "Rated": "R",
+                "Released": "18 Dec 1974",
+                "Runtime": "202 min",
+                "Genre": "Crime, Drama",
+                "Director": "Francis Ford Coppola",
+                "Writer": "Francis Ford Coppola, Mario Puzo",
+                "Actors": "Al Pacino, Robert De Niro, Robert Duvall",
+                "Plot": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+                "Language": "English, Italian, Spanish, Latin, Sicilian",
+                "Country": "United States",
+                "Awards": "Won 6 Oscars. 17 wins & 21 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "9.0/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "96%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "90/100"
+                    }
+                ],
+                "Metascore": "90",
+                "imdbRating": "9.0",
+                "imdbVotes": "1,307,220",
+                "imdbID": "tt0071562",
+                "Type": "movie",
+                "DVD": "24 May 2005",
+                "BoxOffice": "$47,834,595",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
+            {
+                "Title": "The Godfather Part III",
+                "Year": "1990",
+                "Rated": "R",
+                "Released": "25 Dec 1990",
+                "Runtime": "162 min",
+                "Genre": "Crime, Drama",
+                "Director": "Francis Ford Coppola",
+                "Writer": "Mario Puzo, Francis Ford Coppola",
+                "Actors": "Al Pacino, Diane Keaton, Andy Garcia",
+                "Plot": "Follows Michael Corleone, now in his 60s, as he seeks to free his family from crime and find a suitable successor to his empire.",
+                "Language": "Persian, English, Italian, German, Latin",
+                "Country": "United States",
+                "Awards": "Nominated for 7 Oscars. 6 wins & 23 nominations total",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNWFlYWY2YjYtNjdhNi00MzVlLTg2MTMtMWExNzg4NmM5NmEzXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_SX300.jpg",
+                "Ratings": [
+                    {
+                        "Source": "Internet Movie Database",
+                        "Value": "7.6/10"
+                    },
+                    {
+                        "Source": "Rotten Tomatoes",
+                        "Value": "66%"
+                    },
+                    {
+                        "Source": "Metacritic",
+                        "Value": "60/100"
+                    }
+                ],
+                "Metascore": "60",
+                "imdbRating": "7.6",
+                "imdbVotes": "409,434",
+                "imdbID": "tt0099674",
+                "Type": "movie",
+                "DVD": "23 Sep 2008",
+                "BoxOffice": "$66,761,392",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Favourites": false
+            },
 
+              {
+                "Title": "Barbie",
+                "Year": "2023",
+                "Rated": "PG-13",
+                "Released": "21 Jul 2023",
+                "Runtime": "114 min",
+                "Genre": "Adventure, Comedy, Fantasy",
+                "Director": "Greta Gerwig",
+                "Writer": "Greta Gerwig, Noah Baumbach",
+                "Actors": "Margot Robbie, Ariana Greenblatt, Kingsley Ben-Adir",
+                "Plot": "Barbie suffers a crisis that leads her to question her world and her existence.",
+                "Language": "English",
+                "Country": "United Kingdom, United States",
+                "Awards": "2 wins & 1 nomination",
+                "Poster": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+                "Ratings": [
+                  {
+                  "Source": "Internet Movie Database",
+                  "Value": "8.0/10"
+                  },
+                  {
+                  "Source": "Rotten Tomatoes",
+                  "Value": "91%"
+                  },
+                  {
+                  "Source": "Metacritic",
+                  "Value": "69/100"
+                  }
+                  ],
+                "Metascore": "N/A",
+                "imdbRating": "N/A",
+                "imdbVotes": "N/A",
+                "imdbID": "tt1517268",
+                "Type": "movie",
+                "DVD": "N/A",
+                "BoxOffice": "N/A",
+                "Production": "N/A",
+                "Website": "N/A",
+                "Response": "True"
+                },
+                {
+                  "Title": "Oppenheimer",
+                  "Year": "2023",
+                  "Rated": "R",
+                  "Released": "21 Jul 2023",
+                  "Runtime": "180 min",
+                  "Genre": "Biography, Drama, History",
+                  "Director": "Christopher Nolan",
+                  "Writer": "Christopher Nolan, Kai Bird, Martin Sherwin",
+                  "Actors": "Cillian Murphy, Emily Blunt, Matt Damon",
+                  "Plot": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+                  "Language": "English",
+                  "Country": "United Kingdom, United States",
+                  "Awards": "1 nomination",
+                  "Poster": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg",
+                  "Ratings": [
+                    {
+                    "Source": "Internet Movie Database",
+                    "Value": "8.0/10"
+                    },
+                    {
+                    "Source": "Rotten Tomatoes",
+                    "Value": "91%"
+                    },
+                    {
+                    "Source": "Metacritic",
+                    "Value": "69/100"
+                    }
+                    ],
+                  "Metascore": "N/A",
+                  "imdbRating": "N/A",
+                  "imdbVotes": "N/A",
+                  "imdbID": "tt15398776",
+                  "Type": "movie",
+                  "DVD": "N/A",
+                  "BoxOffice": "N/A",
+                  "Production": "N/A",
+                  "Website": "N/A",
+                  "Response": "True"
+                  }
 ]);
