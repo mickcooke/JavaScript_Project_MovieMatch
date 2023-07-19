@@ -116,7 +116,7 @@ const searchByTitle = (text) => {
 
         <Route path="/actor" element={<ActorList movies={filteredMoviesByActor} searchByActor={searchByActor} toggleFavourites={toggleFavourites} allMovies={movies} shuffle={shuffle}/>}/>
 
-        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle} toggleFavourites={toggleFavourites} favouriteMovies={favouriteMovies} allMovies={movies}/>}/>
+        <Route path="/title/" element={<TitleList movies={filteredMoviesByTitle} searchByTitle={searchByTitle} toggleFavourites={toggleFavourites} favouriteMovies={favouriteMovies} allMovies={movies} shuffle={shuffle}/>}/>
 
         <Route path="/movie/:id" element={<MovieDetail movies={movies} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} />}/>
 

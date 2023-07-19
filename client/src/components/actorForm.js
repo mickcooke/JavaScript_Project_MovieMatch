@@ -37,8 +37,8 @@ const handleShuffle = () => {
         <input type="submit"/>
     </form>
   
-    <button onClick={handleRandomActor}>Random Actor</button>
-    <button onClick={handleShuffle}>Reset</button>
+    <button className='random' onClick={handleRandomActor}>Random Actor</button>
+    <button className='reset' onClick={handleShuffle}>Reset</button>
 
     </div>
     </>

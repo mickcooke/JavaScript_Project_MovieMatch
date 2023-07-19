@@ -33,8 +33,8 @@ const handleShuffle = () => {
         <input type="text" placeholder="Director" onChange={handleText}/>
         <input type="submit"/>
     </form>
-    <button onClick={handleRandomDirector}>Random Director</button>
-    <button onClick={handleShuffle}>reset</button>
+    <button className="random" onClick={handleRandomDirector}>Random Director</button>
+    <button className='reset' onClick={handleShuffle}>Reset</button>
     </div>
     </>
   )

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 
 
-const TitleForm = ({searchByTitle, movies}) => {
+const TitleForm = ({searchByTitle, movies, shuffle}) => {
 
 const[text, setText] = useState("")
 
@@ -20,14 +20,9 @@ const handleSubmit = (event) => {
   searchByTitle(text);
 }
 
-// const handleRandomTitle = () => {
-
-
-
-//   console.log({randomTitle})
-//   searchByTitle(randomTitle)
-// }
-
+const handleShuffle = () => {
+  shuffle(movies)
+}
 
   return(
     <>
@@ -36,7 +31,8 @@ const handleSubmit = (event) => {
         <input type="text" placeholder="Title" onChange={handleText}/>
         <input type="submit"/>
     </form>
-    <Link to={`/movie/${randomTitle}`}><button>Random Title</button></Link>
+    <Link to={`/movie/${randomTitle}`}><button className="random">Random Title</button></Link>
+    <button className='reset' onClick={handleShuffle}>Reset</button>
     </div>
     </>
   )
