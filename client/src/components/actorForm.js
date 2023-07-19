@@ -19,7 +19,10 @@ const handleRandomActor = () => {
     return (movie.Actors)
   })
   const randomActor = actors[Math.floor(Math.random() * actors.length)]
-  searchByActor(randomActor)
+  const singleRandomActor = randomActor.split(",")
+  const ActualSingleRandomActor = singleRandomActor[0]
+  console.log({ActualSingleRandomActor})
+  searchByActor(ActualSingleRandomActor)
 }
 
 const handleShuffle = () => {
@@ -34,7 +37,8 @@ const handleShuffle = () => {
         <input type="submit"/>
     </form>
   
-    <button onClick={handleShuffle}>Shuffle Movies</button>
+    <button onClick={handleRandomActor}>Random Actor</button>
+    <button onClick={handleShuffle}>Reset</button>
 
     </div>
     </>

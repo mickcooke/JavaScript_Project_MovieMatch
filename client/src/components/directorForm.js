@@ -34,7 +34,7 @@ const handleShuffle = () => {
         <input type="submit"/>
     </form>
     <button onClick={handleRandomDirector}>Random Director</button>
-    <button onClick={handleShuffle}>Shuffle Movies</button>
+    <button onClick={handleShuffle}>reset</button>
     </div>
     </>
   )
