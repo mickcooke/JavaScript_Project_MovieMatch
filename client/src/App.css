@@ -8,7 +8,7 @@ a {
 
 body {
   margin: 0;
-  font-family: 'Maven Pro', cursive;
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
   font-size: 16px;
   background-image: url(/src/images/RedCurtains.png);
   background-size: contain;
@@ -16,7 +16,7 @@ body {
 }
 
 .Header {
-  font-family: 'Maven Pro', cursive;
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
   font-size:1.5em;
   color: #fff;
   background: #080B59;
@@ -38,29 +38,56 @@ body {
 }
 
 .title-text-box {
-  width: 270px;
+  width: 320px;
   height: 80px;
-  
+  transition: all 0.2s ease-in-out;
+}
+
+.title-text-box:hover {
+  transform: scale(1.2);
+}
+
+.camera {
+  width: 50px;
+}
+
+.camera-box {
+  width:32px;
+  margin-top:25px;
 }
 
 .title-text {
-  margin-top: 10px;
+  margin-top: -48px;
+  margin-left: 25px;
   font-family: 'Maven Pro', cursive;
   font-size: 1.8em;
   text-align: center;
   color:white;
-  transition: all 0.2s ease-in-out;
+  
 }
 
-.title-text:hover{
-  transform: scale(1.2);
+.heart-container {
+  margin-top: 25px;
+  margin-right:25px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-end;
 }
 
 .heart {
-  margin-top: 25px;
-  margin-right:25px;
+  width: 25px;
+  height: 25px;
   text-align: right;
 }
+
+.heart:active {
+  transform: scale(0.85);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+
 
 /* .heart:hover {
   transform: scale(1.2);
@@ -105,6 +132,13 @@ padding:20px;
   margin-top: -35px;
   width:200px;
   height: 300px;
+  /* border: solid white; */
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+}
+
+.img:hover {
+  transform: scale(1.05);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
 }
 
 .Item-box {
@@ -125,6 +159,10 @@ padding:20px;
 
 .text-raise {
   margin-top: 0px;
+}
+
+.poster {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
 }
 
 .Ymal-detail-box {
@@ -149,6 +187,14 @@ padding:20px;
 .Ymal-img {
   width:130px;
   height: 185px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Ymal-img:hover {
+  transform: scale(1.05);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.5);
+  /* Lowering the shadow */
 }
 
 .Ymal-description-box {
@@ -230,6 +276,17 @@ padding: 30px;
   width: 20px ;
 }
 
+.header-heart {
+  width: 20px ;
+  border: solid white;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.header-heart:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
 .zoom:hover {
   transform: scale(1.2);
 }
@@ -241,3 +298,75 @@ padding: 30px;
 .delete-heart:hover {
   transform: scale(1.2);
 }
+
+.submit {
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+   font-size: 0.9em;
+   border-radius: 6px;
+    padding: 0.3em;
+    margin: 0.3em;
+    margin-left: 0.6em;
+    border: 2px solid black;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.4);
+}
+
+.submit:active {
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.4);
+  /* Lowering the shadow */
+}
+
+.random {
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.3em;
+  margin: 0.3em;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.4);
+}
+
+.random:active {
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.4);
+  /* Lowering the shadow */
+}
+
+.reset {
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0.3em;
+  margin: 0.3em;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.4);
+}
+
+.reset:active {
+  transform: scale(0.95);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.4);
+  /* Lowering the shadow */
+
+}
+
+.text-input-box {
+  height: 22px;
+  border: 2px solid black;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.IMDB {
+  width: 80px ;
+}
+
+.IMDB:hover {
+  transform: scale(1.2);
+}
+

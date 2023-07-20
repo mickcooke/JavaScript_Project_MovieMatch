@@ -70,6 +70,10 @@ const toggleFavourites = (movie) => {
     moviesCopy[index].Favourites = !moviesCopy[index].Favourites;
   }
   setMovies(moviesCopy);
+  const currentFaves = movies.filter((movie) => {
+    return movie.Favourites === true
+  })
+  setFavouriteMovies(currentFaves);
   //find the movie in movies where movieID === movieID
   // remove foundMovie from moviesCopy
   //amend movie to true
@@ -108,7 +112,7 @@ const searchByTitle = (text) => {
   return(
     <>
       <Router>
-      <Header/>
+      <Header favouriteMovies={favouriteMovies}/>
       <Routes>
         <Route path="/" element={<DirectorList movies={filteredMoviesByDirector} searchByDirector={searchByDirector} toggleFavourites={toggleFavourites} allMovies={movies} shuffle={shuffle}/>}/>
 
