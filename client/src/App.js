@@ -1,4 +1,3 @@
-
 import './App.css';
 import Movie_Container from './container/movieContainer';
 

@@ -4,9 +4,7 @@ import DirectorList from "../components/directorList";
 import HomeList from "../components/homeList";
 import { getMovies, updateMovie } from '../movieService';
 import ActorList from '../components/actorList';
-
 import TitleList from '../components/titleList';
-
 import Header from "../components/header"
 import Footer from "../components/footer";
 import MovieDetail from "../components/movieDetail";
@@ -23,7 +21,7 @@ const [favouriteMovies, setFavouriteMovies] = useState([]);
 const [homeMovies, setHomeMovies] = useState([]);
 
 useEffect(() => {
- fetchMyData()
+fetchMyData()
   
 },[ ])
 
@@ -83,10 +81,8 @@ const searchByTitle = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Title.toLowerCase().includes(text.toLowerCase()))
   })
-  console.log({searchList})
   setFilteredMoviesByTitle(searchList);
 }
-
 
   return(
     <>
