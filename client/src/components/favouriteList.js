@@ -19,12 +19,6 @@ const FavouriteList = ({movies, toggleFavourites}) =>
         return(favouriteMovies.length > 0)
       }
 
-
-
-
-
-
-
     return (
     <>
         <div className="App">

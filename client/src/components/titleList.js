@@ -1,12 +1,8 @@
 import MovieByTitle from "./movieByTitle";
 import TitleForm from "../components/titleForm";
 
-
-
 const TitleList = ({movies, searchByTitle, toggleFavourites, favouriteMovies, allMovies, shuffle}) => {
-  // const shuffled = [...movies].sort(() => 0.5 - Math.random());
 
-    
   const listItems = movies.map((movie) => {
       
       return(
@@ -18,9 +14,6 @@ const TitleList = ({movies, searchByTitle, toggleFavourites, favouriteMovies, al
       return(movies.length > 0)
     }
         
-      
-    
-
   return(
     <>
     <TitleForm searchByTitle={searchByTitle} movies={allMovies} shuffle={shuffle}/>
