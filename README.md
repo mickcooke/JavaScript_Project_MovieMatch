@@ -1,7 +1,6 @@
 <img width="1387" alt="Screenshot 2023-07-25 at 11 19 34" src="https://github.com/ewanlaing/moviematch_js_group_project/assets/117400398/425039e5-0899-4eaf-a677-e5fde5e0f034">
-This was a group project on the CodeClan bootcamp course, produced over a week with a team of three.  
-
-
+This was a group project on the CodeClan bootcamp course, produced over a week with a team of three. 
+ 
 Movie Match is an app where users can search through a database of movies using their favourite directors and actors and find out what movies they have worked on. 
 They can also search by title and add to their list of favourite movies.
 
