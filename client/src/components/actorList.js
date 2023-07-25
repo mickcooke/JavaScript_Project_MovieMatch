@@ -18,6 +18,7 @@ const ActorList = ({
     );
   });
 
+
   const listIsPopulated = () => {
     return movies.length > 0;
   };

@@ -26,6 +26,7 @@ const DirectorForm = ({ searchByDirector, movies, shuffle }) => {
   };
 
   return (
+
     <>
       <div className="App">
         <form onSubmit={handleSubmit}>

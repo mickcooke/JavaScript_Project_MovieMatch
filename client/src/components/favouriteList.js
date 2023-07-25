@@ -6,6 +6,7 @@ const FavouriteList = ({ movies, toggleFavourites }) => {
   });
 
   const listItems = favouriteMovies.map((movie) => {
+
     return (
       <FavouriteMovie
         movie={movie}

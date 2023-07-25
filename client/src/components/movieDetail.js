@@ -29,6 +29,7 @@ const MovieDetail = ({ movies, searchByDirector, toggleFavourites }) => {
               <p className="Ymal-text">{movie.Title}</p>
             </Link>
           </div>
+
         </div>
       </>
     );

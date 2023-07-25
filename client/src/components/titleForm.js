@@ -9,6 +9,7 @@ const TitleForm = ({ searchByTitle, movies, shuffle }) => {
   });
   const randomTitle = titles[Math.floor(Math.random() * titles.length)];
 
+
   const handleText = (event) => {
     setText(event.target.value);
   };

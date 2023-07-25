@@ -82,6 +82,7 @@ const MovieContainer = () => {
   };
 
   return (
+
     <>
       <Router>
         <Header favouriteMovies={favouriteMovies} />

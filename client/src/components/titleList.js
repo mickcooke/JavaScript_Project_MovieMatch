@@ -25,6 +25,7 @@ const TitleList = ({
   };
 
   return (
+
     <>
       <TitleForm
         searchByTitle={searchByTitle}
