@@ -2,7 +2,6 @@ import MovieByActor from "./movieByActor";
 import ActorForm from "./actorForm";
 
 const ActorList = ({movies, searchByActor, toggleFavourites, allMovies, shuffle}) => {
-  // const shuffled = [...movies].sort(() => 0.5 - Math.random());
 
     const listItems = movies.map((movie) => {
         return (

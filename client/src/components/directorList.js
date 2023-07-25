@@ -2,11 +2,7 @@ import MovieByDirector from "./movieByDirector";
 
 import DirectorForm from "../components/directorForm";
 
-
-
 const DirectorList = ({movies, searchByDirector, toggleFavourites, allMovies, shuffle}) => {
-  // const shuffled = [...movies].sort(() => 0.5 - Math.random());
-
 
     const listItems = movies.map((movie) => {
       return(

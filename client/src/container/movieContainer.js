@@ -4,17 +4,12 @@ import DirectorList from "../components/directorList";
 import HomeList from "../components/homeList";
 import { getMovies, updateMovie } from '../movieService';
 import ActorList from '../components/actorList';
-
 import TitleList from '../components/titleList';
-
 import Header from "../components/header"
 import Footer from "../components/footer";
-// import tempMovies from "../components/tempMovies";
 import MovieDetail from "../components/movieDetail";
 import { getFavourites, postFavourite, deleteFavourite } from '../favouritesService';
 import FavouriteList from '../components/favouriteList';
-
-
 
 const MovieContainer = () => {
 
@@ -25,13 +20,8 @@ const [filteredMoviesByActor, setFilteredMoviesByActor] = useState([]);
 const [favouriteMovies, setFavouriteMovies] = useState([]);
 const [homeMovies, setHomeMovies] = useState([]);
 
-
-
-
-
-
 useEffect(() => {
- fetchMyData()
+fetchMyData()
   
 },[ ])
 
@@ -54,16 +44,10 @@ getMovies().then((movies) => {
   setFavouriteMovies(currentFavourites);
   shuffle(movies)
 })
-// getFavourites().then((favourites) => {
-//   setFavouriteMovies(favourites) 
+
 }
- 
-
-
 
 const toggleFavourites = (movie) => {
-  //STATE
-  //make a copy of movies
   const moviesCopy = [...movies]
   const index = moviesCopy.findIndex(film => {return film._id === movie._id})
   if(index !== -1) {
@@ -74,17 +58,10 @@ const toggleFavourites = (movie) => {
     return movie.Favourites === true
   })
   setFavouriteMovies(currentFaves);
-  //find the movie in movies where movieID === movieID
-  // remove foundMovie from moviesCopy
-  //amend movie to true
-  //set movies to new list
 
-  //call update method in movies services and pass in the _id as a parameter and the new movie object (without the _id)
   updateMovie(movie)
-  
+
 }
-
-
 
 const searchByDirector = (text) => {
   const searchList = movies.filter((movie) => {
@@ -104,10 +81,8 @@ const searchByTitle = (text) => {
   const searchList = movies.filter((movie) => {
     return(movie.Title.toLowerCase().includes(text.toLowerCase()))
   })
-  console.log({searchList})
   setFilteredMoviesByTitle(searchList);
 }
-
 
   return(
     <>

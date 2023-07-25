@@ -2,17 +2,13 @@ import React from 'react';
 import {useParams, Link} from 'react-router-dom';
 import FavouritesHeart from "./favouritesHeart";
 
-
-
 const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
 
     const {id} = useParams();
 
-
     const selectedMovie = movies.find((movie) => {
       return movie.imdbID === id
     })
-
 
     const bySameDirector = movies.filter((movie) => {
       return((movie.Director === selectedMovie.Director) && (movie.Title !== selectedMovie.Title))
@@ -33,10 +29,8 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
       )
     });
 
-
       const actorList = selectedMovie.Actors.split(",");
       const actor = actorList[0];
-
 
     const withSameActor = movies.filter((movie) => {
       const movieActorList = movie.Actors.split(",");
@@ -58,8 +52,6 @@ const MovieDetail = ({movies, searchByDirector, toggleFavourites}) => {
         </>
       )
     });
-
-
 
     const link = `https://www.imdb.com/title/${selectedMovie.imdbID}`;
 

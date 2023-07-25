@@ -25,7 +25,6 @@ const handleShuffle = () => {
   shuffle(movies)
 }
 
-
   return(
     <>
     <div className='App'>
