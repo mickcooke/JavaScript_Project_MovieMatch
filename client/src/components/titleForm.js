@@ -1,41 +1,48 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
+const TitleForm = ({ searchByTitle, movies, shuffle }) => {
+  const [text, setText] = useState("");
 
-const TitleForm = ({searchByTitle, movies, shuffle}) => {
+  const titles = movies.map((movie) => {
+    return movie.imdbID;
+  });
+  const randomTitle = titles[Math.floor(Math.random() * titles.length)];
 
-const[text, setText] = useState("")
+  const handleText = (event) => {
+    setText(event.target.value);
+  };
 
-const titles = movies.map((movie) => {
-  return (movie.imdbID)
-})
-const randomTitle = titles[Math.floor(Math.random() * titles.length)]
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    searchByTitle(text);
+  };
 
-const handleText = (event) => {
-  setText(event.target.value);
-}
+  const handleShuffle = () => {
+    shuffle(movies);
+  };
 
-const handleSubmit = (event) => {
-  event.preventDefault();
-  searchByTitle(text);
-}
-
-const handleShuffle = () => {
-  shuffle(movies)
-}
-
-  return(
+  return (
     <>
-    <div className='App'>
-    <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Title" className='text-input-box' onChange={handleText}/>
-        <input type="submit" className="submit"/>
-    </form>
-    <Link to={`/movie/${randomTitle}`}><button className="random">Random Title</button></Link>
-    <button className='reset' onClick={handleShuffle}>Reset</button>
-    </div>
+      <div className="App">
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Title"
+            className="text-input-box"
+            onChange={handleText}
+          />
+          <input type="submit" className="submit" />
+        </form>
+        <Link to={`/movie/${randomTitle}`}>
+          <button className="random">Random Title</button>
+        </Link>
+        <button className="reset" onClick={handleShuffle}>
+          Reset
+        </button>
+      </div>
     </>
-  )
-}
+  );
+};
 
 export default TitleForm;

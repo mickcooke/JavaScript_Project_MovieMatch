@@ -1,25 +1,24 @@
-import Movie from "./movie"
+import Movie from "./movie";
 
-const HomeList = ({movies, toggleFavourites}) => {
-
+const HomeList = ({ movies, toggleFavourites }) => {
   const listItems = movies.map((movie) => {
-    return(
-        <Movie movie={movie} key={movie.imdbID} toggleFavourites={toggleFavourites}/>
-    )
-  })
+    return (
+      <Movie
+        movie={movie}
+        key={movie.imdbID}
+        toggleFavourites={toggleFavourites}
+      />
+    );
+  });
 
-  return(
+  return (
     <>
-
-<>
-    <div className="App">
-    </div>
-    <div className="Item-container">
-    {listItems}
-    </div>
+      <>
+        <div className="App"></div>
+        <div className="Item-container">{listItems}</div>
+      </>
     </>
-    </>
-  )
-}
+  );
+};
 
-export default HomeList
+export default HomeList;
