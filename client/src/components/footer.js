@@ -1,10 +1,12 @@
 const Footer = () => {
-
-  return(
+  return (
     <div className="Footer">
-    <img src={require("../images/MovieReelTransparent.png")} className="movie-reel"/>
+      <img
+        src={require("../images/MovieReelTransparent.png")}
+        className="movie-reel"
+      />
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
